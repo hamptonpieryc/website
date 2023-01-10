@@ -14,7 +14,7 @@
 }
 
 #hpyc-hero .hero-body {
-    color: #eee;
+    color: #dee7f9;
     text-align: center;
     background-image: url("waves.png");
 }
@@ -24,13 +24,13 @@
 }
 
 #hypc-menu .navbar-section {
-  background: #222!important;
+  background: #333!important;
   _border: 2px solid red;
 
 }
 
 #hypc-menu a {
-color: #91aeec;
+color: #dee7f9;
 }
 
 
@@ -54,18 +54,51 @@ color: #91aeec;
             <a href="..." class="btn btn-link">Non Sailing</a>
             <a href="..." class="btn btn-link">Training</a>
             <a href="..." class="btn btn-link">Whats On</a>
-
-
-
         </section>
-<!--        <section class="navbar-section">-->
-<!--            <div class="input-group input-inline">-->
-<!--                <input class="form-input" type="text" placeholder="search">-->
-<!--                <button class="btn btn-primary input-group-btn">Search</button>-->
-<!--            </div>-->
-<!--        </section>-->
+        <section class="navbar-section">
+            <a href="..." class="btn btn-link">Contacts</a>
+        </section>
     </header>
 
+    <div class="carousel">
+        <!-- carousel locator -->
+        <input class="carousel-locator" id="slide-1" type="radio" name="carousel-radio" hidden="" checked="">
+        <input class="carousel-locator" id="slide-2" type="radio" name="carousel-radio" hidden="">
+        <input class="carousel-locator" id="slide-3" type="radio" name="carousel-radio" hidden="">
+        <input class="carousel-locator" id="slide-4" type="radio" name="carousel-radio" hidden="">
+
+        <!-- carousel container -->
+        <div class="carousel-container">
+            <!-- carousel item -->
+            <figure class="carousel-item">
+                <label class="item-prev btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-left"></i></label>
+                <label class="item-next btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-right"></i></label>
+                <img class="img-responsive rounded" src="image2.webp" alt="macOS Yosemite Wallpaper">
+            </figure>
+            <figure class="carousel-item">
+                <label class="item-prev btn btn-action btn-lg" for="slide-1"><i class="icon icon-arrow-left"></i></label>
+                <label class="item-next btn btn-action btn-lg" for="slide-3"><i class="icon icon-arrow-right"></i></label>
+                <img class="img-responsive rounded" src="image3.webp" alt="macOS Yosemite Wallpaper">
+            </figure>
+            <figure class="carousel-item">
+                <label class="item-prev btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-left"></i></label>
+                <label class="item-next btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-right"></i></label>
+                <img class="img-responsive rounded" src="image2.webp" alt="macOS El Capitan Wallpaper">
+            </figure>
+            <figure class="carousel-item">
+                <label class="item-prev btn btn-action btn-lg" for="slide-3"><i class="icon icon-arrow-left"></i></label>
+                <label class="item-next btn btn-action btn-lg" for="slide-1"><i class="icon icon-arrow-right"></i></label>
+                <img class="img-responsive rounded" src="image3.webp" alt="macOS El Capitan Wallpaper">
+            </figure>
+        </div>
+        <!-- carousel navigation -->
+        <div class="carousel-nav">
+            <label class="nav-item text-hide c-hand" for="slide-1">1</label>
+            <label class="nav-item text-hide c-hand" for="slide-2">2</label>
+            <label class="nav-item text-hide c-hand" for="slide-3">3</label>
+            <label class="nav-item text-hide c-hand" for="slide-4">4</label>
+        </div>
+    </div>
 
     <div class="columns">
         <div class="column col-6">Lorem Ipsum...</div>
