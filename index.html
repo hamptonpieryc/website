@@ -5,9 +5,28 @@
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+
+    <link rel="stylesheet" href="tk.css" media="all"/>
+    <link rel="stylesheet" href="menu.css" media="all"/>
+
+
+    <script src="menu.js"></script>
+    <script>
+    //alert("foo");
+<!--	$( function()-->
+<!--	{-->
+<!--		$( '#nav li:has(ul)' ).doubleTapToGo();-->
+<!--	});-->
+    </script>
+
 </head>
 
 <style>
+
+.hypc-flag-red {
+  background: #f2220d;
+  background: #ff3e00;
+}
 
 .hpyc-bg-blue {
     background: #265fd9!important;
@@ -34,73 +53,146 @@ color: #dee7f9;
 }
 
 
+
+
 </style>
 
 <body>
 <div class="container">
 
-    <div id="hpyc-hero" class="hero hpyc-bg-blue">
-        <div class="hero-body">
-            <h1>Hampton Pier Yacht Club</h1>
+
+
+    <div class="columns col-gapless">
+        <div class="column col-12">
+
+            <div id="hpyc-hero" class="hero hpyc-bg-blue">
+                <div class="hero-body">
+                    <h1><img src="flag2.png" height="48px;">&nbsp;Hampton Pier Yacht Club</h1>
+                </div>
+            </div>
+
+            <div class="navigation">
+                <div class="nav">
+                    <nav id="nav" role="navigation">
+                        <a href="#nav" title="Show navigation">Show navigation</a>
+                        <a href="#" title="Hide navigation">Hide navigation</a>
+                        <ul class="clearfix">
+
+                            <li><a href="/" id="leftlink">Home</a></li>
+                            <li><a class="drop-menu" href="/about-us/" aria-haspopup="true">About us</a>
+                                <ul class="drop-content">
+                                    <li><a href="/committee.php">Committee</a></li>
+                                    <li><a href="/members/">Members' area</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="/onthewater/" aria-haspopup="true">On the water</a>
+                                <ul>
+                                    <li><a href="/fixtures.php">Fixtures</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li><a href="/training/">Training</a>
+                                <ul>
+                                    <li><a href="/training-form.php">Training enquiries form</a></li>
+
+                                    <li><a href="/pages/58/Sailing-Course-Dates--Fees/">Course dates</a></li>
+
+                                    <li><a href="/trainers.php" target="_blank">Trainers</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li><a href="/offthewater/">Off the water</a>
+                            </li>
+
+
+                            <li><a href="/gallery.php/">Pictures</a>
+
+                            </li>
+
+
+                            <li><a href="/contact-us.php">Contact us</a></li>
+
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- menu -->
+<!--            <header id="hypc-menu" class="navbar">-->
+<!--                <section class="navbar-section">-->
+<!--                    <a href="..." class="navbar-brand mr-2">Home</a>-->
+<!--                    <a href="..." class="btn btn-link">Membership</a>-->
+<!--                    <a href="..." class="btn btn-link">Sailing</a>-->
+<!--                    <a href="..." class="btn btn-link">Non Sailing</a>-->
+<!--                    <a href="..." class="btn btn-link">Training</a>-->
+<!--                    <a href="..." class="btn btn-link">Whats On</a>-->
+<!--                </section>-->
+<!--                <section class="navbar-section">-->
+<!--                    <a href="..." class="btn btn-link">Contacts</a>-->
+<!--                </section>-->
+<!--            </header>-->
         </div>
     </div>
 
-    <!-- menu -->
-    <header id="hypc-menu" class="navbar">
-        <section class="navbar-section">
-            <a href="..." class="navbar-brand mr-2">Home</a>
-            <a href="..." class="btn btn-link">Membership</a>
-            <a href="..." class="btn btn-link">Sailing</a>
-            <a href="..." class="btn btn-link">Non Sailing</a>
-            <a href="..." class="btn btn-link">Training</a>
-            <a href="..." class="btn btn-link">Whats On</a>
-        </section>
-        <section class="navbar-section">
-            <a href="..." class="btn btn-link">Contacts</a>
-        </section>
-    </header>
+    <div class="columns col-gapless">
+        <div class="column col-12">
 
-    <div class="carousel">
-        <!-- carousel locator -->
-        <input class="carousel-locator" id="slide-1" type="radio" name="carousel-radio" hidden="" checked="">
-        <input class="carousel-locator" id="slide-2" type="radio" name="carousel-radio" hidden="">
-        <input class="carousel-locator" id="slide-3" type="radio" name="carousel-radio" hidden="">
-        <input class="carousel-locator" id="slide-4" type="radio" name="carousel-radio" hidden="">
 
-        <!-- carousel container -->
-        <div class="carousel-container">
-            <!-- carousel item -->
-            <figure class="carousel-item">
-                <label class="item-prev btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-left"></i></label>
-                <label class="item-next btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-right"></i></label>
-                <img class="img-responsive rounded" src="image2.webp" alt="macOS Yosemite Wallpaper">
-            </figure>
-            <figure class="carousel-item">
-                <label class="item-prev btn btn-action btn-lg" for="slide-1"><i class="icon icon-arrow-left"></i></label>
-                <label class="item-next btn btn-action btn-lg" for="slide-3"><i class="icon icon-arrow-right"></i></label>
-                <img class="img-responsive rounded" src="image3.webp" alt="macOS Yosemite Wallpaper">
-            </figure>
-            <figure class="carousel-item">
-                <label class="item-prev btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-left"></i></label>
-                <label class="item-next btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-right"></i></label>
-                <img class="img-responsive rounded" src="image2.webp" alt="macOS El Capitan Wallpaper">
-            </figure>
-            <figure class="carousel-item">
-                <label class="item-prev btn btn-action btn-lg" for="slide-3"><i class="icon icon-arrow-left"></i></label>
-                <label class="item-next btn btn-action btn-lg" for="slide-1"><i class="icon icon-arrow-right"></i></label>
-                <img class="img-responsive rounded" src="image3.webp" alt="macOS El Capitan Wallpaper">
-            </figure>
-        </div>
-        <!-- carousel navigation -->
-        <div class="carousel-nav">
-            <label class="nav-item text-hide c-hand" for="slide-1">1</label>
-            <label class="nav-item text-hide c-hand" for="slide-2">2</label>
-            <label class="nav-item text-hide c-hand" for="slide-3">3</label>
-            <label class="nav-item text-hide c-hand" for="slide-4">4</label>
+            <div class="carousel">
+                <!-- carousel locator -->
+                <input class="carousel-locator" id="slide-1" type="radio" name="carousel-radio" hidden="" checked="">
+                <input class="carousel-locator" id="slide-2" type="radio" name="carousel-radio" hidden="">
+                <input class="carousel-locator" id="slide-3" type="radio" name="carousel-radio" hidden="">
+                <input class="carousel-locator" id="slide-4" type="radio" name="carousel-radio" hidden="">
+
+                <!-- carousel container -->
+                <div class="carousel-container">
+                    <!-- carousel item -->
+                    <figure class="carousel-item">
+                        <label class="item-prev btn btn-action btn-lg" for="slide-4"><i
+                                class="icon icon-arrow-left"></i></label>
+                        <label class="item-next btn btn-action btn-lg" for="slide-2"><i
+                                class="icon icon-arrow-right"></i></label>
+                        <img class="img-responsive rounded" src="image2.webp" alt="macOS Yosemite Wallpaper">
+                    </figure>
+                    <figure class="carousel-item">
+                        <label class="item-prev btn btn-action btn-lg" for="slide-1"><i
+                                class="icon icon-arrow-left"></i></label>
+                        <label class="item-next btn btn-action btn-lg" for="slide-3"><i
+                                class="icon icon-arrow-right"></i></label>
+                        <img class="img-responsive rounded" src="image3.webp" alt="macOS Yosemite Wallpaper">
+                    </figure>
+                    <figure class="carousel-item">
+                        <label class="item-prev btn btn-action btn-lg" for="slide-2"><i
+                                class="icon icon-arrow-left"></i></label>
+                        <label class="item-next btn btn-action btn-lg" for="slide-4"><i
+                                class="icon icon-arrow-right"></i></label>
+                        <img class="img-responsive rounded" src="image2.webp" alt="macOS El Capitan Wallpaper">
+                    </figure>
+                    <figure class="carousel-item">
+                        <label class="item-prev btn btn-action btn-lg" for="slide-3"><i
+                                class="icon icon-arrow-left"></i></label>
+                        <label class="item-next btn btn-action btn-lg" for="slide-1"><i
+                                class="icon icon-arrow-right"></i></label>
+                        <img class="img-responsive rounded" src="image3.webp" alt="macOS El Capitan Wallpaper">
+                    </figure>
+                </div>
+                <!-- carousel navigation -->
+                <div class="carousel-nav">
+                    <label class="nav-item text-hide c-hand" for="slide-1">1</label>
+                    <label class="nav-item text-hide c-hand" for="slide-2">2</label>
+                    <label class="nav-item text-hide c-hand" for="slide-3">3</label>
+                    <label class="nav-item text-hide c-hand" for="slide-4">4</label>
+                </div>
+            </div>
         </div>
     </div>
 
-    <div class="columns">
+
+    <div class="columns col-gapless">
         <div class="column col-6">Lorem Ipsum...</div>
         <div class="column col-3">col-3</div>
         <div class="column col-2">col-2</div>
