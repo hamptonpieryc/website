@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
 
-    <link rel="stylesheet" href="tk.css" media="all"/>
+    <!--    <link rel="stylesheet" href="tk.css" media="all"/>-->
     <link rel="stylesheet" href="menu.css" media="all"/>
 
 
@@ -22,11 +22,23 @@
 <!--	});-->
 
 
+
     </script>
 
 </head>
 
 <style>
+
+<! -- existing HYPC styles -->
+body {
+   font-family: Source Sans Pro;
+}
+
+<! -- tankerton -->
+_body {
+   font-family: Lora;
+}
+
 
 .hypc-flag-red {
   background: #f2220d;
@@ -68,14 +80,31 @@
 color: #dee7f9;
 }
 
+.hypc-content h1{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.hypc-content p{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
 
 <!--.carousel-item {-->
 <!-- height: 400px;-->
 <!--}-->
 
 
+<!-- adjusting spectre defaults -->
 .carousel-container {
   border: 2px solid pink;
+}
+
+.carousel .carousel-container::before {
+    padding-bottom: 33.3%;
 }
 
 
@@ -132,7 +161,6 @@ color: #dee7f9;
                             <li><a href="/offthewater/">Off the water</a>
                             </li>
 
-
                             <li><a href="/gallery.php/">Pictures</a>
 
                             </li>
@@ -144,12 +172,6 @@ color: #dee7f9;
                     </nav>
                 </div>
             </div>
-
-
-            <!--            <div>-->
-            <!--                <p>lorem ipsum</p>-->
-
-            <!--            </div>-->
 
 
         </div>
@@ -209,18 +231,39 @@ color: #dee7f9;
     </div>
 
     <div class="columns col-gapless">
-        <div class="column col-12">
+        <div class="column col-12 hypc-content">
+            <br>
             <h1>Hampton Pier Yacht Club</h1>
+            <p>
+                Situated in the lively coastal resort of Herne Bay, Hampton Pier Yacht Club offers every facility for
+                the keen dinghy sailor. We have a full programme of dinghy racing, cruising and fun sailing with members
+                of all ages and abilities. The Club was founded over 40 years ago and has since developed into a modern
+                and well equipped sports facility with a keen and active membership.
+            </p>
+            <p>
+                Our main activity is dinghy racing but the Club also serves as a useful base for those who just prefer
+                sailing their boats in a safe, controlled environment. It is not necessary to be a skilled sailor to
+                join our Club or even know how to sail. The Club has a number of boats which members can use whilst
+                training.
+            </p>
+            <p>
+                Safety of our members remains a number one priority. The Club has well equipped safety patrol boats on
+                the water at all times during Club events with VHF radio links to shore.
+            </p>
+            <p>
+                The Club will welcome all members who wish to use non-powered craft, including paddle boards, kayaks and
+                canoes.
 
+            </p>
         </div>
     </div>
 
-    <div class="columns col-gapless">
-        <div class="column col-6">Lorem Ipsum...</div>
-        <div class="column col-3">col-3</div>
-        <div class="column col-2">col-2</div>
-        <div class="column col-1">col-1</div>
-    </div>
+<!--    <div class="columns col-gapless">-->
+<!--        <div class="column col-6">Lorem Ipsum...</div>-->
+<!--        <div class="column col-3">col-3</div>-->
+<!--        <div class="column col-2">col-2</div>-->
+<!--        <div class="column col-1">col-1</div>-->
+<!--    </div>-->
 </div>
 
 
