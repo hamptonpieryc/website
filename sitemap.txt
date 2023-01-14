@@ -17,6 +17,7 @@ Sailing
     - Racing Calendar
     - Racing rules
     - Results
+ - Club boats
  - Sailing Calendar
 
 Non Sailors
