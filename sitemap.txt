@@ -19,13 +19,15 @@ Sailing
     - Results
  - Club boats
  - Sailing Calendar
+ - Weather
 
 Non Sailors
+  - Thinking of joining?
   - Kayaks and Canoes
   - Paddle Boarding
   - Swimming
   - Social
-  - Thinking of joining?
+  - Weather
 
 Membership
   do we need this as a top level menu item, or can we just have a "join us" section under "sailing" and "non sailors"
