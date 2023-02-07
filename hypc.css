@@ -1,3 +1,9 @@
+:root {
+  --menu-background: #ff3333;
+  --menu-text: #dee7f9;
+  --menu-selected: #265fd9;
+}
+
 
 <! -- existing HYPC styles -->
 body {
