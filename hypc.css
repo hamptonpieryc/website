@@ -1,14 +1,17 @@
 :root {
+  /* hpyc */
+  --hpyc-red: #ff3333;
+
+  /* header */
+  --hero-background: #265fd9;
+
+   /* menu */
   --menu-background: #ff3333;
   --menu-text: #dee7f9;
   --menu-selected: #265fd9;
 }
 
 
-<! -- existing HYPC styles -->
-body {
-   font-family: Source Sans Pro;
-}
 
 <! -- tankerton -->
 _body {
@@ -16,31 +19,17 @@ _body {
 }
 
 
-.hypc-flag-red {
-  _background: #f2220d;
-  _background: #ff3e00;
-  background: #ff3333;
-}
-
-.hypc-red {
-  background-color: #ff3333;
-}
-
-.hpyc-bg-blue {
-    background: #265fd9!important;
-}
-
 #hpyc-hero .hero-body {
-    color: #dee7f9;
+    color: var(--menu-text);
     text-align: center;
     background-image: url("images/waves.png");
 }
 
 .hero {
-    _border: 2px solid red;
     /* override Spectre CSS */
     padding-bottom: 0rem;
     padding-top: 2rem;
+    background:  var(--hero-background);
 }
 
 #hpyc-hero h1{
@@ -49,19 +38,17 @@ _body {
 
 #hypc-menu .navbar-section {
   background: #333!important;
-  _border: 2px solid red;
-
 }
 
 #hypc-menu a {
-color: #dee7f9;
+    color: var(--menu-text);
 }
 
 <!-- standard content page -->
 .hypc-page {
- margin-left:30px;
- margin-right:30px;
- border: 2px solid red;
+    margin-left:30px;
+    margin-right:30px;
+    border: 2px solid var(--hpyc-red);
 }
 
 
