@@ -13,24 +13,11 @@
 <script src="scripts.js"></script>
 
 
-
 <style>
-.hpyc-page {
+.hpyc-section {
     padding-left:10px;
     padding-right:10px;
-    _border: 2px solid red;
-}
-
-
-.hpyc-content-header h1{
-  _padding-left: 20px;
-  _padding-right: 20px;
-
-}
-
-.hpyc-content-header p{
-  _padding-left: 20px;
-  _padding-right: 20px;
+    _border: 2px solid pink;
 }
 
 
@@ -42,15 +29,14 @@ div .hpyc-image  {
 .hpyc-image span {
   padding:20px;
   display: inline-block;
-  _border: 1px solid #265fd9;
 }
+
 .hpyc-image img {
-  _padding:20px;
-  border: 1px solid #265fd9;
+  border: 1px solid var(--hero-background);
 }
 
 .hpyc-button {
-  background-color : #ff3333;
+  background-color : var(--menu-background);
   padding: 5px;
   border: none;
   color : #265fd9;
@@ -82,15 +68,8 @@ div .hpyc-image  {
  content: "< less";
 }
 
-<!--.hpyc-more:hover{-->
-<!--  color: #333;-->
-<!--  text-decoration: none;-->
-<!--}-->
-
-
 
 /* https://stackoverflow.com/questions/15167545/how-to-crop-a-rectangular-image-into-a-square-with-css */
-
 .rect-img-container {
   position: relative;
 }
@@ -110,21 +89,21 @@ div .hpyc-image  {
 
 .hpyc-link-bar a {
   padding: 5px;
-  color: #dee7f9;
-  background-color : #ff3333;
+  color: var(--menu-text);
+  background-color : var(--menu-background);
 
   _border :2px solid pink;
 }
 
 .hpyc-link-bar a:hover {
-  color: #dee7f9;
-  background-color :#265fd9;
-  text-decoration: none;
+  color: var(--menu-text);
+  background-color: var(--menu-selected);
+  text-decoration: underline;
 }
 
 .hpyc-link-bar {
  padding: 5px;
- background-color : #ff3333;
+ background-color: var(--menu-background);
 }
 
 span.hpyc-link-bar > a:not(:last-child)
@@ -132,6 +111,7 @@ span.hpyc-link-bar > a:not(:last-child)
 							border-right: 2px solid #dee7f9;
 							_border-right: 2px solid blue;
 						}
+
 
 
 
@@ -198,7 +178,7 @@ span.hpyc-link-bar > a:not(:last-child)
     </div>
 
 
-    <div class="columns col-gapless hpyc-page hpyc-content-header">
+    <div class="columns col-gapless hpyc-section">
 
         <div class="column col-9">
             <br>
@@ -222,7 +202,7 @@ span.hpyc-link-bar > a:not(:last-child)
     </div>
     <br>
 
-    <div class="columns col-gapless hpyc-page">
+    <div class="columns col-gapless hpyc-section">
         <div class="column col-3 hpyc-image _rect-img-container">
             <span>
 
@@ -261,12 +241,10 @@ span.hpyc-link-bar > a:not(:last-child)
         </div>
     </div>
 
-    <div class="columns col-gapless hpyc-page">
-        <div class="column col-3 hpyc-image _rect-img-container">
+    <div class="columns col-gapless hpyc-section">
+        <div class="column col-3 hpyc-image ">
             <span>
-
-            <img class="img-responsive  _rect-img"
-                 src="images/looking-to-join/kayak.jpeg">
+            <img class="img-responsive" src="images/looking-to-join/kayak.jpeg">
                 </span>
         </div>
         <div class="column col-9">
@@ -296,7 +274,7 @@ span.hpyc-link-bar > a:not(:last-child)
         </div>
     </div>
 
-    <div class="columns col-gapless hpyc-page">
+    <div class="columns col-gapless hpyc-section">
         <div class="column col-3 hpyc-image ">
             <span>
 
@@ -320,7 +298,7 @@ span.hpyc-link-bar > a:not(:last-child)
         </div>
     </div>
 
-    <div class="columns col-gapless hpyc-page">
+    <div class="columns col-gapless hpyc-section">
         <div class="column col-3 hpyc-image ">
             <span>
 
@@ -342,7 +320,7 @@ span.hpyc-link-bar > a:not(:last-child)
     </div>
 
 
-    <div class="columns col-gapless hpyc-page">
+    <div class="columns col-gapless hpyc-section">
         <div class="column col-3 hpyc-image ">
             <span>
 
@@ -368,7 +346,7 @@ span.hpyc-link-bar > a:not(:last-child)
         </div>
     </div>
 
-    <div class="columns col-gapless hpyc-page">
+    <div class="columns col-gapless hpyc-section">
         <div class="column col-3 hpyc-image">
             <span>
 

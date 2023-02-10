@@ -59,6 +59,7 @@
     background-color: #666 !important;
 }
 
+
 #nav span:after
 {
     width: 0;
@@ -111,8 +112,8 @@
 }
 #nav > ul > li:hover > a, #nav > ul:not( :hover ) > li.active > a
 {
-    _background-color: #000;
     background-color: var(--menu-selected);
+    text-decoration: underline;
 
 }
 
@@ -159,17 +160,17 @@
 						}
 
 #nav > ul > li> ul > li:not( :last-child )
-						{
-						border-bottom: 2px solid #dee7f9;
-						}
+{
+    border-bottom: 2px solid #dee7f9;
+}
 
 #nav li ul li a:hover,
 #nav li ul:not( :hover ) li.active a
-							{
-								_background-color: #666;
-							    background-color: var(--menu-selected);
+{
+    background-color: var(--menu-selected);
+    text-decoration: underline;
+}
 
-							}
 .notalink {
 	cursor: default;
 }

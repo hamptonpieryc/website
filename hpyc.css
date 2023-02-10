@@ -46,43 +46,32 @@ _body {
 
 <!-- standard content page -->
 .hpyc-page {
-    margin-left:30px;
-    margin-right:30px;
-    border: 2px solid var(--hpyc-red);
-
-   padding-left:10px;
-   padding-right:10px;
-
-
+   margin-left:30px;
+   margin-right:30px;
+   border: 2px solid var(--hpyc-red);
 }
 
-
+<! -- can these go? -->
 .hpyc-content h1{
   padding-left: 20px;
   padding-right: 20px;
-
 }
-
 .hpyc-content p{
   padding-left: 20px;
   padding-right: 20px;
 }
 
 
-div .hpyc-image  {
-  _padding:10px;
-  _border: 2px solid green;
-}
-
+<!-- images -->
 .hpyc-image span {
   padding:20px;
   display: inline-block;
 }
+
 .hpyc-image img {
   _padding:20px;
   border: 2px solid var(--hero-background);
 }
-
 
 <!-- adjusting spectre defaults -->
 .carousel-container {
@@ -91,5 +80,4 @@ div .hpyc-image  {
 .carousel .carousel-container::before {
     padding-bottom: 33.3%;
 }
-
 
