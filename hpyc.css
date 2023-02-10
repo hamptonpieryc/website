@@ -44,6 +44,8 @@ _body {
     color: var(--menu-text);
 }
 
+
+
 <!-- standard content page -->
 .hpyc-page {
    margin-left:30px;
@@ -51,18 +53,26 @@ _body {
    border: 2px solid var(--hpyc-red);
 }
 
-<! -- can these go? -->
+
+/* can these go? */
 .hpyc-content h1{
   padding-left: 20px;
   padding-right: 20px;
 }
-.hpyc-content p{
+
+.hpyc-content p {
   padding-left: 20px;
   padding-right: 20px;
 }
 
+/* standard context section */
+.hpyc-section {
+    padding-left:10px;
+    padding-right:10px;
+    _border: 2px solid pink;
+}
 
-<!-- images -->
+/* images */
 .hpyc-image span {
   padding:20px;
   display: inline-block;
@@ -73,10 +83,11 @@ _body {
   border: 2px solid var(--hero-background);
 }
 
-<!-- adjusting spectre defaults -->
+/*  adjusting spectre defaults */
 .carousel-container {
-  border: 2px solid pink;
+  border: 1px solid var(--hero-background);
 }
+
 .carousel .carousel-container::before {
     padding-bottom: 33.3%;
 }
