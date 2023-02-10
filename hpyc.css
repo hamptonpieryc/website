@@ -7,9 +7,10 @@
   --hero-background: #266ed9;
 
    /* menu */
-  --menu-background: #3726D9;
+  --menu-background: #1C509E;
   --menu-text: #dee7f9;
-  --menu-selected: #265fd9;
+  --menu-divider: #dee7f9;
+  --menu-selected: #266ed9;
 }
 
 
@@ -36,14 +37,10 @@ _body {
    font-size: 60px;
 }
 
-#hpyc-menu .navbar-section {
-  background: #333!important;
-}
 
 #hpyc-menu a {
     color: var(--menu-text);
 }
-
 
 /* standard content page */
 .hpyc-page {
@@ -102,7 +99,7 @@ _body {
 }
 
 .hpyc-link-bar > a:not(:last-child) {
-    border-right: 2px solid #dee7f9;
+    border-right: 2px solid var(--menu-divider);
 }
 
 /* more and less buttons */

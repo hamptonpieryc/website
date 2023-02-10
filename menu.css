@@ -96,19 +96,17 @@
 {
 /*	height: 100%;*/
     font-size: 14px; /* 24 */
-    _font-weight: bold;
     line-height: 1.5em; /* 60 (24) */
     text-align: center;
     padding: 10px 25px 10px 25px;
     color: var(--menu-text);
-    _color: #FFF;
 
     _border: 1px solid pink;
 }
 
 #nav > ul > li:not( :last-child ) > a, #nav > ul > li.nolink
 {
-    border-right: 2px solid #dee7f9;
+    border-right: 2px solid var(--menu-divider);
 }
 #nav > ul > li:hover > a, #nav > ul:not( :hover ) > li.active > a
 {
@@ -161,7 +159,7 @@
 
 #nav > ul > li> ul > li:not( :last-child )
 {
-    border-bottom: 2px solid #dee7f9;
+    border-bottom: 2px solid var(--menu-divider);
 }
 
 #nav li ul li a:hover,
@@ -226,7 +224,7 @@
 #nav > a:after
 {
     position: absolute;
-    border: 2px solid #dee7f9;
+    border: 2px solid var(--menu-divider);
     top: 35%;
     left: 25%;
     right: 25%;
