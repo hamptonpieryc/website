@@ -3,10 +3,10 @@
   --hpyc-red: #ff3333;
 
   /* header */
-  --hero-background: #265fd9;
+  --hero-background: #266ed9;
 
    /* menu */
-  --menu-background: #ff3333;
+  --menu-background: #3726D9;
   --menu-text: #dee7f9;
   --menu-selected: #265fd9;
 }
@@ -22,7 +22,7 @@ _body {
 #hpyc-hero .hero-body {
     color: var(--menu-text);
     text-align: center;
-    background-image: url("images/waves.png");
+    _background-image: url("images/waves.png");
 }
 
 .hero {
