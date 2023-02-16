@@ -73,22 +73,15 @@ layout = ''
 with open("templates/layout.html" , "r") as f:
     layout = ''.join(f.readlines())
 
-print (layout)
+print("layout.html is " + str(len(layout)) + " characters" )
 
 for i in files:
-    #print(i)
     if i != 'layout.html' and i != 'layout2.html':
-        #print(i)
         with open("templates/" + i, "r") as f:
             content_parser = ContentParser()
             content_parser.feed(''.join(f.readlines()))
-            #print(content)
-            #print(content_parser.content())
+            print("processing template:" + i + ", with " + str(len(content_parser.content())) + " characters")
             layout_parser = LayoutParser(content_parser.content())
             layout_parser.feed(layout)
-            print(layout_parser.processed())
-            with open( "p" + i, "w") as saved:
+            with open( i, "w") as saved:
                 saved.write(layout_parser.processed())
-
-
-
