@@ -37,7 +37,7 @@ jobs:
           python-version: '3.x'
 
       - name: Check Python
-        run:  python --version
+        run:  python build.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
