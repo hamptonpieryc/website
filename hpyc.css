@@ -59,13 +59,21 @@ _body {
 .hpyc-content p {
   margin-left: 1rem;
   margin-right: 1rem;;
+  _border: 2px solid red;
 }
 
 /* standard context section */
 .hpyc-section {
-    padding-left:10px;
+    padding-left:10px
     padding-right:10px;
-    _border: 2px solid pink;
+    margin-bottom: 0.5rem;
+    border: 2px solid pink;
+}
+
+.hpyc-section h2 {
+  margin-top: 0.3rem;
+  _margin-left: 1rem;
+  _margin-right: 1rem;
 }
 
 .hpyc-section .hpyc-image  {
@@ -73,8 +81,12 @@ _body {
     +_border: 2px solid green;
 }
 
-.hpyc-section .hpyc-image span {
-    padding:20px;
+
+span.hpyc-image  {
+    margin-right:20px;
+    margin-top:20px
+    margin-bottom:20px;
+    padding-bottom : 10px;
     display: inline-block;
     _border: 2px solid pink;
 }
