@@ -2,6 +2,58 @@ from os import walk
 from html.parser import HTMLParser
 
 
+#
+# A base parser that can look for specified tags
+# Normally a class should just override handle_captured
+#
+class BaseParser(HTMLParser):
+    def __init__(self, tag_names, content_buf):
+        HTMLParser.__init__(self)
+        self.capture_mode = False
+        self.tag_names = tag_names
+        self.current_tag = ''
+        self.capture_buffer = []
+        self.content_buffer = content_buf
+
+    def handle_starttag(self, tag, attrs):
+        # trigger when one of our expected tags is found
+        if tag in self.tag_names and not self.capture_mode:
+            self.capture_mode = True
+            self.current_tag = tag
+            return
+
+        if self.capture_mode and not tag == self.current_tag:
+            self.capture_buffer.append("<" + tag)
+            for attr in attrs:
+                self.capture_buffer.append(' ' + attr[0] + '=')
+                self.capture_buffer.append('"' + attr[1] + '"')
+            self.capture_buffer.append(">")
+        else:
+            self.content_buffer.append("<" + tag)
+            for attr in attrs:
+                self.content_buffer.append(' ' + attr[0] + '=')
+                self.content_buffer.append('"' + attr[1] + '"')
+            self.content_buffer.append(">")
+
+    def handle_endtag(self, tag):
+        if self.capture_mode and not tag == self.current_tag:
+            self.capture_buffer.append("</" + tag + ">")
+
+        if tag == self.current_tag and self.capture_mode:
+            self.capture_mode = False
+            self.handle_captured(self.current_tag, self.capture_buffer)
+            self.current_tag = ''
+
+    def handle_data(self, data):
+        if self.capture_mode:
+            self.capture_buffer.append(data)
+        else:
+            self.content_buffer.append(data)
+
+    def handle_captured(self, tag_name, captured):
+        self.content_buffer.extend(captured)
+
+
 # process the layout file
 class LayoutParser(HTMLParser):
 
@@ -36,37 +88,6 @@ class LayoutParser(HTMLParser):
         return ''.join(self.combined)
 
 
-#
-# A base parser that can look for a specified tag
-#
-class BaseParser(HTMLParser):
-    def __init__(self, tag_name, content_buffer):
-        HTMLParser.__init__(self)
-        self.tag_found = False
-        self.tag_name = tag_name
-        self.content_buffer = content_buffer
-
-    def handle_starttag(self, tag, attrs):
-        if tag == self.tag_name and not self.tag_found:
-            self.tag_found = True
-        else:
-            self.content_buffer.append("<" + tag)
-            for attr in attrs:
-                self.content_buffer.append(' ' + attr[0] + '=')
-                self.content_buffer.append('"' + attr[1] + '"')
-            self.content_buffer.append(">")
-
-    def handle_endtag(self, tag):
-        if tag == self.tag_name and not self.tag_found:
-            self.tag_found = False
-        else:
-            self.content_buffer.append("</" + tag + ">")
-
-    def handle_data(self, data):
-        if self.tag_found:
-            self.content_buffer.append(data)
-
-
 # process a <hpyc-top-panel> tag
 class TopPanelParser(BaseParser):
     def __init__(self, content_buffer):
@@ -78,14 +99,24 @@ class TopPanelParser(BaseParser):
             print('processing hpyc-top-panel content')
 
 
+class PanelParser(BaseParser):
+    def __init__(self, content_buffer):
+        BaseParser.__init__(self, ['hpyc-top-panel', 'hpyc-content-panel'], content_buffer)
+
+
 # process a <hpyc-content> tag
 class ContentParser(BaseParser):
     def __init__(self, content_buffer):
         BaseParser.__init__(self, 'hpyc-content', content_buffer)
 
-    def handle_data(self, data):
-        if self.tag_found:
-            self.content_buffer.append(data)
+    def handle_captured(self, tag_name, captured):
+        print('processing tag:' + tag_name + '-' + ''.join(captured))
+        super().handle_captured(tag_name, captured)
+
+    # def handle_data(self, data):
+    #     if self.capture_mode:
+    #         print('processing hpyc-content tag:' + data)
+    #         self.content_buffer.append(data)
 
 
 # read the layout file
