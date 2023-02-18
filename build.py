@@ -2,6 +2,7 @@ from os import walk
 from html.parser import HTMLParser
 
 
+# process the layout file
 class LayoutParser(HTMLParser):
 
     def __init__(self, hpyc_content):
@@ -35,34 +36,56 @@ class LayoutParser(HTMLParser):
         return ''.join(self.combined)
 
 
-class ContentParser(HTMLParser):
-    def __init__(self):
+#
+# A base parser that can look for a specified tag
+#
+class BaseParser(HTMLParser):
+    def __init__(self, tag_name, content_buffer):
         HTMLParser.__init__(self)
-        self.hpyc_tag = False
-        self.hpyc_content = []
+        self.tag_found = False
+        self.tag_name = tag_name
+        self.content_buffer = content_buffer
 
     def handle_starttag(self, tag, attrs):
-        if tag == 'hpyc-content' and not self.hpyc_tag:
-            self.hpyc_tag = True
+        if tag == self.tag_name and not self.tag_found:
+            self.tag_found = True
         else:
-            self.hpyc_content.append("<" + tag)
+            self.content_buffer.append("<" + tag)
             for attr in attrs:
-                self.hpyc_content.append(' ' + attr[0] + '=')
-                self.hpyc_content.append('"' + attr[1] + '"')
-            self.hpyc_content.append(">")
+                self.content_buffer.append(' ' + attr[0] + '=')
+                self.content_buffer.append('"' + attr[1] + '"')
+            self.content_buffer.append(">")
 
     def handle_endtag(self, tag):
-        if tag == 'hpyc-content' and self.hpyc_tag:
-            self.hpyc_tag = False
+        if tag == self.tag_name and not self.tag_found:
+            self.tag_found = False
         else:
-            self.hpyc_content.append("</" + tag + ">")
+            self.content_buffer.append("</" + tag + ">")
 
     def handle_data(self, data):
-        if self.hpyc_tag:
-            self.hpyc_content.append(data)
+        if self.tag_found:
+            self.content_buffer.append(data)
 
-    def content(self):
-        return ''.join(self.hpyc_content)
+
+# process a <hpyc-top-panel> tag
+class TopPanelParser(BaseParser):
+    def __init__(self, content_buffer):
+        BaseParser.__init__(self, 'hpyc-top-panel', content_buffer)
+
+    def handle_data(self, data):
+        if self.tag_found:
+            self.content_buffer.append(data)
+            print('processing hpyc-top-panel content')
+
+
+# process a <hpyc-content> tag
+class ContentParser(BaseParser):
+    def __init__(self, content_buffer):
+        BaseParser.__init__(self, 'hpyc-content', content_buffer)
+
+    def handle_data(self, data):
+        if self.tag_found:
+            self.content_buffer.append(data)
 
 
 # read the layout file
@@ -78,10 +101,12 @@ for (dirpath, dirnames, filenames) in walk("content"):
 
 for i in files:
     with open("content/" + i, "r") as f:
-        content_parser = ContentParser()
+        content_buffer = []
+        content_parser = ContentParser(content_buffer)
         content_parser.feed(''.join(f.readlines()))
-        print("processing content file:" + i + ", with " + str(len(content_parser.content())) + " characters")
-        layout_parser = LayoutParser(content_parser.content())
+        processed = ''.join(content_buffer)
+        print("Processing content file:" + i + ", with " + str(len(processed)) + " characters")
+        layout_parser = LayoutParser(processed)
         layout_parser.feed(layout)
         with open(i, "w") as saved:
             saved.write(layout_parser.processed())

@@ -30,6 +30,8 @@ Note, to view the updated content see `Deploying` below.
 
 The text for each page is held in the `content` folder. To update simply edit the text.
 
+## Content Blocks
+
 ## Adding pages 
 Todo
 
@@ -44,7 +46,9 @@ Run `./build.sh` (this will convert content pages into full HTML) and then open 
 
 ## To the public site 
 
-Each push to github will automatically build and deploy 
+Each push to GitHub will automatically build and deploy using a feature of GitHub called `Actions`. 
+This may take a minute or two. Click [here](https://github.com/hamptonpieryc/website/actions) 
+to check on progress.  
 
 ## Useful tools
 
