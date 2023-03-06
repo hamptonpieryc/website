@@ -148,15 +148,15 @@ for i in files:
             saved.write(layout_parser.processed())
 
 
-for i in files:
-    with open("content2/" + i, "r") as f:
-        content_buffer = []
-        content_parser = ContentParser(content_buffer)
-        content_parser.feed(''.join(f.readlines()))
-        processed = ''.join(content_buffer)
-        print("Processing content file:" + i + ", with " + str(len(processed)) + " characters")
-        layout_parser = LayoutParser(processed)
-        layout_parser.feed(layout)
-        with open(i, "w") as saved:
-            saved.write(layout_parser.processed())
+# for i in files:
+#     with open("content2/" + i, "r") as f:
+#         content_buffer = []
+#         content_parser = ContentParser(content_buffer)
+#         content_parser.feed(''.join(f.readlines()))
+#         processed = ''.join(content_buffer)
+#         print("Processing content file:" + i + ", with " + str(len(processed)) + " characters")
+#         layout_parser = LayoutParser(processed)
+#         layout_parser.feed(layout)
+#         with open(i, "w") as saved:
+#             saved.write(layout_parser.processed())
 
