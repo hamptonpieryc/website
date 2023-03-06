@@ -56,3 +56,8 @@ to check on progress.
 * https://www.canva.com/colors/color-wheel/
 * https://app.haikei.app/
 
+
+
+https://www.geeksforgeeks.org/how-to-install-pil-on-macos/
+python3 -m pip install --upgrade Pillow
+https://note.nkmk.me/en/python-pillow-square-circle-thumbnail/

@@ -1,6 +1,11 @@
 from os import walk
 from html.parser import HTMLParser
 
+# from PIL import Image, ImageDraw, ImageFilter
+#
+# im = Image.open("images/image1.jpeg")
+# print(im.format, im.size, im.mode)
+
 
 #
 # A base parser that can look for specified tags
@@ -110,7 +115,7 @@ class ContentParser(BaseParser):
         BaseParser.__init__(self, 'hpyc-content', content_buffer)
 
     def handle_captured(self, tag_name, captured):
-        print('processing tag:' + tag_name + '-' + ''.join(captured))
+        #print('processing tag:' + tag_name + '-' + ''.join(captured))
         super().handle_captured(tag_name, captured)
 
     # def handle_data(self, data):
@@ -141,3 +146,17 @@ for i in files:
         layout_parser.feed(layout)
         with open(i, "w") as saved:
             saved.write(layout_parser.processed())
+
+
+for i in files:
+    with open("content2/" + i, "r") as f:
+        content_buffer = []
+        content_parser = ContentParser(content_buffer)
+        content_parser.feed(''.join(f.readlines()))
+        processed = ''.join(content_buffer)
+        print("Processing content file:" + i + ", with " + str(len(processed)) + " characters")
+        layout_parser = LayoutParser(processed)
+        layout_parser.feed(layout)
+        with open(i, "w") as saved:
+            saved.write(layout_parser.processed())
+
