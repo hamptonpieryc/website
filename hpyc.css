@@ -68,7 +68,7 @@ _body {
     padding-right:10px;
 
     margin-bottom: 0.5rem;
-    border: 2px solid pink;
+    _border: 2px solid pink;
 }
 
 .hpyc-section h2 {
@@ -79,7 +79,7 @@ _body {
 
 .hpyc-section .hpyc-image  {
     padding-top:10px;
-    +_border: 2px solid green;
+    _border: 2px solid green;
 }
 
 
