@@ -1,7 +1,4 @@
-
-
 from pipeline import Pipeline
 
-
-pipeline = Pipeline(".", "output")
+pipeline = Pipeline(".", ".")
 pipeline.run()
