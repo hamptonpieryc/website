@@ -148,3 +148,8 @@ span.hpyc-image  {
     padding-bottom: 33.3%;
 }
 
+#footer {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: var(--hero-background);
+}
