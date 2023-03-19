@@ -36,6 +36,12 @@ jobs:
         with:
           python-version: '3.8'
 
+      - name: Echo Networking
+        run: |
+          echo "checking to see how DNS resolves
+          dig www.hamptonpier.club
+          dig beta.hamptonpier.club
+
       - name: Install pytest
         run: |
           python -m pip install --upgrade pip
