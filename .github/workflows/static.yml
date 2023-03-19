@@ -39,6 +39,7 @@ jobs:
       - name: Echo Networking
         run: |
           echo "checking to see how DNS resolves"
+          dig hamptonpier.club
           dig www.hamptonpier.club
           dig beta.hamptonpier.club
 
