@@ -30,7 +30,7 @@ def test_normalise():
 def test_top_panel_transform():
     raw = dedent("""
         <hpyc-top-panel>
-            <h1>Example Page</h1>
+            <header>Example Page</header>
             <p>Paragraph 1</p>
             <p>Paragraph 2</p>
         </hpyc-top-panel>

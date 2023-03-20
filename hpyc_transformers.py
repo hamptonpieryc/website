@@ -19,7 +19,7 @@ class TopPanelTransformer(Transform):
         result += '\t<div class=\"column col-12\">\n'
 
         for node in nodes:
-            if node.tag == 'h1':
+            if node.tag == 'header':
                 result += '\t\t' + '<h1>' + str(node.text) + '</h1>\n'
             elif node.tag == 'p':
                 result += '\t\t' + '<p>' + str(node.text) + '</p>\n'
