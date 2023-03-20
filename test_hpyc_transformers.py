@@ -63,12 +63,12 @@ def test_content_panel_transform():
 
     expected = dedent("""
         <div class="columns col-gapless hpyc-section">
-            <div class="column col-3">
+            <div class="column col-3 col-md-4">
                 <span class="hpyc-image">
                     <img class="img-responsive" src="image.jpg">
                 </span>
             </div>
-            <div class="column col-9">
+            <div class="column col-9 col-md-8">
                 <h2>Example</h2>
                 <p>Paragraph 1
                     <button class="hpyc-more" id="id1" onclick="expand('id1','id2')"></button>
