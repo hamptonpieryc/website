@@ -2,7 +2,7 @@ Hampton Pier YC Website
 =======================
 
 Source code for the Hampton Pier Yacht Club website.
-A test deployment is at https://hamptonpieryc.github.io/website/home.html
+A test deployment is at https://hamptonpier.club
 
 # Prerequisites
 
