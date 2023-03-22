@@ -1,4 +1,5 @@
-@media only screen and ( max-width: 600px )
+/* view port is tuned to just fit the main menu */
+@media only screen and ( max-width: 750px )
 {
 
 .nav {

@@ -3,7 +3,7 @@
 {
 #hpyc-hero h1{
    font-size: 48px;
-   border: 2px solid pink;
+   _border: 2px solid pink;
 }
 }
 
@@ -12,11 +12,15 @@
 {
 #hpyc-hero h1{
    font-size: 36px;
-   border: 2px solid green;
+   _border: 2px solid green;
+}
+h1 {
+ font-size: 36px;
+   _border: 2px solid pink;
 }
 
 h2 {
- border: 2px solid blue;
+ _border: 2px solid blue;
  font-size: 28px;
 
 }
