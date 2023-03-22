@@ -59,6 +59,7 @@ def test_content_panel_transform():
             <p>Paragraph Two</p>
             <p>Last Paragraph</p>
             <img href=\"image.jpg\"></img>
+            <a href="alink">A Link</a>
         </hpyc-content-panel>""")
 
     expected = dedent("""
@@ -80,6 +81,9 @@ def test_content_panel_transform():
                         <button class="hpyc-less" onclick="collapse('id1','id2')"></button>
                     </p>
                 </div>
+                <span class="hpyc-link-bar">
+                    <a href="alink">A Link</a>
+                </span>
             </div>
         </div>
       """).strip()

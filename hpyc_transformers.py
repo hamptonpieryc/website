@@ -38,6 +38,7 @@ class ContentPanelTransformer(Transform):
     def transform(self, nodes: list) -> str:
         header = '???'
         paras = []
+        links = []
         image = {}
 
         #  capture the date needed from the DOM
@@ -48,6 +49,8 @@ class ContentPanelTransformer(Transform):
                 header = str(node.text)
             elif node.tag == 'img':
                 image["href"] = node.attrib["href"]
+            elif node.tag == 'a':
+                links.append({"href": node.attrib["href"], "link": str(node.text)})
 
         # Build the HTML snippet
         result = '\n'
@@ -86,27 +89,12 @@ class ContentPanelTransformer(Transform):
 
             result += '\t\t</div>\n'
 
-        # class ="hpyc-more" id="bt2" onclick="expand('bt2','ct2')" > < / button >
-        #
-        # result += '\t\t<p>' + paras[0] + '</p>\n'
-        #
-        # if len(paras > 1):
-        #     for para in paras.pop(0):
-        #         result += '\t\t<p>' + para + '\n'
-        #         if first_para and len(paras) > 1:
-        #             result += '\t\t\t<button class="hpyc-more" id="bt2" onclick="expand(\'bt2\',\'ct2\')"></button>\n'
-        #     result += '\t\t</p>\n'
-        #     first_para = False
+        if len(links) > 0:
+            result += "\t\t" + '<span class="hpyc-link-bar">\n'
+            for link in links:
+                result += '\t\t\t<a href="' + link["href"] + '">' + link["link"] + '</a>\n'
 
-        """
-          <div class="column col-3 ">
-            <span class="hpyc-image">
-            <img class="img-responsive" src="images/looking-to-join/kayak.jpeg">
-                </span>
-        </div>
-        """
-
-        # result += '\t\t' + '<p>' + str(node.text) + '</p>\n'
+            result += "\t\t" + '</span>\n'
 
         result += "\t" + '</div>\n'
         result += '</div>\n'
