@@ -56,6 +56,18 @@
     display: block;
 }
 
+#nav li:hover ul
+{
+    display: block;
+    position:absolute;
+    left: 0;
+    right: 0;
+    _border: 4px dotted pink;
+    margin-left: 100px;
+    margin-top:-44px;
+    padding-left:20px;
+}
+
 
 /* first level */
 #nav > ul
@@ -89,6 +101,7 @@
     height: auto;
     text-align: left;
     padding:  0.833em; /* 20 (24) */
+
 }
 
 #nav > ul > li:not( :last-child ) > a
@@ -110,5 +123,11 @@
     margin-left: 50px;
     _border: 4px dotted cyan;
     margin-bottom: -25px;
+}
+
+#nav > ul > li > ul > li {
+ _border: 2px dotted black;
+ _padding-left: 10px;
+ width: 200px;;
 }
 }
