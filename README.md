@@ -16,6 +16,11 @@ So far this has only been tested on OSX (Mac)
     * [Intellij](https://www.jetbrains.com/idea/)
     * [HTML IDEs](https://www.interviewbit.com/blog/html-ides/)
 
+
+## Tech Notes 
+
+Just some useful tech links:
+* https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 Python3 is also required but comes preinstalled on OSX
 
 ## Windows

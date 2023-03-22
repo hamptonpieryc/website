@@ -7,3 +7,8 @@ function collapse(btn,content) {
   document.getElementById(content).style.display = "none";
   document.getElementById(btn).style.display = "inline";
 }
+
+function showmenu() {
+  document.getElementById("nav").style.display = "none";
+  //document.getElementById(btn).style.display = "inline";
+}
