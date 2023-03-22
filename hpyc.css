@@ -148,8 +148,14 @@ span.hpyc-image  {
     padding-bottom: 33.3%;
 }
 
-#footer {
+div.footer {
     padding: 10px;
     margin-bottom: 10px;
     background-color: var(--hero-background);
 }
+
+div.footer a:link { color:white; text-decoration: none; }
+div.footer a:visited { color:white; text-decoration: none; }
+div.footer a:hover { color:white; text-decoration: underline; }
+div.footer a:active { color:white; text-decoration: underline; }
+
