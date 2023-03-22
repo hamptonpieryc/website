@@ -10,7 +10,7 @@
     height: auto;
     _background: #000;
     background: var(--menu-background);
-    border: 2px solid green;
+    _border: 2px solid green;
 }
 
 #nav
@@ -19,7 +19,7 @@
     top: auto;
     left: auto;
     margin: 0 0 0 0;
-    border: 2px solid pink;
+    _border: 2px solid pink;
 
 }
 
@@ -31,7 +31,7 @@
     text-indent: -9999px;
     background-color: var(--menu-selected);
     position: relative;
-    border: 3px solid yellow;
+    _border: 3px solid yellow;
 }
 
 #nav > a:before,
@@ -66,7 +66,7 @@
     margin-top: 0px;
     left: 0px;
     right: 0px;
-    border: 3px solid orange;
+    _border: 3px solid orange;
     width: 300px;
     margin-left: 0px;
     padding-left: 20px;
@@ -95,7 +95,7 @@
 {
     border-right: none;
     border-bottom: 0;
-    border: 3px solid green;
+    _border: 3px solid green;
 }
 
 
@@ -108,7 +108,7 @@
     padding-top: 0;
     background: none;
     margin-left: 50px;
-    border: 4px dotted cyan;
+    _border: 4px dotted cyan;
     margin-bottom: -25px;
 }
 }
