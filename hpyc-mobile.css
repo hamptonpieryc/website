@@ -1,0 +1,23 @@
+/* medium in spectre.css scaling */
+@media only screen and ( max-width: 840px )
+{
+#hpyc-hero h1{
+   font-size: 48px;
+   border: 2px solid pink;
+}
+}
+
+/* small in spectre.css scaling */
+@media only screen and ( max-width: 600px )
+{
+#hpyc-hero h1{
+   font-size: 36px;
+   border: 2px solid green;
+}
+
+h2 {
+ border: 2px solid blue;
+ font-size: 28px;
+
+}
+}
