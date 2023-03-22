@@ -9,7 +9,7 @@
 	height: 42px;
 	background-color: var(--menu-background);
 	text-align: center;
-	border: 1px solid pink;
+	_border: 1px solid pink;
 }
 
 .clearfix::after
@@ -196,7 +196,7 @@
 	height: auto;
 	_background: #000;
 	background: var(--menu-background);
-	border: 2px solid green;
+	_border: 2px solid green;
 }
 
 #nav
@@ -205,7 +205,7 @@
     top: auto;
     left: auto;
     margin: 0 0 0 0;
-    border: 2px solid pink;
+    _border: 2px solid pink;
 
 }
 
@@ -217,7 +217,7 @@
     text-indent: -9999px;
     background-color: var(--menu-selected);
     position: relative;
-     border: 3px solid yellow;
+    _border: 3px solid yellow;
 }
 
 #nav > a:before,
@@ -253,7 +253,7 @@
     margin-top: 0px;
     left: 0px;
     right: 0;
-    border: 3px solid orange;
+    _border: 3px solid orange;
     width: 300px;
 
 }
