@@ -62,6 +62,8 @@ Just some useful tech links:
 * https://www.windguru.cz/help.php?sec=distr
 * https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 * https://experienceleague.adobe.com/docs/target/using/experiences/vec/mobile-viewports.html
+* https://stock.adobe.com/uk/search?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=1&filters%5Bcontent_type%3Atemplate%5D=1&filters%5Bcontent_type%3A3d%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=sinking+boat&order=relevance&safe_search=1&limit=100&search_page=1&search_type=usertyped&acp=&aco=sinking+boat&get_facets=0
+
 
 Python3 is also required but comes preinstalled on OSX
 
@@ -69,4 +71,3 @@ Python3 is also required but comes preinstalled on OSX
 https://www.geeksforgeeks.org/how-to-install-pil-on-macos/
 python3 -m pip install --upgrade Pillow
 https://note.nkmk.me/en/python-pillow-square-circle-thumbnail/
-
