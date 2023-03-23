@@ -14,12 +14,6 @@
 }
 
 
-/* -- tankerton -- */
-_body {
-   font-family: Lora;
-}
-
-
 #hpyc-hero .hero-body {
     color: var(--menu-text);
     text-align: center;
