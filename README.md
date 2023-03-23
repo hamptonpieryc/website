@@ -17,11 +17,7 @@ So far this has only been tested on OSX (Mac)
     * [HTML IDEs](https://www.interviewbit.com/blog/html-ides/)
 
 
-## Tech Notes 
 
-Just some useful tech links:
-* https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
-Python3 is also required but comes preinstalled on OSX
 
 ## Windows
 
@@ -55,12 +51,18 @@ Each push to GitHub will automatically build and deploy using a feature of GitHu
 This may take a minute or two. Click [here](https://github.com/hamptonpieryc/website/actions) 
 to check on progress.  
 
-## Useful tools
+
+## Tech Notes 
+
+Just some useful tech links:
 
 * https://picturepan2.github.io/spectre/
 * https://www.canva.com/colors/color-wheel/
 * https://app.haikei.app/
+* https://www.windguru.cz/help.php?sec=distr
+* https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
 
+Python3 is also required but comes preinstalled on OSX
 
 
 https://www.geeksforgeeks.org/how-to-install-pil-on-macos/
