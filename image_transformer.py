@@ -82,12 +82,12 @@ class ImagePipeline:
                     except OSError as e:
                         1 == 1  # do nothing
 
-                    self.crop_to_square(file, output_dir, path, 200, "small")
-                    self.crop_to_square(file, output_dir, path, 512, "normal")
+                    self.crop_to_square(file, output_dir, path, 200, "-small")
+                    self.crop_to_square(file, output_dir, path, 512, "")
 
     @staticmethod
     def crop_to_square(file, output_dir, path, size, suffix):
-        output_file = output_dir + "/" + path.stem + "-" + suffix + path.suffix
+        output_file = output_dir + "/" + path.stem + suffix + path.suffix
         with open(file, "r") as f:
             print("Processing content in: " + file + " as a square image to " + output_file)
             crop_best_square(Image.open(file)) \
