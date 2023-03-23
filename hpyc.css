@@ -148,14 +148,17 @@ span.hpyc-image  {
     padding-bottom: 33.3%;
 }
 
+/* footer styling */
 div.footer {
     padding: 10px;
     margin-bottom: 10px;
     background-color: var(--hero-background);
 }
+div.footer a:link.mailto { color:white; text-decoration: none; }
+div.footer a:visited.mailto { color:white; text-decoration: none; }
+div.footer a:hover.mailto { color:white; text-decoration: underline; }
+div.footer a:active.mailto { color:white; text-decoration: underline; }
+div.footer a.image { opacity: .7;  }
+div.footer a:hover.image { opacity: 1;  }
 
-div.footer a:link { color:white; text-decoration: none; }
-div.footer a:visited { color:white; text-decoration: none; }
-div.footer a:hover { color:white; text-decoration: underline; }
-div.footer a:active { color:white; text-decoration: underline; }
 
