@@ -61,6 +61,7 @@ Just some useful tech links:
 * https://app.haikei.app/
 * https://www.windguru.cz/help.php?sec=distr
 * https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+* https://experienceleague.adobe.com/docs/target/using/experiences/vec/mobile-viewports.html
 
 Python3 is also required but comes preinstalled on OSX
 
@@ -68,3 +69,4 @@ Python3 is also required but comes preinstalled on OSX
 https://www.geeksforgeeks.org/how-to-install-pil-on-macos/
 python3 -m pip install --upgrade Pillow
 https://note.nkmk.me/en/python-pillow-square-circle-thumbnail/
+
