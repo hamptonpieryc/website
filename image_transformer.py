@@ -12,20 +12,26 @@ def crop_center(pil_img, crop_width, crop_height):
                          (img_height + crop_height) // 2))
 
 
+# xxxxxxxxxxxxxx
+# xxxxxxxxxxxxxx
+# xxxxxxxxxxxxxx
+#
+# xxxxxx
+# xxxxxx
+# xxxxxx
+
 def crop_letterbox(pil_img, ratio):
     img_width, img_height = pil_img.size
     if img_height * ratio > img_width:
-
-        # cropping top/bottom
+        # cropping top/bottom (too high)
         cropped_height = img_height / ratio
-        cropping = (img_height - cropped_height) / 2
+        cropping = int((img_height - cropped_height) / 2)
         return pil_img.crop((0, cropping, img_width, img_height - cropping))
     else:
-        # cropping sides
-        return pil_img.crop(((img_width - crop_width) // 2,
-                             (img_height - crop_height) // 2,
-                             (img_width + crop_width) // 2,
-                             (img_height + crop_height) // 2))
+        # cropping sides (too wide)
+        cropped_width = img_height * ratio
+        cropping = int((img_width - cropped_width) / 2)
+        return pil_img.crop((cropping, 0, img_width - cropping, img_height))
 
 
 def crop_best_square(pil_img):
@@ -75,24 +81,42 @@ class ImagePipeline:
             if path.suffix == ".jpeg" or path.suffix == ".png":
                 parent = str(path.parent)
                 if parent.startswith("content/images/square/"):
-                    tail = parent[len("content/images/square/"):]
-                    output_dir = "./images/square/" + tail
-                    try:
-                        makedirs(output_dir)
-                    except OSError as e:
-                        1 == 1  # do nothing
+                    self.crop_to_square(file, path, 200, "-small")
+                    self.crop_to_square(file, path, 512, "")
+                elif parent.startswith("content/images/letterbox/"):
+                    self.crop_to_letterbox(file, path, 640, "-small")
+                    self.crop_to_letterbox(file, path, 1024, "")
+                    self.crop_to_letterbox(file, path, 2048, "-large")
 
-                    self.crop_to_square(file, output_dir, path, 200, "-small")
-                    self.crop_to_square(file, output_dir, path, 512, "")
 
-    @staticmethod
-    def crop_to_square(file, output_dir, path, size, suffix):
-        output_file = output_dir + "/" + path.stem + suffix + path.suffix
+    def crop_to_square(self, file, path, size, suffix):
+        parent = str(path.parent)
+        tail = parent[len("content/images/square/"):]
+        self.make_dirs(self.output_dir + "/images/square/" + tail)
+        output_file = self.output_dir + "/images/square/" + tail + "/" + path.stem + suffix + path.suffix
         with open(file, "r") as f:
             print("Processing content in: " + file + " as a square image to " + output_file)
             crop_best_square(Image.open(file)) \
                 .resize((size, size), Image.LANCZOS) \
                 .save(output_file, quality=95)
+
+    def crop_to_letterbox(self, file, path, size, suffix):
+        parent = str(path.parent)
+        tail = parent[len("content/images/letterbox/"):]
+        self.make_dirs(self.output_dir + "/images/letterbox/" + tail)
+        output_file = self.output_dir + "/images/letterbox/" + tail + "/" + path.stem + suffix + path.suffix
+        with open(file, "r") as f:
+            print("Processing content in: " + file + " as a letterbox image to " + output_file)
+            crop_letterbox(Image.open(file), 3) \
+                .resize((size, int(size / 3)), Image.LANCZOS) \
+                .save(output_file, quality=95)
+
+    @staticmethod
+    def make_dirs(dir_name):
+        try:
+            makedirs(dir_name)
+        except OSError as e:
+            1 == 1  # do nothing
 
 
 ImagePipeline(".", ".").run()
