@@ -1,4 +1,4 @@
-from PIL import Image, ImageDraw, ImageFilter
+from PIL import Image, ImageDraw, ImageFont
 from os import walk, makedirs
 
 from pathlib import Path
@@ -88,7 +88,6 @@ class ImagePipeline:
                     self.crop_to_letterbox(file, path, 1024, "")
                     self.crop_to_letterbox(file, path, 2048, "-large")
 
-
     def crop_to_square(self, file, path, size, suffix):
         parent = str(path.parent)
         tail = parent[len("content/images/square/"):]
@@ -110,6 +109,13 @@ class ImagePipeline:
             crop_letterbox(Image.open(file), 3) \
                 .resize((size, int(size / 3)), Image.LANCZOS) \
                 .save(output_file, quality=95)
+            title_text = "size=" + str(size)
+            im = Image.open(output_file)
+            # font = ImageFont.truetype("arial.ttf", 20)
+
+            image_editable = ImageDraw.Draw(im)
+            image_editable.text(xy=(15, 15), text=title_text)
+            im.save(output_file)
 
     @staticmethod
     def make_dirs(dir_name):
