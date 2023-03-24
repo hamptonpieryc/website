@@ -66,7 +66,11 @@ def test_content_panel_transform():
         <div class="columns col-gapless hpyc-section">
             <div class="column col-3 col-md-4">
                 <span class="hpyc-image">
-                    <img class="img-responsive" src="image.jpg">
+                    <picture>
+                        <source media="(max-width: 640px)" srcset="image-small.jpg"/>
+                        <source media="(min-width: 641px)" srcset="image.jpg"/>
+                        <img class="img-responsive" src="image.jpg">
+                    </picture>
                 </span>
             </div>
             <div class="column col-9 col-md-8">
