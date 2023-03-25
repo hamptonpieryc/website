@@ -1,5 +1,6 @@
 from PIL import Image, ImageDraw, ImageFont
 from os import walk, makedirs
+import shutil
 
 from pathlib import Path
 
@@ -87,6 +88,13 @@ class ImagePipeline:
                     self.crop_to_letterbox(file, path, 640, "-small")
                     self.crop_to_letterbox(file, path, 1024, "")
                     self.crop_to_letterbox(file, path, 2048, "-large")
+                else:
+                    parent = str(path.parent)
+                    tail = parent[len("content/images/"):]
+                    self.make_dirs(self.output_dir + "/images/" + tail)
+                    output_file = self.output_dir + "/images/" + tail + "/" + path.stem + path.suffix
+                    print("Copying image: " + file + " to " + output_file)
+                    shutil.copy2(file, output_file)  # complete target filename given
 
     def crop_to_square(self, file, path, size, suffix):
         parent = str(path.parent)
