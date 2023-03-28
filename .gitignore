@@ -1,1 +1,10 @@
+# Intellij
+vcs.xml
 .idea
+
+# OSX
+ .DS_Store
+
+# testing
+.pytest_cache
+.testing
