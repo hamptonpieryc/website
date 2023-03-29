@@ -1,7 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
-from os import walk, makedirs
+from os import walk
 import shutil
-
+from utils import make_dirs
 from pathlib import Path
 
 
@@ -12,14 +12,6 @@ def crop_center(pil_img, crop_width, crop_height):
                          (img_width + crop_width) // 2,
                          (img_height + crop_height) // 2))
 
-
-# xxxxxxxxxxxxxx
-# xxxxxxxxxxxxxx
-# xxxxxxxxxxxxxx
-#
-# xxxxxx
-# xxxxxx
-# xxxxxx
 
 def crop_letterbox(pil_img, ratio):
     img_width, img_height = pil_img.size
@@ -41,25 +33,6 @@ def crop_best_square(pil_img):
 
 def crop_best_letterbox(pil_img):
     return crop_center(pil_img, min(pil_img.size) * 4, min(pil_img.size))
-
-
-# def crop_best_letterbox(pil_img):
-#     pil_img.size
-#     return crop_center(pil_img, min(pil_img.size), min(pil_img.size))
-
-
-# thumb_width = 200
-# crop_best_square(Image.open('content/images/square/looking-to-join/kayak.jpeg')) \
-#     .resize((thumb_width, thumb_width), Image.LANCZOS) \
-#     .save('images/kayak-square-200.jpeg', quality=95)
-#
-# thumb_width = 600
-# crop_best_square(Image.open('content/images/square/looking-to-join/kayak.jpeg')) \
-#     .resize((thumb_width, thumb_width), Image.LANCZOS) \
-#     .save('images/kayak-square-600.jpeg', quality=95)
-#
-# crop_letterbox(Image.open('content/images/square/looking-to-join/kayak.jpeg'), 4) \
-#     .save('images/kayak-letterbox-800.jpeg', quality=95)
 
 
 class ImagePipeline:
@@ -91,7 +64,7 @@ class ImagePipeline:
                 else:
                     parent = str(path.parent)
                     tail = parent[len("content/images/"):]
-                    self.make_dirs(self.output_dir + "/images/" + tail)
+                    make_dirs(self.output_dir + "/images/" + tail)
                     output_file = self.output_dir + "/images/" + tail + "/" + path.stem + path.suffix
                     print("Copying image: " + file + " to " + output_file)
                     shutil.copy2(file, output_file)  # complete target filename given
@@ -99,7 +72,7 @@ class ImagePipeline:
     def crop_to_square(self, file, path, size, suffix):
         parent = str(path.parent)
         tail = parent[len("content/images/square/"):]
-        self.make_dirs(self.output_dir + "/images/square/" + tail)
+        make_dirs(self.output_dir + "/images/square/" + tail)
         output_file = self.output_dir + "/images/square/" + tail + "/" + path.stem + suffix + path.suffix
         with open(file, "r") as f:
             print("Processing content in: " + file + " as a square image to " + output_file)
@@ -114,7 +87,7 @@ class ImagePipeline:
     def crop_to_letterbox(self, file, path, size, suffix):
         parent = str(path.parent)
         tail = parent[len("content/images/letterbox/"):]
-        self.make_dirs(self.output_dir + "/images/letterbox/" + tail)
+        make_dirs(self.output_dir + "/images/letterbox/" + tail)
         output_file = self.output_dir + "/images/letterbox/" + tail + "/" + path.stem + suffix + path.suffix
         with open(file, "r") as f:
             print("Processing content in: " + file + " as a letterbox image to " + output_file)
@@ -125,13 +98,6 @@ class ImagePipeline:
             image_editable = ImageDraw.Draw(im)
             image_editable.text(xy=(15, 15), text="size=" + str(size))
             im.save(output_file)
-
-    @staticmethod
-    def make_dirs(dir_name):
-        try:
-            makedirs(dir_name)
-        except OSError as e:
-            1 == 1  # do nothing
 
 
 ImagePipeline(".", ".").run()
