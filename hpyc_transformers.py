@@ -44,6 +44,7 @@ class ContentPanelTransformer(Transform):
         #  capture the date needed from the DOM
         for node in nodes:
             if node.tag == 'p':
+                print(node)
                 paras.append(str(node.text))
             elif node.tag == 'header':
                 header = str(node.text)

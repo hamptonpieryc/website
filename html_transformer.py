@@ -99,6 +99,23 @@ class Transformer:
             node = tree.find(".").find(self.__the_transform.outer_tag)
             if node is not None:
                 nodes = node.findall("*")
+                #nodes = []
+                #for child in node:
+                #    nodes.append(self.expand(child))
                 return self.__the_transform.transform(nodes)
             else:
                 return raw
+
+    def expand(self, node):
+        inner = node.text
+        if next(node.iter()):
+            for child in node:
+                print(child)
+                attrs = ''
+                for attr in child.attrib:
+                    raise "todo - rebuild the attribs string"
+                    attrs = attrs + str(attr)
+
+                inner = inner + '<' + child.tag + '>' + child.text + '</' + child.tag + '>'
+        node.text = inner
+        return node
