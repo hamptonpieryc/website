@@ -43,7 +43,7 @@ class TransformingParser(BaseParser):
         self.tag_names = list(map(lambda x: x.outer_tag, self.transformers))
         self.captured = []
 
-    def handle_captured(self, tag_name, captured):
+    def handle_captured(self, tag_name, captured, attrs):
         fully_captured = "<" + tag_name + ">" + ''.join(captured) + "</" + tag_name + ">"
         filtered = list(filter(lambda t: t.outer_tag == tag_name, self.transformers))
         if len(filtered) == 1:
@@ -63,9 +63,9 @@ class CaptureElementsParser(BaseParser):
         self.tag_names = tag_names
         self.captured = []
 
-    def handle_captured(self, tag_name, captured):
+    def handle_captured(self, tag_name, captured, attrs):
         fully_captured = ''.join(captured)
-        self.captured.append((tag_name, fully_captured))
+        self.captured.append((tag_name, fully_captured, attrs))
 
 
 class Transformer:

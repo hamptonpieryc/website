@@ -13,6 +13,7 @@ class BaseParser(HTMLParser):
         self.tag_names = tag_names
         self.capture_buffer = []
         self.content_buffer = content_buf
+        self.capture_attrs = {}
 
     def __pick_buffer(self):
         if self.capture_mode:
@@ -26,6 +27,7 @@ class BaseParser(HTMLParser):
         if tag in self.tag_names and not self.capture_mode:
             self.capture_mode = True
             self.current_tag = tag
+            self.capture_attrs = {x[0]: x[1] for x in attrs}
             return
 
         if self.capture_mode and not tag == self.current_tag:
@@ -45,9 +47,10 @@ class BaseParser(HTMLParser):
                 self.capture_buffer.append("</" + tag + ">")
             else:
                 self.capture_mode = False
-                self.handle_captured(self.current_tag, self.capture_buffer)
+                self.handle_captured(self.current_tag, self.capture_buffer, self.capture_attrs)
                 self.current_tag = ''
                 self.capture_buffer = []
+                self.capture_attrs = {}
         else:
             self.content_buffer.append("</" + tag + ">")
 
@@ -60,7 +63,7 @@ class BaseParser(HTMLParser):
     def handle_entityref(self, name):
         self.__pick_buffer().append('&' + name + ';')
 
-    def handle_captured(self, tag_name, captured):
+    def handle_captured(self, tag_name, captured, attrs):
         fully_captured = "<" + tag_name + ">" + ''.join(captured) + "</" + tag_name + ">"
         print(fully_captured)
         self.content_buffer.extend(fully_captured)

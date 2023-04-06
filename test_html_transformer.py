@@ -1,4 +1,5 @@
-from html_transformer import Transform, Transformer, NestedTransform, TransformingParser, DomTransformer, CaptureElementsParser
+from html_transformer import Transform, Transformer, NestedTransform, TransformingParser, DomTransformer, \
+    CaptureElementsParser
 
 
 class FooTransform(Transform):
@@ -103,15 +104,16 @@ def test_should_produce_lookup_of_captured_elements():
                <html>
                <body>
                    <foo><p>Foo</p></foo>
-                   <bar>BAR</bar>
+                   <bar class="wibble">BAR</bar>
                </body>
                </html>"""
 
-    expected = [('foo', '<p>Foo</p>'), ('bar', 'BAR')]
+    expected = [('foo', '<p>Foo</p>', {}), ('bar', 'BAR', {'class': 'wibble'})]
 
     parser = CaptureElementsParser(['foo', 'bar'])
     parser.feed(raw_html)
     assert expected == parser.captured
+
 
 
 def test_should_apply_nested_transformers():
@@ -145,7 +147,7 @@ def test_should_apply_nested_transformers():
     assert ''.join(buffer) == output_html
 
 
-def test_should_convert_to_domlike():
+def test_should_convert_html_to_domlike():
     raw_html = """
                 <container>
                     <span>a span</span>
@@ -165,5 +167,3 @@ def test_should_convert_to_domlike():
     div1 = dom[2]
     assert div1["tag"] == "div"
     assert div1["inner_html"] == "a div with <span class=\"nested\">nested</span> span"
-
-

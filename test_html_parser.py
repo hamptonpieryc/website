@@ -70,7 +70,7 @@ def test_subclass_can_override_handle_captured():
         def __init__(self, content_buffer):
             BaseParser.__init__(self, content_buffer, ['foo'])
 
-        def handle_captured(self, tag_name, captured):
+        def handle_captured(self, tag_name, captured, attrs):
             self.content_buffer.extend(''.join(captured).upper())
 
     raw_html = """
