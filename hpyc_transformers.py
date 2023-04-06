@@ -19,10 +19,10 @@ class TopPanelTransformer(Transform):
         result += '\t<div class=\"column col-12\">\n'
 
         for node in nodes:
-            if node.tag == 'header':
-                result += '\t\t' + '<h1>' + str(node.text) + '</h1>\n'
-            elif node.tag == 'p':
-                result += '\t\t' + '<p>' + str(node.text) + '</p>\n'
+            if node['tag'] == 'header':
+                result += '\t\t' + '<h1>' + node['inner_html'] + '</h1>\n'
+            elif node['tag'] == 'p':
+                result += '\t\t' + '<p>' + node['inner_html'] + '</p>\n'
 
         result += "\t" + '</div>\n'
         result += '</div>\n'
@@ -43,15 +43,14 @@ class ContentPanelTransformer(Transform):
 
         #  capture the date needed from the DOM
         for node in nodes:
-            if node.tag == 'p':
-                print(node)
-                paras.append(str(node.text))
-            elif node.tag == 'header':
-                header = str(node.text)
-            elif node.tag == 'img':
-                image["href"] = node.attrib["href"]
-            elif node.tag == 'a':
-                links.append({"href": node.attrib["href"], "link": str(node.text)})
+            if node['tag'] == 'p':
+                paras.append(node['inner_html'])
+            elif node['tag'] == 'header':
+                header = node['inner_html']
+            elif node['tag'] == 'img':
+                image["href"] = node["attrs"]["href"]
+            elif node['tag'] == 'a':
+                links.append({"href": node['attrs']["href"], "link": node['inner_html']})
 
         # Build the HTML snippet
         result = '\n'
@@ -91,7 +90,7 @@ class ContentPanelTransformer(Transform):
                 result += '\t\t\t<p>' + para
                 if para == paras[-1]:
                     result += '\n\t\t\t\t<button class="hpyc-less" onclick="collapse(\'' \
-                              + button_id + '\',\'' + more_content_id + '\')"></button>'
+                          + button_id + '\',\'' + more_content_id + '\')"></button>'
 
                 result += '\n\t\t\t</p>\n'
 

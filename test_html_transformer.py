@@ -9,8 +9,8 @@ class FooTransform(Transform):
     def transform(self, nodes: list) -> str:
         result = ''
         for node in nodes:
-            if node.tag == 'p':
-                result += '<div>' + str(node.text).upper() + '</div>'
+            if node['tag'] == 'p':
+                result += '<div>' + node['inner_html'].upper() + '</div>'
         return result
 
 
@@ -22,8 +22,8 @@ class BarTransform(Transform):
     def transform(self, nodes: list) -> str:
         result = ''
         for node in nodes:
-            if node.tag == 'header':
-                result += '<h1>' + str(node.text).upper() + '</h1>'
+            if node['tag'] == 'header':
+                result += '<h1>' + node['inner_html'].upper() + '</h1>'
         return result
 
 

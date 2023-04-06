@@ -84,25 +84,19 @@ class Transformer:
             buffer = []
             for captured in capture.captured:
                 tag = captured[0]
-                partial_html = '<root><' + tag + '>' + captured[1] + "</" + tag + "></root>"
-                tree = ElementTree.fromstring(partial_html)
-                nodes = tree.find(".").find(tag).findall("*")
                 for trans in self.__the_transform.transforms:
                     if trans.outer_tag == tag:
-                        buffer.append(trans.transform(nodes))
+                        dom_transformer = DomTransformer(tag)
+                        dom = dom_transformer.transform('<' + tag + '>' + captured[1] + "</" + tag + ">")
+                        buffer.append(trans.transform(dom))
                         buffer.append("\n")
 
             return ''.join(buffer)
         else:
-            tree = ElementTree.fromstring('<root>' + raw + "</root>")
-
-            node = tree.find(".").find(self.__the_transform.outer_tag)
-            if node is not None:
-                nodes = node.findall("*")
-                # nodes = []
-                # for child in node:
-                #    nodes.append(self.expand(child))
-                return self.__the_transform.transform(nodes)
+            dom_transformer = DomTransformer(self.__the_transform.outer_tag)
+            dom = dom_transformer.transform(raw)
+            if len(dom) > 0:
+                return self.__the_transform.transform(dom)
             else:
                 return raw
 
@@ -142,6 +136,6 @@ class DomTransformer(CaptureElementsParser):
             nodes = node.findall("*")
             self.tag_names = list(map(lambda x: x.tag, nodes))
             self.feed(raw)
-            return list(map(lambda x: {"tag": x[0], "inner_html": x[1]}, self.captured))
+            return list(map(lambda x: {"tag": x[0], "inner_html": x[1], "attrs": x[2]}, self.captured))
         else:
             return []

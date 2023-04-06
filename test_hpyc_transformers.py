@@ -56,7 +56,7 @@ def test_content_panel_transform():
         <hpyc-content-panel>
             <header>Example</header>
             <p>Paragraph 1</p>
-            <p>Paragraph Two</p>
+            <p>Paragraph <a href="alink">Two</a>.</p>
             <p>Last Paragraph</p>
             <img href=\"image.jpg\"></img>
             <a href="alink">A Link</a>
@@ -79,7 +79,7 @@ def test_content_panel_transform():
                     <button class="hpyc-more" id="id1" onclick="expand('id1','id2')"></button>
                 </p>
                 <div id="id2" style="display: none;">
-                    <p>Paragraph Two
+                    <p>Paragraph <a href="alink">Two</a>.
                     </p>
                     <p>Last Paragraph
                         <button class="hpyc-less" onclick="collapse('id1','id2')"></button>
