@@ -37,7 +37,7 @@ def test_top_panel_transform():
     """)
 
     expected = dedent("""
-        <div class="columns col-gapless hpyc-section">
+        <div class="columns col-gapless hpyc-section hpyc-top-panel">
             <div class="column col-12">
                 <h1>Example Page</h1>
                 <p>Paragraph 1</p>
@@ -63,7 +63,7 @@ def test_content_panel_transform():
         </hpyc-content-panel>""")
 
     expected = dedent("""
-        <div class="columns col-gapless hpyc-section">
+        <div class="columns col-gapless hpyc-section hpyc-content-panel">
             <div class="column col-3 col-md-4">
                 <span class="hpyc-image">
                     <picture>
