@@ -59,13 +59,32 @@ span.fundraising a:hover {
 }
 
 /* can these go? */
-.hpyc-content h1 {
+.xxxhpyc-content h1 {
   margin-top: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.hpyc-content p {
+.xxxhpyc-content p {
+  margin-left: 1rem;
+  margin-right: 1rem;;
+  _border: 2px solid red;
+}
+
+
+.hpyc-section h1 {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.hpyc-section p {
+  margin-left: 1rem;
+  margin-right: 1rem;;
+  _border: 2px solid red;
+}
+
+.hpyc-section .hpyc-image {
   margin-left: 1rem;
   margin-right: 1rem;;
   _border: 2px solid red;
