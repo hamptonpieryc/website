@@ -99,14 +99,15 @@ class Transformer:
             node = tree.find(".").find(self.__the_transform.outer_tag)
             if node is not None:
                 nodes = node.findall("*")
-                #nodes = []
-                #for child in node:
+                # nodes = []
+                # for child in node:
                 #    nodes.append(self.expand(child))
                 return self.__the_transform.transform(nodes)
             else:
                 return raw
 
-    def expand(self, node):
+    @staticmethod
+    def expand(node):
         inner = node.text
         if next(node.iter()):
             for child in node:
@@ -119,3 +120,28 @@ class Transformer:
                 inner = inner + '<' + child.tag + '>' + child.text + '</' + child.tag + '>'
         node.text = inner
         return node
+
+
+class DomTransformer(CaptureElementsParser):
+    """For the given input html extracts a DOM like structure for the
+       children of the top level element (the outer_tag), but unlike the DOM,
+       all the inner html is preserved"""
+
+    def __init__(self, outer_tag: str):
+        CaptureElementsParser.__init__(self, [])
+        self.outer_tag = outer_tag
+
+    def transform(self, raw) -> list:
+        # This is a two stage process.
+        #   1. find all the top level nodes using the dom
+        #   2. run the capturing parser for these tags and convert to a domlike structure
+
+        tree = ElementTree.fromstring('<root>' + raw + "</root>")
+        node = tree.find(".").find(self.outer_tag)
+        if node is not None:
+            nodes = node.findall("*")
+            self.tag_names = list(map(lambda x: x.tag, nodes))
+            self.feed(raw)
+            return list(map(lambda x: {"tag": x[0], "inner_html": x[1]}, self.captured))
+        else:
+            return []

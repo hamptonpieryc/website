@@ -1,4 +1,4 @@
-from html_transformer import Transform, Transformer, NestedTransform, TransformingParser, CaptureElementsParser
+from html_transformer import Transform, Transformer, NestedTransform, TransformingParser, DomTransformer, CaptureElementsParser
 
 
 class FooTransform(Transform):
@@ -143,3 +143,27 @@ def test_should_apply_nested_transformers():
     parser = TransformingParser(buffer, [nested])
     parser.feed(raw_html)
     assert ''.join(buffer) == output_html
+
+
+def test_should_convert_to_domlike():
+    raw_html = """
+                <container>
+                    <span>a span</span>
+                    <span class="foo">a span with class</span>
+                    <div>a div with <span class="nested">nested</span> span</div>
+                </container>"""
+
+    transformer = DomTransformer("container")
+    dom = transformer.transform(raw_html)
+    assert len(dom) == 3
+    span1 = dom[0]
+    assert span1["tag"] == "span"
+    assert span1["inner_html"] == "a span"
+    span2 = dom[1]
+    assert span2["tag"] == "span"
+    assert span2["inner_html"] == "a span with class"
+    div1 = dom[2]
+    assert div1["tag"] == "div"
+    assert div1["inner_html"] == "a div with <span class=\"nested\">nested</span> span"
+
+
