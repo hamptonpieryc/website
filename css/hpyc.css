@@ -101,8 +101,14 @@ span.fundraising a:hover {
 
 .hpyc-section h2 {
   margin-top: 0.3rem;
-  _margin-left: 1rem;
-  _margin-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.hpyc-section table {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-right: : 5rem;
 }
 
 .hpyc-section .hpyc-image  {
