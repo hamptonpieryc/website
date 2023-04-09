@@ -99,16 +99,20 @@ span.fundraising a:hover {
     _border: 2px solid pink;
 }
 
+.hpyc-content-panel h2 {
+  margin-top: 0.3rem;
+}
+
+.hpyc-table-panel table {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding-right: : 5rem;
+}
+
 .hpyc-section h2 {
   margin-top: 0.3rem;
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-.hpyc-section table {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  padding-right: : 5rem;
 }
 
 .hpyc-section .hpyc-image  {
