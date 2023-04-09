@@ -6,7 +6,6 @@ from utils import make_dirs
 import shutil
 
 
-
 class Pipeline:
     """ The pipeline that runs all tne the necessary HTML transforms and image manipulation"""
 
@@ -17,7 +16,7 @@ class Pipeline:
 
     def run(self):
         print("running the pipeline")
-        with open(self.input_dir + '/layout.html', "r") as f:
+        with open(self.input_dir + '/content/layout.html', "r") as f:
             layout = ''.join(f.readlines())
         print("layout.html is " + str(len(layout)) + " characters")
 
@@ -40,7 +39,8 @@ class Pipeline:
 
                     path = Path(i)
                     parent = str(path.parent)
-                    tail = parent[len("content/"):] if self.input_dir == '.' else parent[len(self.input_dir + "/content/"):]
+                    tail = parent[len("content/"):] if self.input_dir == '.' else parent[
+                                                                                  len(self.input_dir + "/content/"):]
                     tail = "/" if tail == "" else "/" + tail + "/"
                     make_dirs(self.output_dir + tail)
                     output_file = self.output_dir + tail + path.stem + path.suffix
@@ -52,9 +52,8 @@ class Pipeline:
                     path = Path(i)
                     parent = str(path.parent)
                     tail = parent[len("content/"):] if self.input_dir == '.' else parent[
-                                                                                   len(self.input_dir + "/content/"):]
+                                                                                  len(self.input_dir + "/content/"):]
                     tail = "/" if tail == "" else "/" + tail + "/"
                     make_dirs(self.output_dir + tail)
                     output_file = self.output_dir + tail + path.stem + path.suffix
                     shutil.copy2(i, output_file)  # complete target filename given
-

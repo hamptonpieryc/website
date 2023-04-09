@@ -1,0 +1,187 @@
+/* drop down menu */
+
+.nav {
+	margin: auto;
+	width: 790px;
+}
+
+.navigation{
+	height: 42px;
+	background-color: var(--menu-background);
+	text-align: center;
+	_border: 1px solid pink;
+}
+
+.xxnav ul {
+  border: 3px dotted green;
+  display: table;
+}
+
+.clearfix::after
+{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+#nav
+{
+    _width: 60em; /* 1000 */
+    font-weight: 400;
+    _width: 100%;
+    _position: relative;
+    margin: -16px 0 0 0;
+    z-index: 1000;
+}
+
+#nav > a
+{
+    display: none;
+}
+
+/* to undo spectre.css */
+#nav li ul li
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    _border: 2px solid green;
+}
+
+#nav li
+{
+    position: relative;
+    list-style: none;
+}
+
+#nav li a
+{
+    color: var(--menu-text);
+    display: block;
+    text-decoration: none;
+}
+
+#nav li a:active
+{
+    background-color: #666 !important;
+}
+
+
+#ccnav span:after
+{
+    width: 0;
+    height: 0;
+    border: 0.313em solid transparent; /* 5 */
+    border-bottom: none;
+    border-top-color: var(--menu-text);
+    content: '';
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    right: -0.313em; /* 5 */
+}
+
+/* first level */
+
+#nav > ul
+{
+    height: 42px;
+    _background-color: #333;
+    background-color: var(--menu-background);
+    display: flex;
+}
+
+#nav > ul > li
+{
+/*	width: 25%;
+    height: 100%;*/
+    float: left;
+    margin-top: 0px;
+    _border: 1px solid green;
+}
+
+#nav > ul > li > a, #nav > ul > li.nolink
+{
+/*	height: 100%;*/
+    font-size: 14px; /* 24 */
+    line-height: 1.5em; /* 60 (24) */
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+    color: var(--menu-text);
+
+    _border: 1px solid pink;
+}
+
+#nav > ul > li:not( :last-child ) > a, #nav > ul > li.nolink
+{
+    border-right: 2px solid var(--menu-divider);
+}
+
+#nav > ul > li:hover > a, #nav > ul:not( :hover ) > li.active > a
+{
+    background-color: var(--menu-selected);
+    text-decoration: underline;
+
+}
+
+
+/* second level */
+
+#nav li ul
+{
+    background-color: var(--menu-background);
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 200px;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 0px;
+    _border: 2px solid blue;
+    _background-color: #265fd9;
+    background-color: var(--menu-background);
+
+}
+
+#nav li:hover ul
+{
+    display: block;
+    left: 0;
+    right: 0;
+}
+
+#nav li:not( :first-child ):hover ul
+{
+    left: -1px;
+}
+
+#nav li ul a
+{
+    font-size: 0.9em; /* 20 */
+    border-top: 1px solid #000;
+    padding: 0.75em; /* 15 (20) */
+    margin-left: 0px;
+    background-color: var(--menu-background);
+    _border: 2px solid orange;
+}
+
+#nav > ul > li> ul > li:not( :last-child )
+{
+    border-bottom: 2px solid var(--menu-divider);
+}
+
+#nav li ul li a:hover,
+#nav li ul:not( :hover ) li.active a
+{
+    background-color: var(--menu-selected);
+    text-decoration: underline;
+}
+
+.notalink {
+	cursor: default;
+}
+.notalink:active
+	{
+	_background-color: #333 !important;
+	background-color: #ff3333 !important;
+}
+

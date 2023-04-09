@@ -100,7 +100,7 @@ class ImagePipeline:
             im.save(output_file)
 
 
-ImagePipeline(".", ".").run()
+ImagePipeline(".", "site").run()
 
 # crop_best_square(Image.open('test_content/images/discover-sailing.png')) \
 #     .resize((thumb_width, thumb_width), Image.LANCZOS) \

@@ -1,6 +1,7 @@
 from html.parser import HTMLParser
 from transformer import Transformer
 
+
 class BaseParser(HTMLParser):
     """A base html parser that can look for specified tag(s).
     Normally a class should just override handle_captured method
@@ -69,4 +70,3 @@ class BaseParser(HTMLParser):
             self.content_buffer.extend(transformer.transform(fully_captured))
         else:
             self.content_buffer.extend(fully_captured)
-

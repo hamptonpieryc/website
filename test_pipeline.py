@@ -56,7 +56,7 @@ def test_should_apply_layout_to_file():
 
     # create test data
     test_dirs = create_test_directories()
-    create_text_file(test_dirs[0] + '/layout.html', layout)
+    create_text_file(test_dirs[0] + '/content/layout.html', layout)
     create_text_file(test_dirs[0] + '/content/page1.html', page1)
 
     pipeline = Pipeline(test_dirs[0], test_dirs[1], [FooTransform()])
