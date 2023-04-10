@@ -51,6 +51,12 @@ span.fundraising a:hover {
     opacity: 1.0;
 }
 
+div.hpyc-panel {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 /* standard content page */
 .xxxx_hpyc-page {
    margin-left:30px;

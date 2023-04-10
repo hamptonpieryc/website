@@ -7,6 +7,7 @@
 }
 }
 
+
 /* small in spectre.css scaling */
 @media only screen and ( max-width: 600px )
 {
@@ -23,5 +24,10 @@ h2 {
  _border: 2px solid blue;
  font-size: 28px;
 
+}
+div.hpyc-panel {
+  margin-top: 0.5rem;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 }
