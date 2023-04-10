@@ -160,23 +160,45 @@ span.hpyc-image  {
 }
 
 /* more and less buttons */
-.hpyc-more {
+.xxhpyc-more {
     border: none;
     background-color: white;
     color: var(--hpyc-text);
     padding: 2px;
     text-decoration: dotted underline;
+}
+
+.hpyc-more {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    color: var(--hpyc-text);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin:0px;
 }
 .hpyc-more:before {
     content: "more >";
 }
 
-.hpyc-less {
+.xxhpyc-less {
     border: none;
     background-color: white;
     color: var(--hpyc-text);
     padding: 2px;
     text-decoration: dotted underline;
+}
+
+.hpyc-less {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    color: var(--hpyc-text);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    _margin:0px;
 }
 .hpyc-less:before {
     content: "< less";
