@@ -176,15 +176,28 @@ span.hpyc-image  {
     text-decoration: dotted underline;
 }
 
-.hpyc-more {
-    border: 1px solid #ccc;
-    background-color: #ccc;
+.hpyc-action-button {
+    border: 1px solid #888;
+    border-radius: 2px;
+    background-color: #eee;
     color: var(--hpyc-text);
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 3px;
     padding-right: 3px;
-    margin:0px;
+    margin: 0px;
+}
+
+.hpyc-more {
+    border: 1px solid #888;
+    border-radius: 2px;
+    background-color: #eee;
+    color: var(--hpyc-text);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0px;
 }
 .hpyc-more:before {
     content: "more >";
@@ -199,14 +212,15 @@ span.hpyc-image  {
 }
 
 .hpyc-less {
-    border: 1px solid #ccc;
-    background-color: #ccc;
+    border: 1px solid #888;
+    border-radius: 2px;
+    background-color: #eee;
     color: var(--hpyc-text);
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 3px;
     padding-right: 3px;
-    _margin:0px;
+    margin:0px;
 }
 .hpyc-less:before {
     content: "< less";
