@@ -53,15 +53,17 @@ span.fundraising a:hover {
 
 div.hpyc-panel {
   margin-top: 0.5rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  _margin-left: 1rem;
+  _margin-right: 1rem;
+  _border: 2px solid green;
 }
 
 /* standard content page */
-.xxxx_hpyc-page {
-   margin-left:30px;
-   margin-right:30px;
-   border: 2px solid var(--hpyc-red);
+div.hpyc-page {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  _border: 2px solid pink;
 }
 
 /* can these go? */
@@ -79,20 +81,20 @@ div.hpyc-panel {
 
 
 .hpyc-section h1 {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  _margin-top: 0.5rem;
+  _margin-left: 1rem;
+  _margin-right: 1rem;
 }
 
 .hpyc-top-panel p {
-  margin-left: 1rem;
-  margin-right: 1rem;;
+  _margin-left: 1rem;
+  _margin-right: 1rem;;
   _border: 2px solid red;
 }
 
 .hpyc-section .hpyc-image {
-  margin-left: 1rem;
-  margin-right: 1rem;;
+  _margin-left: 1rem;
+  _margin-right: 1rem;;
   _border: 2px solid red;
 }
 
@@ -110,14 +112,14 @@ div.hpyc-panel {
 }
 
 .hpyc-table-panel table {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  _margin-left: 1rem;
+  _margin-right: 1rem;
   padding-right: : 5rem;
 }
 
 .hpyc-table-panel p {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  _margin-left: 1rem;
+  _margin-right: 1rem;
 
 }
 
