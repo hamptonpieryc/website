@@ -98,10 +98,11 @@ class ContentPanelTransformer(Transform):
 
         if len(links) > 0:
             result += "\t\t" + '<span class="hpyc-link-bar">\n'
+            result += '\t\t\t'
             for link in links:
-                result += '\t\t\t<a href="' + link["href"] + '">' + link["link"] + '</a>\n'
+                result += '<a href="' + link["href"] + '">' + link["link"] + '</a>&#8203;'
 
-            result += "\t\t" + '</span>\n'
+            result += "\n\t\t" + '</span>\n'
 
         result += "\t" + '</div>\n'
         result += '</div>\n'

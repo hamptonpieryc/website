@@ -86,7 +86,7 @@ def test_content_panel_transform():
                     </p>
                 </div>
                 <span class="hpyc-link-bar">
-                    <a href="alink">A Link</a>
+                    <a href="alink">A Link</a>&#8203;
                 </span>
             </div>
         </div>

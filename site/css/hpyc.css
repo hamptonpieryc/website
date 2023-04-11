@@ -181,7 +181,7 @@ span.hpyc-image  {
 
 .hpyc-link-bar > a:not(:first-child) {
      /* css hack to account for "hidden" space between each anchor by reducing the padding */
-     padding-left: 8px;
+     _padding-left: 8px;
 }
 
 /* more and less buttons */
