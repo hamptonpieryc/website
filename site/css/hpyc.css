@@ -148,13 +148,25 @@ span.hpyc-image  {
     border: 2px solid var(--hero-background);
 }
 
+.hpyc-link-bar {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin : 0px;
+    background-color: var(--menu-background);
+    _margin:10px;
+    _border: 1px solid yellow;
+    /* hacking a line gap to make multiline look ok */
+    line-height: 1.9;
+}
+
 /* in content menu bar */
 .hpyc-link-bar a {
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: var(--menu-text);
     white-space: nowrap;
-    _margin: 0px;
-    _border: 3px solid orange;
 }
 
 .hpyc-link-bar a:hover {
@@ -162,21 +174,20 @@ span.hpyc-image  {
     text-decoration: underline;
 }
 
-.hpyc-link-bar {
-    padding: 5px;
-    background-color: var(--menu-background);
-    _margin:10px;
-    _border-top: 1px solid white;
-    line-height: 1.9;
-}
 
 .hpyc-link-bar > a:not(:last-child) {
     border-right: 2px solid var(--menu-divider);
 }
 
+.hpyc-link-bar > a:not(:first-child) {
+     /* css hack to account for "hidden" space between each anchor by reducing the padding */
+     padding-left: 8px;
+}
+
 /* more and less buttons */
 .xxhpyc-more {
     border: none;
+
     background-color: white;
     color: var(--hpyc-text);
     padding: 2px;
