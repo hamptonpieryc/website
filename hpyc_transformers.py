@@ -100,6 +100,9 @@ class ContentPanelTransformer(Transform):
             result += "\t\t" + '<span class="hpyc-link-bar">\n'
             result += '\t\t\t'
             for link in links:
+                # note we use a 'zero width' space here to get the correct display - the space
+                # will force breaks between links if the page is not wide enough, but as they are
+                # 'zero width' it won't introduce hidden padding between each link
                 result += '<a href="' + link["href"] + '">' + link["link"] + '</a>&#8203;'
 
             result += "\n\t\t" + '</span>\n'
