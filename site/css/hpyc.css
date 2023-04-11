@@ -153,6 +153,8 @@ span.hpyc-image  {
     padding: 5px;
     color: var(--menu-text);
     white-space: nowrap;
+    _margin: 0px;
+    _border: 3px solid orange;
 }
 
 .hpyc-link-bar a:hover {
@@ -163,6 +165,9 @@ span.hpyc-image  {
 .hpyc-link-bar {
     padding: 5px;
     background-color: var(--menu-background);
+    _margin:10px;
+    _border-top: 1px solid white;
+    line-height: 1.9;
 }
 
 .hpyc-link-bar > a:not(:last-child) {
