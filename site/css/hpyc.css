@@ -152,7 +152,9 @@ span.hpyc-image  {
 .hpyc-link-bar a {
     padding: 5px;
     color: var(--menu-text);
+    white-space: nowrap;
 }
+
 .hpyc-link-bar a:hover {
     background-color: var(--menu-selected);
     text-decoration: underline;
