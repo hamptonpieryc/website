@@ -29,6 +29,9 @@
        padding-right:10px;
     }
 
+    .icon {
+      color:blue;
+    }
 
 
     /* trick columns into being the same height, see - https://stackoverflow.com/questions/2997767/how-do-i-keep-two-side-by-side-div-elements-the-same-height */
@@ -45,11 +48,14 @@
             padding-top: 10px;
         }
     }
-    @media only screen and ( max-width: 841px ){
+    @media only screen and ( max-width: 840px ){
         div.inner {
             padding: 10px;
             margin-top: 5px;
             margin-bottom: 5px;
+        }
+        br.fudge-a-space {
+            display: none;
         }
     }
 
@@ -79,7 +85,7 @@
         top: 0;
         width: 100%;
         height: 100%;
-        opacity: 0.2;
+        opacity: 0.3;
         background-image: url("https://www.hamptonpier.club/images/square/gallery/boats-on-beach.jpeg");
         background-repeat: no-repeat;
         background-position: 50% 0;
@@ -93,21 +99,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </style>
+<link rel="stylesheet" href="css/icon.css" media="all"/>
+
 <div class="container">
 
 
@@ -141,6 +135,12 @@
                             <td><b>Cadet</b> (up to 16) <b>&#163;37</b></td>
                         </tr>
                     </table>
+                    <br>
+                    <p>
+                        <i class="icon icon-flag"></i>&nbsp; For novice and intermediate sailors, the Club runs a <a
+                            href="sailing/training.html">free training</a> over the season based
+                        on the RYA level 2 course.
+                    </p>
                 </div>
             </div>
             <div class="column same-height-column col-6 col-md-12">
@@ -148,9 +148,10 @@
                     <h2>Social and non sailors</h2>
                     <p>Social members don't have voting rights and are not expected to perform <a
                             href="the-club/duties.html">sailing duties</a>,
-                        otherwise the rights and expectations are the same as sailing memberships.
+                        otherwise the rights and expectations are the same as for sailing memberships.
                     </p>
-                    <p>Those wishing to join and use the Club as a base for activities such as kayaking and open water
+                    <p>Those wishing to join the Club and use it as a base for activities such as kayaking and open
+                        water
                         swimming join under this category.
                     </p>
                     <table class="fees">
@@ -163,6 +164,7 @@
                             <td><b>Single </b>(over 21)<b> &#163;55</b></td>
                         </tr>
                     </table>
+                    <br>
                     <p><i>Please note that the Club only permits the use of non-powered water craft and reserves
                         the right to restrict some types. Kayaks, Canoes and Paddleboards are all
                         permitted. <a href="the-club/contact-us.html>">Contact us</a> if unsure.</i></p>
@@ -170,7 +172,7 @@
             </div>
         </div>
 
-        <br>
+        <br class="fudge-a-space">
 
         <div class="columns same-height-columns">
             <div class="column same-height-column col-6 col-md-12">
@@ -187,6 +189,7 @@
                             <td><b>Sail Locker</b> Space per boat &#163;18<b></td>
                         </tr>
                     </table>
+                    <br>
 
                     <p><i>Boat parking is only available to full sailing members of the club.
                         Boat Parking and Sail Locker Space is subject to availability and not guaranteed.
