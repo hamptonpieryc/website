@@ -1,0 +1,77 @@
+<style>
+    .fees td {
+        text-align: center;
+        border: 1px solid pink;
+    }
+
+    .foo {
+       border: 2px solid blue;
+       margin-left:10px;
+       margin-right:10px;
+
+    }
+
+
+    /* see https://www.digitalocean.com/community/tutorials/how-to-change-a-css-background-images-opacity */
+    div.hpyc-page  {
+        position: relative;
+    }
+    div.hpyc-page:before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.2;
+        background-image: url("/images/square/looking-to-join/beginner.jpeg");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+    }
+
+    __div.hpyc-page {
+        position: relative;
+    }
+
+
+</style>
+<div class="container">
+
+
+    <div class="hpyc-page ">
+        <h1>Membership Fees</h1>
+        <p>The 2023 prices are below. Please note that there is no joining fee</p>
+
+        <div class="columns  hpyc-section hpyc-top-panel">
+            <div class="column col-4 foo">
+                <h2>Sailing</h2>
+                <p>todo - Some naoe</p>
+                <table class="fees">
+                    <tr>
+                        <td><b>Family</b> incl children aged 8-21 &#163;184</td>
+                    <tr>
+                        <td>Partners incl children 0-7 &#163;160</td>
+                    </tr>
+
+
+
+                </table>
+            </div>
+            <div class="column col-4 foo">
+                <h2>Social</h2>
+                <table>
+
+                </table>
+            </div>
+            <div class="column col-4 foo">
+                <h2>Notes</h2>
+                <table>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
