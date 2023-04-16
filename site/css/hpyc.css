@@ -268,3 +268,6 @@ div.footer a.image { opacity: .7;  }
 div.footer a:hover.image { opacity: 1;  }
 
 
+span.icon {
+  color: var(--hero-background);
+}
