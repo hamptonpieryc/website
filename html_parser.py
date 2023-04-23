@@ -1,4 +1,5 @@
 from html.parser import HTMLParser
+import traceback
 
 
 class BaseParser(HTMLParser):
@@ -47,7 +48,13 @@ class BaseParser(HTMLParser):
                 self.capture_buffer.append("</" + tag + ">")
             else:
                 self.capture_mode = False
-                self.handle_captured(self.current_tag, self.capture_buffer, self.capture_attrs)
+                try:
+                    self.handle_captured(self.current_tag, self.capture_buffer, self.capture_attrs)
+                except Exception as ex:
+                    print("opps")
+                    print(ex)
+                    traceback.print_exc()
+
                 self.current_tag = ''
                 self.capture_buffer = []
                 self.capture_attrs = {}
