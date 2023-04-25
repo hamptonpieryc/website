@@ -17,7 +17,7 @@ def crop_letterbox(pil_img, ratio):
     img_width, img_height = pil_img.size
     if img_height * ratio > img_width:
         # cropping top/bottom (too high)
-        cropped_height = img_height / ratio
+        cropped_height = img_width / ratio
         cropping = int((img_height - cropped_height) / 2)
         return pil_img.crop((0, cropping, img_width, img_height - cropping))
     else:
