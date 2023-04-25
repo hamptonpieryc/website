@@ -271,3 +271,20 @@ div.footer a:hover.image { opacity: 1;  }
 span.icon {
   color: var(--hero-background);
 }
+
+/* have square blue lists - see https://www.w3schools.com/HOWTO/howto_css_bullet_color.asp */
+.hpyc-content-panel ul li {
+    border: 1px solid green;
+    list-style-type: none;
+    _margin: 0;
+    _padding: 0;
+}
+
+.hpyc-content-panel ul li::before {
+    content: "\25AA";  /* Add content: \25AA is the CSS Code/unicode for a square */
+    color: var(--hero-background); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
