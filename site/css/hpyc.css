@@ -273,11 +273,11 @@ span.icon {
 }
 
 /* have square blue lists - see https://www.w3schools.com/HOWTO/howto_css_bullet_color.asp */
-.hpyc-content-panel ul li {
+.hpyc-section ul li {
     list-style-type: none;
 }
 
-.hpyc-content-panel ul li::before {
+.hpyc-section ul li::before {
     content: "\25AA";  /* Add content - CSS Code/unicode for a square */
     color: var(--hero-background);
     font-weight: bold;
