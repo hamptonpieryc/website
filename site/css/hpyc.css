@@ -5,6 +5,7 @@
 
   /* header */
   --hero-background: #266ed9;
+  --promo-background: #d9266e;
 
    /* menu */
   --menu-background: #1C509E;
@@ -297,4 +298,22 @@ span.icon {
     display: inline-block; /* Needed to add space between the bullet and the text */
     width: 1em; /* Also needed for space (tweak if needed) */
     margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/* optional promo panel */
+#promo {
+    background-color : var(--promo-background);
+    text-align : center;
+    color : var(--hero-background);
+    font-size : 20pt;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#promo a {
+    color : var(--menu-background);
+    text-decoration: underline;
+}
+#promo a:hover {
+    color : var(--menu-selected);
+    text-decoration: underline;
 }
