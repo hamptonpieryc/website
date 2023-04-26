@@ -117,12 +117,16 @@ div.hpyc-page {
   padding-right: : 5rem;
 }
 
+.hpyc-table-panel th {
+   background-color: #b4cdf2;
+}
+
 .hpyc-table-panel tr:nth-child(odd) {
-    background-color: #b8d0f3;
+    background-color: #dae6f8;
 }
 
 .hpyc-table-panel tr:nth-child(even) {
-    background-color: #e7effb;
+    background-color: #f1f6fd;
 }
 
 
