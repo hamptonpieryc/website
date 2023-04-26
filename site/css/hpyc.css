@@ -119,8 +119,12 @@ div.hpyc-page {
 
 .hpyc-table-panel tr:nth-child(odd) {
     background-color: #b8d0f3;
-    border: 1px solid green;
 }
+
+.hpyc-table-panel tr:nth-child(even) {
+    background-color: #e7effb;
+}
+
 
 .hpyc-table-panel p {
   _margin-left: 1rem;
