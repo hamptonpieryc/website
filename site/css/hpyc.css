@@ -304,7 +304,7 @@ span.icon {
 #promo {
     background-color : var(--promo-background);
     text-align : center;
-    color : var(--hero-background);
+    color : var(--menu-text);
     font-size : 20pt;
     padding-top: 10px;
     padding-bottom: 10px;
