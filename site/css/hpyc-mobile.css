@@ -2,39 +2,34 @@
 @media only screen and ( max-width: 840px )
 {
 #hpyc-hero h1{
-   font-size: 48px;
-   _border: 2px solid pink;
+    font-size: 48px;
+}
+#promo {
+    font-size : 16pt;
 }
 }
-
 
 /* small in spectre.css scaling */
 @media only screen and ( max-width: 600px )
 {
 #hpyc-hero h1{
    font-size: 36px;
-   _border: 2px solid green;
 }
 h1 {
- font-size: 36px;
-   _border: 2px solid pink;
+    font-size: 36px;
 }
 
 h2 {
- _border: 2px solid blue;
- font-size: 28px;
-
+    font-size: 28px;
 }
 
 div.hpyc-page {
-  margin-top: 0.5rem;
-  margin-left: 5px;
-  margin-right: 5px;
-  _border: 1px solid pink;
+    margin-top: 0.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #promo {
     font-size : 14pt;
 }
-
 }
