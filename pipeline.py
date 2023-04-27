@@ -48,7 +48,7 @@ class Pipeline:
                     with open(output_file, "w") as saved:
                         processed = layout.replace("REPLACE-ME!", ''.join(buffer))
                         saved.write(processed)
-                elif i.endswith(".pdf"):
+                elif i.startswith("./content/docs/"):
                     path = Path(i)
                     parent = str(path.parent)
                     tail = parent[len("content/"):] if self.input_dir == '.' else parent[
