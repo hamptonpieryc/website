@@ -79,10 +79,10 @@ class ImagePipeline:
             crop_best_square(Image.open(file)) \
                 .resize((size, size), Image.LANCZOS) \
                 .save(output_file, quality=95)
-            im = Image.open(output_file)
-            image_editable = ImageDraw.Draw(im)
-            image_editable.text(xy=(15, 15), text="size=" + str(size))
-            im.save(output_file)
+            # im = Image.open(output_file)
+            # image_editable = ImageDraw.Draw(im)
+            # image_editable.text(xy=(15, 15), text="size=" + str(size))
+            # im.save(output_file)
 
     def crop_to_letterbox(self, file, path, size, suffix):
         parent = str(path.parent)
