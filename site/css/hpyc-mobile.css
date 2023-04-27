@@ -6,7 +6,7 @@
 }
 #promo {
     font-size : 16pt;
-    border: 1px solid pink;
+    _border: 1px solid pink;
 }
 }
 
@@ -32,7 +32,6 @@ div.hpyc-page {
 
 #promo {
     font-size : 12pt;
-    border: 1px solid green;
-
+    _border: 1px solid green;
 }
 }
