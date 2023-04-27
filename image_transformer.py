@@ -94,10 +94,10 @@ class ImagePipeline:
             crop_letterbox(Image.open(file), 3) \
                 .resize((size, int(size / 3)), Image.LANCZOS) \
                 .save(output_file, quality=95)
-            im = Image.open(output_file)
-            image_editable = ImageDraw.Draw(im)
-            image_editable.text(xy=(15, 15), text="size=" + str(size))
-            im.save(output_file)
+            # im = Image.open(output_file)
+            # image_editable = ImageDraw.Draw(im)
+            # image_editable.text(xy=(15, 15), text="size=" + str(size))
+            # im.save(output_file)
 
 
 ImagePipeline(".", "site").run()
