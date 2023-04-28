@@ -60,6 +60,7 @@ def test_content_panel_transform():
             <p>Last Paragraph</p>
             <img href=\"image.jpg\"></img>
             <a href="alink">A Link</a>
+            <a href="foo" target="bar">A Link with target</a>
         </hpyc-content-panel>""")
 
     expected = dedent("""
@@ -86,7 +87,7 @@ def test_content_panel_transform():
                     </p>
                 </div>
                 <span class="hpyc-link-bar">
-                    <a href="alink">A Link</a>&#8203;
+                    <a href="alink">A Link</a>&#8203;<a href="foo" target="bar">A Link with target</a>&#8203;
                 </span>
             </div>
         </div>

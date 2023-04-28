@@ -52,7 +52,7 @@ class ContentPanelTransformer(Transform):
             elif node['tag'] == 'a':
                 links.append({"href": node['attrs']["href"],
                               "link": node['inner_html'],
-                              "target": node.get('target', '')})
+                              "target": node['attrs'].get('target', '')})
 
         # Build the HTML snippet
         result = '\n'
@@ -106,7 +106,7 @@ class ContentPanelTransformer(Transform):
                 # will force breaks between links if the page is not wide enough, but as they are
                 # 'zero width' it won't introduce hidden padding between each link
                 result += '<a href="' + link["href"] + '"'
-                if not link['target'] == '':
+                if link['target'] != '':
                     result += ' target="' + link['target'] + '"'
                 result += '>' + link["link"] + '</a>&#8203;'
 
