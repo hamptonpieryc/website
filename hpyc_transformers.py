@@ -50,7 +50,9 @@ class ContentPanelTransformer(Transform):
             elif node['tag'] == 'img':
                 image["href"] = node["attrs"]["href"]
             elif node['tag'] == 'a':
-                links.append({"href": node['attrs']["href"], "link": node['inner_html']})
+                links.append({"href": node['attrs']["href"],
+                              "link": node['inner_html'],
+                              "target": node.get('target', '')})
 
         # Build the HTML snippet
         result = '\n'
@@ -90,7 +92,7 @@ class ContentPanelTransformer(Transform):
                 result += '\t\t\t<p>' + para
                 if para == paras[-1]:
                     result += '\n\t\t\t\t<button class="hpyc-less" onclick="collapse(\'' \
-                          + button_id + '\',\'' + more_content_id + '\')"></button>'
+                              + button_id + '\',\'' + more_content_id + '\')"></button>'
 
                 result += '\n\t\t\t</p>\n'
 
@@ -103,7 +105,10 @@ class ContentPanelTransformer(Transform):
                 # note we use a 'zero width' space here to get the correct display - the space
                 # will force breaks between links if the page is not wide enough, but as they are
                 # 'zero width' it won't introduce hidden padding between each link
-                result += '<a href="' + link["href"] + '">' + link["link"] + '</a>&#8203;'
+                result += '<a href="' + link["href"] + '"'
+                if not link['target'] == '':
+                    result += ' target="' + link['target'] + '"'
+                result += '>' + link["link"] + '</a>&#8203;'
 
             result += "\n\t\t" + '</span>\n'
 
