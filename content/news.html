@@ -1,30 +1,80 @@
-<html>
-<head>
-    <title>HPYC Under Construction</title>
-    <link rel="stylesheet" href="css/spectre.min.css">
-    <link rel="stylesheet" href="css/spectre-exp.min.css">
-    <meta name="viewport" content="initial-scale=1">
-</head>
+<div class="hpyc-page">
 
-<body>
-<div class="container">
+    <!-- this is where the page content goes -->
+    <div id="page-content">
+        <div class="hpyc-page">
+            <div class="columns col-gapless hpyc-section hpyc-top-panel">
+                <div class="column col-12">
+                    <h1>News and Events</h1>
+                    <p>!!!! Work in Progress  - please ignore for now !!!</p>
+                </div>
+            </div>
 
-    <h1 style="margin-left:50px; margin-right:50px; text-align:center">
-       Under Construction
-    </h1>
 
-    <div class="columns col-gapless">
-        <div class="column col-1"></div>
-        <div class="column col-10">
-            <p style="text-align:center">Sorry, but this page is still under construction. Please come back later.</p>
+            <div class="columns col-gapless hpyc-section hpyc-content-panel">
+                <div class="column col-3 col-md-4">
+        <span class="hpyc-image">
+            <picture>
+                <source media="(max-width: 640px)" srcset="images/square/calendar/quiz-small.jpeg"/>
+                <source media="(min-width: 641px)" srcset="images/square/calendar/quiz.jpeg"/>
+                <img class="img-responsive" src="images/square/calendar/quiz.jpeg">
+            </picture>
+        </span>
+                </div>
+                <div class="column col-9 col-md-8">
+                    <h2>Quiz Night</h2>
+                    <p>Quiz night is the first Saturday of each month for teams of up to 8. Please book in
+                        advance by email to the social team at <a href="mailto:socialhpyc@gmail.com">socialhpyc@gmail.com</a>
+
+                        <button class="hpyc-more" id="mfjyna" onclick="expand('mfjyna','lymphv')"></button>
+                    </p>
+                    <div id="lymphv" style="display: none;">
+                        <p>Help in running the quiz is always welcome. Please let us know if you can assist in any way
+                            <button class="hpyc-less" onclick="collapse('mfjyna','lymphv')"></button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="columns col-gapless hpyc-section hpyc-content-panel">
+                <div class="column col-3 col-md-4">
+        <span class="hpyc-image">
+            <picture>
+                <source media="(max-width: 640px)" srcset="images/square/calendar/calendar-small.jpeg"/>
+                <source media="(min-width: 641px)" srcset="images/square/calendar/calendar.jpeg"/>
+                <img class="img-responsive" src="images/square/calendar/calendar.jpeg">
+            </picture>
+        </span>
+                </div>
+                <div class="column col-9 col-md-8">
+                    <h2>Events</h2>
+                    <p>The currently planned events are below - please note that dates may change. Details will
+                        be sent out by email closer to the day.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="columns col-gapless hpyc-section hpyc-table-panel">
+                <div class="column col-12">
+                    <table class="table" style="width:90%;">
+                        <tr>
+                            <th>Date</th>
+                            <th>Event</th>
+                            <th>Notes</th>
+                        </tr>
+
+                        <tr>
+                            <td>Mon 8<sup>th</sup> May</td>
+                            <td>Beach Party to Celebrate the King's Coronation</td>
+                            <td>Starting at 2PM</td>
+                        </tr>
+
+                    </table>
+                    <br>
+                </div>
+            </div>
         </div>
-        <div class="column col-1"></div>
-    </div>
-    <div style="margin-left:12%; margin-right:12%;">
-        <img src="/images/square/under-construction/under-construction.png"
-             alt="Under Construction Sign"
-             style="width:100%">
     </div>
 </div>
-</body>
-</html>
