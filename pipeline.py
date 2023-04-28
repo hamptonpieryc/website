@@ -28,7 +28,7 @@ class Pipeline:
 
         for i in files:
             with open(i, "r") as f:
-                if i.endswith(".html"):
+                if i.endswith(".html") and not i.endswith("404.html"):
                     print("Processing content in: " + i)
                     raw = ''.join(f.readlines())
 
@@ -48,7 +48,7 @@ class Pipeline:
                     with open(output_file, "w") as saved:
                         processed = layout.replace("REPLACE-ME!", ''.join(buffer))
                         saved.write(processed)
-                elif i.startswith("./content/docs/"):
+                elif i.startswith("./content/docs/") or i.endswith("404.html"):
                     path = Path(i)
                     parent = str(path.parent)
                     tail = parent[len("content/"):] if self.input_dir == '.' else parent[
