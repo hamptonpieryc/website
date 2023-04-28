@@ -1,3 +1,4 @@
 # dont checking large files
 docs
 images
+*.html
