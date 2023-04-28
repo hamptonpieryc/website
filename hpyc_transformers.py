@@ -37,6 +37,7 @@ class ContentPanelTransformer(Transform):
 
     def transform(self, nodes: list) -> str:
         header = '???'
+        sub_header = ''
         paras = []
         links = []
         image = {}
@@ -47,6 +48,8 @@ class ContentPanelTransformer(Transform):
                 paras.append(node['inner_html'])
             elif node['tag'] == 'header':
                 header = node['inner_html']
+            elif node['tag'] == 'subheader':
+                sub_header = node['inner_html']
             elif node['tag'] == 'img':
                 image["href"] = node["attrs"]["href"]
             elif node['tag'] == 'a':
@@ -75,6 +78,8 @@ class ContentPanelTransformer(Transform):
         # Content
         result += '\t<div class=\"column col-9 col-md-8\">\n'
         result += '\t\t<h2>' + header + '</h2>\n'
+        if sub_header != '':
+            result += '\t\t<h3>' + sub_header + '</h3>\n'
 
         if len(paras) == 1:
             result += '\t\t<p>' + paras[0] + '\n\t\t</p>\n'
