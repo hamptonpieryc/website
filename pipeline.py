@@ -37,37 +37,50 @@ class Pipeline:
                     print("Processing content in: " + i)
 
                     # standardise filename
-                    path = Path(i)
-                    parent = str(path.parent)
-                    tail = parent[len("content/"):] if self.input_dir == '.' else parent[
-                                                                                  len(self.input_dir + "/content/"):]
-                    tail = "/" if tail == "" else "/" + tail + "/"
-                    page_name = tail + path.stem + path.suffix
+                    page_name, page_path = self.stanrdardise_names(i)
 
                     # record this file in the sitemap builder
                     create_time = os.path.getctime(i)
                     create_date = datetime.datetime.fromtimestamp(create_time)
-                    self.sitemap_builder.add_page(page_name, create_date)
-
                     raw = ''.join(f.readlines())
+                    self.sitemap_builder.add_page(page_path + page_name, create_date)
 
                     # nested = NestedTransform(outer_tag='nested', transforms=[FooTransform(), BarTransform()])
                     buffer = []
                     parser = TransformingParser(buffer, self.transformers)
                     parser.feed(raw)
 
-                    make_dirs(self.output_dir + tail)
-                    output_file = self.output_dir + page_name
+                    make_dirs(self.output_dir + page_path)
+                    output_file = self.output_dir + page_path + page_name
+
+                    # existing content - for sitemap checks
+                    if Path(output_file).is_file():
+                        with open(output_file, "r") as original:
+                            current_content = original.read()
+                    else:
+                        current_content = ''
 
                     with open(output_file, "w") as saved:
                         processed = layout.replace("REPLACE-ME!", ''.join(buffer))
                         saved.write(processed)
+
+                    #self.sitemap_builder.update_page(page_path + page_name, current_content, processed)
                 elif i.startswith("./content/docs/") or i.endswith("404.html"):
-                    path = Path(i)
-                    parent = str(path.parent)
-                    tail = parent[len("content/"):] if self.input_dir == '.' else parent[
-                                                                                  len(self.input_dir + "/content/"):]
-                    tail = "/" if tail == "" else "/" + tail + "/"
-                    make_dirs(self.output_dir + tail)
-                    output_file = self.output_dir + tail + path.stem + path.suffix
+                    page_name, page_path = self.stanrdardise_names(i)
+                    make_dirs(self.output_dir + page_path)
+                    output_file = self.output_dir + page_path + page_name
+                    print(output_file)
                     shutil.copy2(i, output_file)  # complete target filename given
+
+        sitemap = self.sitemap_builder.build_site_map()
+        with open(self.output_dir + "/sitemap.xml", "w") as f:
+            f.write(sitemap)
+
+    def stanrdardise_names(self, i):
+        path = Path(i)
+        parent = str(path.parent)
+        tail = parent[len("content/"):] if self.input_dir == '.' else parent[
+                                                                      len(self.input_dir + "/content/"):]
+        tail = "/" if tail == "" else "/" + tail + "/"
+        page_name = path.stem + path.suffix
+        return page_name, tail
