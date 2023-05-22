@@ -8,6 +8,13 @@ def frequency(page_name: str):
         return "monthly"
 
 
+def removesuffix(text, suffix):
+    if text.endswith(suffix):
+        return text[:-len(suffix)]
+    else:
+        return text
+
+
 class SiteMapBuilder:
 
     def __init__(self):
@@ -22,7 +29,7 @@ class SiteMapBuilder:
         sitemap = sitemap + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "\n"
 
         for page in self.pages:
-            page_name = page["page_name"].removesuffix(".html")
+            page_name = removesuffix(page["page_name"], ".html")
             sitemap = sitemap + "  <url>\n"
             sitemap = sitemap + '    <loc>https://www.hpyc.org.uk' + page_name + "</loc>\n"
             sitemap = sitemap + "    <priority>1.0</priority>\n"
