@@ -15,6 +15,14 @@ def removesuffix(text, suffix):
         return text
 
 
+def included_page(page_name):
+    if page_name.endswith("layout"):
+        return False
+    if page_name.endswith("example"):
+        return False
+    return True
+
+
 class SiteMapBuilder:
 
     def __init__(self):
@@ -30,19 +38,13 @@ class SiteMapBuilder:
 
         for page in self.pages:
             page_name = removesuffix(page["page_name"], ".html")
-            sitemap = sitemap + "  <url>\n"
-            sitemap = sitemap + '    <loc>https://www.hpyc.org.uk' + page_name + "</loc>\n"
-            sitemap = sitemap + "    <priority>1.0</priority>\n"
-            sitemap = sitemap + "    <changefreq>" + frequency(page_name) + "</changefreq>\n"
-            sitemap = sitemap + "    <lastmod>" + page["last_modified"].strftime("%Y-%m-%d") + "</lastmod>\n"
-
-            # if page["original_content"] == page["updated_content"]:
-            #     print("same" + page["page_name"])
-            # else:
-            #     print("changed" + page["page_name"])
-            #     print(page["original_content"])
-            #     print(page["updated_content"])
-            sitemap = sitemap + "  </url>\n"
+            if included_page(page_name):
+                sitemap = sitemap + "  <url>\n"
+                sitemap = sitemap + '    <loc>https://www.hpyc.org.uk' + page_name + "</loc>\n"
+                sitemap = sitemap + "    <priority>1.0</priority>\n"
+                sitemap = sitemap + "    <changefreq>" + frequency(page_name) + "</changefreq>\n"
+                sitemap = sitemap + "    <lastmod>" + page["last_modified"].strftime("%Y-%m-%d") + "</lastmod>\n"
+                sitemap = sitemap + "  </url>\n"
 
         sitemap = sitemap + '</urlset>'
         return sitemap
