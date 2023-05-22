@@ -1,0 +1,3 @@
+# Sitemap is also available on /sitemap.xml
+Sitemap: https://www.hamptonpier.club/sitemap.xml
+User-agent: *
