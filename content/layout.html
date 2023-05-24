@@ -26,9 +26,9 @@ insights.init('WuFrwhmdgsPVi_pq');
 insights.trackPages( {
  parameters: {
     // this will track the locale of the user, useful to know if we should translate our posts
-    locale: locale(),
+    locale: insights.parameters.locale(),
     // this will track the type of screen on which the user reads the post, useful for useability
-    screenSize: screenType()
+    screenSize: insights.parameters.screenType()
   }
   });
 </script>
