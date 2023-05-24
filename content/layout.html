@@ -21,18 +21,15 @@
 </head>
 <script src="https://getinsights.io/js/insights.js"></script>
 <script>
-
 insights.init('WuFrwhmdgsPVi_pq');
 insights.trackPages( {
- parameters: {
-    // this will track the locale of the user, useful to know if we should translate our posts
+  parameters: {
     locale: insights.parameters.locale(),
-    // this will track the type of screen on which the user reads the post, useful for useability
-    screenSize: insights.parameters.screenType()
-  }
-  });
+    screenSize: insights.parameters.screenType(),
+    referrer: insights.parameters.referrer()
+   }
+});
 </script>
-
 
 <style>
 
