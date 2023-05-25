@@ -13,6 +13,8 @@
             referrer: insights.parameters.referrer()
         }
         });
+        // enough time to record insights
+        await new Promise(r => setTimeout(r, 1000));
 
         // redirect to home page
         location.replace("https://www.hpyc.org.uk");
