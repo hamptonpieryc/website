@@ -65,7 +65,14 @@ class Pipeline:
                     with open(output_file, "w") as saved:
                         saved.write(processed)
 
-                    # self.sitemap_builder.update_page(page_path + page_name, current_content, processed)
+                    if page_name == "index.html":
+                        aliases = ["instagram"]
+                        for alias in aliases:
+                            output_file = self.output_dir + page_path + alias + ".html"
+                            with open(output_file, "w") as saved:
+                                saved.write(processed)
+
+                            # self.sitemap_builder.update_page(page_path + page_name, current_content, processed)
                 elif i.startswith("./content/docs/") or i.endswith("404.html") or "/landing/" in i:
                     page_name, page_path = self.stanrdardise_names(i)
                     make_dirs(self.output_dir + page_path)
