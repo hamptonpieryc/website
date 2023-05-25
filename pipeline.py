@@ -66,7 +66,7 @@ class Pipeline:
                         saved.write(processed)
 
                     if page_name == "index.html":
-                        aliases = ["instagram"]
+                        aliases = ["instagram", "facebook", "kentonline"]
                         make_dirs(self.output_dir + "/landing")
                         for alias in aliases:
                             output_file = self.output_dir + page_path + "landing/" + alias + ".html"
