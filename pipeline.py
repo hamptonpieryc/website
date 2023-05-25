@@ -53,27 +53,19 @@ class Pipeline:
                     make_dirs(self.output_dir + page_path)
                     output_file = self.output_dir + page_path + page_name
 
-                    # existing content - for sitemap checks
-                    # if Path(output_file).is_file():
-                    #     with open(output_file, "r") as original:
-                    #         current_content = original.read()
-                    # else:
-                    #     current_content = ''
-
                     processed = layout.replace("REPLACE-ME!", ''.join(buffer))
 
                     with open(output_file, "w") as saved:
                         saved.write(processed)
 
                     if page_name == "index.html":
-                        aliases = ["instagram", "facebook", "kentonline"]
+                        landing_pages = ["instagram", "facebook", "kentonline"]
                         make_dirs(self.output_dir + "/landing")
-                        for alias in aliases:
-                            output_file = self.output_dir + page_path + "landing/" + alias + ".html"
+                        for l in landing_pages:
+                            output_file = self.output_dir + page_path + "landing/" + l + ".html"
                             with open(output_file, "w") as saved:
                                 saved.write(processed)
 
-                            # self.sitemap_builder.update_page(page_path + page_name, current_content, processed)
                 elif i.startswith("./content/docs/") or i.endswith("404.html"):
                     page_name, page_path = self.stanrdardise_names(i)
                     make_dirs(self.output_dir + page_path)
