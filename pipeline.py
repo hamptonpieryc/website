@@ -54,14 +54,15 @@ class Pipeline:
                     output_file = self.output_dir + page_path + page_name
 
                     # existing content - for sitemap checks
-                    if Path(output_file).is_file():
-                        with open(output_file, "r") as original:
-                            current_content = original.read()
-                    else:
-                        current_content = ''
+                    # if Path(output_file).is_file():
+                    #     with open(output_file, "r") as original:
+                    #         current_content = original.read()
+                    # else:
+                    #     current_content = ''
+
+                    processed = layout.replace("REPLACE-ME!", ''.join(buffer))
 
                     with open(output_file, "w") as saved:
-                        processed = layout.replace("REPLACE-ME!", ''.join(buffer))
                         saved.write(processed)
 
                     #self.sitemap_builder.update_page(page_path + page_name, current_content, processed)

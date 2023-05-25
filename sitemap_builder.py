@@ -20,6 +20,8 @@ def included_page(page_name):
         return False
     if page_name.endswith("example"):
         return False
+    if "/landing/" in page_name:
+        return False
     return True
 
 

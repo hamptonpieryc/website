@@ -52,6 +52,15 @@ This may take a minute or two. Click [here](https://github.com/hamptonpieryc/web
 to check on progress.  
 
 
+## Site Analytics 
+https://developers.google.com/analytics/devguides/collection/analyticsjs/cookies-user-id#using_localstorage_to_store_the_client_id
+https://stackoverflow.com/questions/10668292/is-there-a-setting-on-google-analytics-to-suppress-use-of-cookies-for-users-who#:~:text=You%20can%20disable%20the%20use,the%20subject%20for%20more%20details.&text=The%20guide%20says%20if%20you,doesn't%20seem%20to%20help.
+https://geekflare.com/privacy-focused-site-analytics/
+
+https://countly.com/getting-started
+
+https://plausible.io/blog/google-analytics-alternatives
+
 ## Tech Notes 
 
 Just some useful tech links:
