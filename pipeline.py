@@ -33,7 +33,7 @@ class Pipeline:
 
         for i in files:
             with open(i, "r") as f:
-                if i.endswith(".html") and not i.endswith("404.html") and "/landing/" not in i:
+                if i.endswith(".html") and not i.endswith("404.html"):
                     print("Processing content in: " + i)
 
                     # standardise filename
@@ -68,12 +68,12 @@ class Pipeline:
                     if page_name == "index.html":
                         aliases = ["instagram"]
                         for alias in aliases:
-                            output_file = self.output_dir + page_path + alias + ".html"
+                            output_file = self.output_dir + page_path + "landing/" + alias + ".html"
                             with open(output_file, "w") as saved:
                                 saved.write(processed)
 
                             # self.sitemap_builder.update_page(page_path + page_name, current_content, processed)
-                elif i.startswith("./content/docs/") or i.endswith("404.html") or "/landing/" in i:
+                elif i.startswith("./content/docs/") or i.endswith("404.html"):
                     page_name, page_path = self.stanrdardise_names(i)
                     make_dirs(self.output_dir + page_path)
                     output_file = self.output_dir + page_path + page_name
