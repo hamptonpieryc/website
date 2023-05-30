@@ -5,7 +5,7 @@ from test_html_transformer import FooTransform
 import random
 import string
 
-from pipeline import Pipeline
+from build_pipeline import Pipeline
 
 
 def random_token():
