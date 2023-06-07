@@ -8,6 +8,8 @@ from sitemap_builder import SiteMapBuilder
 import shutil
 import os
 import datetime
+import traceback
+
 
 
 class Pipeline:
@@ -32,46 +34,54 @@ class Pipeline:
                     files.append(dirpath + "/" + f)
 
         for i in files:
-            with open(i, "r") as f:
-                if i.endswith(".html") and not i.endswith("404.html"):
-                    print("Processing content in: " + i)
+            try:
+                with open(i, "r") as f:
+                    if i.endswith(".html") and not i.endswith("404.html"):
+                        print("Processing content in: " + i)
 
-                    # standardise filename
-                    page_name, page_path = self.stanrdardise_names(i)
+                        # standardise filename
+                        page_name, page_path = self.stanrdardise_names(i)
 
-                    # record this file in the sitemap builder
-                    create_time = os.path.getctime(i)
-                    create_date = datetime.datetime.fromtimestamp(create_time)
-                    raw = ''.join(f.readlines())
-                    self.sitemap_builder.add_page(page_path + page_name, create_date)
+                        # record this file in the sitemap builder
+                        create_time = os.path.getctime(i)
+                        create_date = datetime.datetime.fromtimestamp(create_time)
+                        raw = ''.join(f.readlines())
+                        self.sitemap_builder.add_page(page_path + page_name, create_date)
 
-                    # nested = NestedTransform(outer_tag='nested', transforms=[FooTransform(), BarTransform()])
-                    buffer = []
-                    parser = TransformingParser(buffer, self.transformers)
-                    parser.feed(raw)
+                        # nested = NestedTransform(outer_tag='nested', transforms=[FooTransform(), BarTransform()])
+                        buffer = []
+                        parser = TransformingParser(buffer, self.transformers)
+                        parser.feed(raw)
 
-                    make_dirs(self.output_dir + page_path)
-                    output_file = self.output_dir + page_path + page_name
+                        make_dirs(self.output_dir + page_path)
+                        output_file = self.output_dir + page_path + page_name
 
-                    processed = layout.replace("REPLACE-ME!", ''.join(buffer))
+                        processed = layout.replace("REPLACE-ME!", ''.join(buffer))
 
-                    with open(output_file, "w") as saved:
-                        saved.write(processed)
+                        with open(output_file, "w") as saved:
+                            saved.write(processed)
 
-                    if page_name == "index.html":
-                        landing_pages = ["instagram", "facebook", "kentonline"]
-                        make_dirs(self.output_dir + "/landing")
-                        for l in landing_pages:
-                            output_file = self.output_dir + page_path + "landing/" + l + ".html"
-                            with open(output_file, "w") as saved:
-                                saved.write(processed)
+                        if page_name == "index.html":
+                            landing_pages = ["instagram", "facebook", "kentonline"]
+                            make_dirs(self.output_dir + "/landing")
+                            for l in landing_pages:
+                                output_file = self.output_dir + page_path + "landing/" + l + ".html"
+                                with open(output_file, "w") as saved:
+                                    saved.write(processed)
 
-                elif i.startswith("./content/docs/") or i.endswith("404.html"):
-                    page_name, page_path = self.stanrdardise_names(i)
-                    make_dirs(self.output_dir + page_path)
-                    output_file = self.output_dir + page_path + page_name
-                    print(output_file)
-                    shutil.copy2(i, output_file)  # complete target filename given
+                    elif i.startswith("./content/docs/") or i.endswith("404.html"):
+                        page_name, page_path = self.stanrdardise_names(i)
+                        make_dirs(self.output_dir + page_path)
+                        output_file = self.output_dir + page_path + page_name
+                        print(output_file)
+                        shutil.copy2(i, output_file)  # complete target filename given
+
+            except Exception as ex:
+                print("Oops!.")
+                # print(str(ex))
+                tb = traceback.format_exc()
+
+                self.write_error_page(i, tb)
 
         sitemap = self.sitemap_builder.build_site_map()
         with open(self.output_dir + "/sitemap.xml", "w") as f:
@@ -85,3 +95,14 @@ class Pipeline:
         tail = "/" if tail == "" else "/" + tail + "/"
         page_name = path.stem + path.suffix
         return page_name, tail
+
+    def write_error_page(self, i, error_message):
+        try:
+            print("will write out an error page")
+            page_name, page_path = self.stanrdardise_names(i)
+            output_file = self.output_dir + page_path + page_name
+            with open(output_file, "w") as saved:
+                saved.write(error_message)
+
+        except Exception as ex:
+            print("ignoring: " + str(ex))

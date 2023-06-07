@@ -54,6 +54,7 @@ class BaseParser(HTMLParser):
                     print("opps")
                     print(ex)
                     traceback.print_exc()
+                    raise ex
 
                 self.current_tag = ''
                 self.capture_buffer = []

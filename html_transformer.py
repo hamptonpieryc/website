@@ -131,21 +131,21 @@ class DomTransformer(CaptureElementsParser):
         #   1. find all the top level nodes using the dom
         #   2. run the capturing parser for these tags and convert to a domlike structure
 
-        try:
-            # a horrid hack - html characters, e.g. '&nbsp;' are rejected by the xml parser
-            # as they are considered to be invalid xml entities (it doesn;t know this is xml)
-            # by replacing the ampersand with some unique text that can be undone later,
-            # the xml parser is tricked into parsing the html snippet
-            without_special_entities = raw.replace("&", "ThisIsReallyAnAmpersand!")
-            tree = ElementTree.fromstring('<root>' + without_special_entities + "</root>")
-            node = tree.find(".").find(self.outer_tag)
-            if node is not None:
-                nodes = node.findall("*")
-                self.tag_names = list(map(lambda x: x.tag, nodes))
-                self.feed(raw)
-                return list(map(lambda x: {"tag": x[0], "inner_html": x[1], "attrs": x[2]}, self.captured))
-            else:
-                return []
-        except Exception as ex:
-            print("opps")
-            print(ex)
+        # try:
+        # a horrid hack - html characters, e.g. '&nbsp;' are rejected by the xml parser
+        # as they are considered to be invalid xml entities (it doesn;t know this is xml)
+        # by replacing the ampersand with some unique text that can be undone later,
+        # the xml parser is tricked into parsing the html snippet
+        without_special_entities = raw.replace("&", "ThisIsReallyAnAmpersand!")
+        tree = ElementTree.fromstring('<root>' + without_special_entities + "</root>")
+        node = tree.find(".").find(self.outer_tag)
+        if node is not None:
+            nodes = node.findall("*")
+            self.tag_names = list(map(lambda x: x.tag, nodes))
+            self.feed(raw)
+            return list(map(lambda x: {"tag": x[0], "inner_html": x[1], "attrs": x[2]}, self.captured))
+        else:
+            return []
+    # except Exception as ex:
+    #     print("opps")
+    #     print(ex)
