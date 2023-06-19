@@ -1,0 +1,115 @@
+<style>
+    .hpyc-image img {
+       filter: grayscale(1);
+        border-radius: 50%;
+    }
+
+    h3 {
+       font-size: 14pt;
+       text-align: center;
+    }
+
+    h4 {
+       font-size: 12pt;
+       text-align: center;
+    }
+
+    .hpyc-bio {
+    border: 1px solid #888;
+    border-radius: 2px;
+    background-color: #eee;
+    color: var(--hpyc-text);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin: 0px;
+}
+.hpyc-bio:before {
+    //content: "See&nbsp;Bio&nbsp;...";
+}
+
+
+.button-container {
+  height: 50px;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
+</style>
+
+<div class="container">
+
+
+    <!-- this is where the page content goes -->
+    <div id="page-content">
+        <div class="hpyc-page">
+            <div class="columns col-gapless hpyc-section hpyc-top-panel">
+
+                <div class="column col-12">
+                    <h1>Meet Us</h1>
+                    <p>
+                        Some of those who help in the running the Club - and apologies to all we have missed.
+                    </p>
+                </div>
+
+            </div>
+            <div class="columns">
+
+                <div class="column col-4 ">
+        <span class="hpyc-image">
+            <picture>
+                <source media="(max-width: 640px)" srcset="images/square/sailing/topper-small.jpeg"/>
+                <source media="(min-width: 641px)" srcset="images/square/sailing/topper.jpeg"/>
+                <img class="img-responsive" src="images/square/sailing/topper.jpeg">
+            </picture>
+        </span>
+                    <h3>Jolly Roger</h3>
+                </div>
+
+
+                <div class="column col-4">
+        <span class="hpyc-image">
+            <picture>
+                <img class="img-responsive" src="images/square/people/richard-myers.jpeg">
+            </picture>
+        </span>
+                    <h3>Richard Myers</h3>
+                    <h4>Rear Commodore</h4>
+                    <p>
+                        <div class="button-container">
+  <div class="center">
+                        <button class="center hpyc-bio" id="mxcowt" onclick="expand('mxcowt','wlmrau')">See&nbsp;Bio&nbsp;...</button>
+  </div>
+                </div>
+</p>
+                </div>
+
+
+                <div class="column col-4 ">
+        <span class="hpyc-image">
+            <picture>
+                <source media="(max-width: 640px)" srcset="images/square/sailing/topper-small.jpeg"/>
+                <source media="(min-width: 641px)" srcset="images/square/sailing/topper.jpeg"/>
+                <img class="img-responsive" src="images/square/sailing/topper.jpeg">
+            </picture>
+        </span>
+                    <h3>Frances Drake</h3>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
