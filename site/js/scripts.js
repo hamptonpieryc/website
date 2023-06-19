@@ -8,6 +8,16 @@ function collapse(btn,content) {
   document.getElementById(btn).style.display = "inline";
 }
 
+function showPopup(popupId) {
+  var el = document.getElementById(popupId);
+   el.classList.add("active");
+}
+
+function closePopup(popupId) {
+  var el = document.getElementById(popupId);
+   el.classList.remove("active");
+}
+
 function copyInputClipboard(element) {
   // Get the text field
   var copyText = document.getElementById(element);

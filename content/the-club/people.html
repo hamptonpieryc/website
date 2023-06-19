@@ -5,20 +5,21 @@
     }
 
     h3 {
-       font-size: 14pt;
+       font-size: 20pt;
        text-align: center;
     }
 
     h4 {
-       font-size: 12pt;
+       font-size: 16pt;
        text-align: center;
+       color : #777;
     }
 
     .hpyc-bio {
     border: 1px solid #888;
     border-radius: 2px;
-    background-color: #eee;
-    color: var(--hpyc-text);
+    background-color: #266ed9;;
+    color: white;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 3px;
@@ -31,9 +32,9 @@
 
 
 .button-container {
-  height: 50px;
+  height: 20px;
   position: relative;
-  border: 3px solid green;
+  _border: 3px solid green;
 }
 
 .center {
@@ -45,10 +46,43 @@
   transform: translate(-50%, -50%);
 }
 
-
 </style>
 
 <div class="container">
+
+    <div class="modal" id="popup-vicecomm">
+        <div class="modal-container">
+            <div class="modal-header">
+                <span href="#" onclick="closePopup('popup-vicecomm')" class="btn btn-clear float-right"
+                      aria-label="Close"></span>
+                <div class="modal-title h3">Richard Myers</div>
+            </div>
+            <div class="modal-body">
+                <div class="columns">
+                    <div class="column col-4">
+                     <span class="hpyc-image">
+            <picture>
+            <source media="(max-width: 640px)" srcset="images/square/people/richard-myers-small.jpeg"/>
+                <source media="(min-width: 641px)" srcset="images/square/people/richard-myers.jpeg"/>
+                <img class="img-responsive" src="images/square/people/richard-myers.jpeg">
+            </picture>
+        </span>
+                    </div>
+                    <div class="column col-8">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec rutrum elit. Proin mollis nisl
+                        sodales condimentum ornare. Suspendisse aliquam consectetur justo ut consequat. Aenean eu mauris
+                        dapibus, iaculis nulla ut, rhoncus tellus. Nulla in ornare nulla, vitae viverra sapien. In hac
+                        habitasse platea dictumst. Vestibulum fringilla eros tellus, cursus bibendum quam maximus vitae.
+                        Ut odio orci, tempus volutpat tristique sed, facilisis id metus. Curabitur eleifend, quam et
+                        volutpat congue, metus ligula venenatis orci, non cursus ligula lacus sed mauris. Nunc quis
+                        ipsum odio. Curabitur et turpis eget enim ullamcorper convallis. Aenean convallis commodo mi, id
+                        accumsan ex accumsan eu. Praesent molestie mauris a eleifend semper.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 
     <!-- this is where the page content goes -->
@@ -68,7 +102,7 @@
 
                 <div class="column col-4 ">
         <span class="hpyc-image">
-            <picture>
+             <picture>
                 <source media="(max-width: 640px)" srcset="images/square/sailing/topper-small.jpeg"/>
                 <source media="(min-width: 641px)" srcset="images/square/sailing/topper.jpeg"/>
                 <img class="img-responsive" src="images/square/sailing/topper.jpeg">
@@ -87,12 +121,12 @@
                     <h3>Richard Myers</h3>
                     <h4>Rear Commodore</h4>
                     <p>
-                        <div class="button-container">
-  <div class="center">
-                        <button class="center hpyc-bio" id="mxcowt" onclick="expand('mxcowt','wlmrau')">See&nbsp;Bio&nbsp;...</button>
-  </div>
-                </div>
-</p>
+                    <div class="button-container">
+                        <div class="center">
+                            <button class="center hpyc-bio" id="mxcowt" onclick="showPopup('popup-vicecomm')">See&nbsp;Bio&nbsp;...</button>
+                        </div>
+                    </div>
+                    </p>
                 </div>
 
 
