@@ -9,8 +9,10 @@ function collapse(btn,content) {
 }
 
 function showPopup(popupId) {
+  //alert("showPopup");
   var el = document.getElementById(popupId);
-   el.classList.add("active");
+  //alert(el);
+  el.classList.add("active");
 }
 
 function closePopup(popupId) {

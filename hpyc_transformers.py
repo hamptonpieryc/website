@@ -133,7 +133,7 @@ class BioPanelTransformer(Transform):
     def __init__(self):
         Transform.__init__(self, 'hpyc-bio-panel')
 
-    def indent(self,indent):
+    def indent(self, indent):
         return "\t" * (indent + 2)
 
     def transform(self, nodes: list) -> str:
@@ -151,31 +151,49 @@ class BioPanelTransformer(Transform):
             elif node['tag'] == 'bio':
                 bio = node['inner_html']
 
-# """<div class="button-container">
-#                         <div class="center">
-#                             <button class="center hpyc-bio" id="mxcowt" onclick="showPopup('popup-vicecomm')">See&nbsp;Bio&nbsp;...</button>
-#                         </div>
-#                     </div>"""
+        # """         <span href="#" onclick="closePopup('popup-vicecomm')" class="btn btn-clear float-right"
+        #                       aria-label="Close"></span>"""
 
         result = ''
+        # the panel
         result += self.indent(0) + '<div class="column col-4">\n'
+        result = self.render_picture(picture, result, small_picture)
+        result += self.indent(1) + '<h3>' + name + '</h3>\n'
+        result += self.indent(1) + '<h4>' + role + '</h4>\n'
+        result += self.indent(1) + '<p>\n'
+        result += self.indent(2) + '<div class="button-container"><div class="center">\n'
+        result += self.indent(
+            3) + '<button class="center hpyc-bio" onclick="showPopup(\'popup-' + slug + '\')">See&nbsp;Bio&nbsp;...</button>\n'
+        result += self.indent(2) + '</div></div>\n'
+        result += self.indent(1) + '</p>\n'
+        # the bio popup
+        result += self.indent(1) + '<div class="modal" id="popup-' + slug + '" style="z-index:1001">\n'
+        result += self.indent(2) + '<div class="modal-container">\n'
+        result += self.indent(3) + '<div class="modal-header">\n'
+        result += self.indent(
+            4) + '<span onclick="closePopup(\'popup-' + slug + '\')" class="btn btn-clear float-right"></span>\n'
+        result += self.indent(4) + '<div class="modal-title h3">' + name + '</div>\n'
+        result += self.indent(3) + '</div>\n'
+        result += self.indent(3) + '<div class="modal-body columns">\n'
+        result += self.indent(4) + '<div class="column col-4">\n'
+        result = self.render_picture(picture, result, small_picture)
+        result += self.indent(4) + '</div>\n'
+        result += self.indent(4) + '<div class="column col-8">\n'
+        result += self.indent(5) + bio + '\n'
+        result += self.indent(4) + '</div>\n'
+        result += self.indent(3) + '</div>\n'
+        result += self.indent(2) + '</div>\n'
+        result += self.indent(1) + '</div>\n'
+        result += self.indent(0) + '</div>\n'
+
+        return result
+
+    def render_picture(self, picture, result, small_picture):
         result += self.indent(1) + '<span class="hpyc-image">\n'
         result += self.indent(2) + '<picture>\n'
         result += self.indent(3) + '<source media="(max-width: 640px)" srcset="' + small_picture + '"/>\n'
         result += self.indent(3) + '<source media="(min-width: 641px)" srcset="' + picture + '"/>\n'
         result += self.indent(3) + '<img class="img-responsive" src="' + picture + '"/>\n'
         result += self.indent(2) + '</picture>\n'
-        result += self.indent(2) + '<h3>' + name + '</h3>\n'
-        result += self.indent(2) + '<h4>' + role + '</h4>\n'
-        result += self.indent(2) + '<p>\n'
-        result += self.indent(3) + '<div class="button-container"><div class="center">\n'
-        result += self.indent(4) + '<button class="center hpyc-bio" id="' + slug + '" onclick="showPopup("popup-' + slug + ')">See&nbsp;Bio&nbsp;...</button>\n'
-        result += self.indent(3) + '</div></div>\n'
-        result += self.indent(2) + '</p>\n'
-
         result += self.indent(1) + '</span>\n'
-        result += self.indent(0) + '</div>\n'
-
         return result
-
-

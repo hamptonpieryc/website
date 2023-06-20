@@ -97,6 +97,7 @@ def test_content_panel_transform():
     transformed = transformer.transform(raw)
     assert transformed.strip() == expected
 
+
 # todo - this test is too hard to maintain
 # maybe just check snippets
 # def test_combined_transform():
@@ -146,14 +147,36 @@ def test_bio_panel_transform():
                     <source media="(min-width: 641px)" srcset="pirate.jpeg"/>
                     <img class="img-responsive" src="pirate.jpeg"/>
                 </picture>
-                <h3>Jolly Roger</h3>
-                <h4>Pirate</h4>
-                <p>
-                    <div class="button-container"><div class="center">
-                        <button class="center hpyc-bio" id="jollyroger" onclick="showPopup("popup-jollyroger)">See&nbsp;Bio&nbsp;...</button>
-                    </div></div>
-                </p>
             </span>
+            <h3>Jolly Roger</h3>
+            <h4>Pirate</h4>
+            <p>
+                <div class="button-container"><div class="center">
+                    <button class="center hpyc-bio" onclick="showPopup('popup-jollyroger')">See&nbsp;Bio&nbsp;...</button>
+                </div></div>
+            </p>
+            <div class="modal" id="popup-jollyroger" style="z-index:1001"> 
+                <div class="modal-container">
+                    <div class="modal-header">
+                    <span onclick="closePopup('popup-jollyroger')" class="btn btn-clear float-right"></span> 
+                        <div class="modal-title h3">Jolly Roger</div>
+                    </div>
+                    <div class="modal-body columns">
+                        <div class="column col-4">
+                            <span class="hpyc-image">
+                                <picture>
+                                    <source media="(max-width: 640px)" srcset="pirate-small.jpeg"/>
+                                    <source media="(min-width: 641px)" srcset="pirate.jpeg"/>
+                                    <img class="img-responsive" src="pirate.jpeg"/>
+                                </picture>
+                            </span>
+                        </div>
+                        <div class="column col-8">
+                            Club pirate
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
       """).strip()
 

@@ -47,43 +47,10 @@
 }
 
 
+
 </style>
 
 <div class="container">
-
-    <div class="modal" id="popup-vicecomm" style="z-index:1001">
-        <div class="modal-container">
-            <div class="modal-header">
-                <span href="#" onclick="closePopup('popup-vicecomm')" class="btn btn-clear float-right"
-                      aria-label="Close"></span>
-                <div class="modal-title h3">Richard Myers</div>
-            </div>
-            <div class="modal-body">
-                <div class="columns">
-                    <div class="column col-4">
-                     <span class="hpyc-image">
-            <picture>
-            <source media="(max-width: 640px)" srcset="images/square/people/richard-myers-small.jpeg"/>
-                <source media="(min-width: 641px)" srcset="images/square/people/richard-myers.jpeg"/>
-                <img class="img-responsive" src="images/square/people/richard-myers.jpeg">
-            </picture>
-        </span>
-                    </div>
-                    <div class="column col-8">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec rutrum elit. Proin mollis nisl
-                        sodales condimentum ornare. Suspendisse aliquam consectetur justo ut consequat. Aenean eu mauris
-                        dapibus, iaculis nulla ut, rhoncus tellus. Nulla in ornare nulla, vitae viverra sapien. In hac
-                        habitasse platea dictumst. Vestibulum fringilla eros tellus, cursus bibendum quam maximus vitae.
-                        Ut odio orci, tempus volutpat tristique sed, facilisis id metus. Curabitur eleifend, quam et
-                        volutpat congue, metus ligula venenatis orci, non cursus ligula lacus sed mauris. Nunc quis
-                        ipsum odio. Curabitur et turpis eget enim ullamcorper convallis. Aenean convallis commodo mi, id
-                        accumsan ex accumsan eu. Praesent molestie mauris a eleifend semper.
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
 
 
     <!-- this is where the page content goes -->
@@ -120,7 +87,6 @@
                 </hpyc-bio-panel>
 
 
-
                 <div class="column col-4">
         <span class="hpyc-image">
             <picture>
@@ -131,11 +97,53 @@
                     <h4>Rear Commodore</h4>
                     <p>
                     <div class="button-container ">
-                                               <div class="center">
-                        <button class="center hpyc-bio" id="mxcowt" onclick="showPopup('popup-vicecomm')">See&nbsp;Bio&nbsp;...</button>
-                                              </div>
+                        <div class="center">
+                            <button class="center hpyc-bio" id="mxcowt" onclick="showPopup('popup-vicecomm')">See&nbsp;Bio&nbsp;...</button>
+                        </div>
                     </div>
                     </p>
+
+                    <div class="modal" id="popup-vicecomm" style="z-index:1001">
+                        <div class="modal-container">
+                            <div class="modal-header">
+                <span href="#" onclick="closePopup('popup-vicecomm')" class="btn btn-clear float-right"
+                      aria-label="Close"></span>
+                                <div class="modal-title h3">Richard Myers</div>
+                            </div>
+                            <div class="modal-body columns">
+<!--                                <div class="columns">-->
+                                    <div class="column col-4">
+                     <span class="hpyc-image">
+            <picture>
+            <source media="(max-width: 640px)" srcset="images/square/people/richard-myers-small.jpeg"/>
+                <source media="(min-width: 641px)" srcset="images/square/people/richard-myers.jpeg"/>
+                <img class="img-responsive" src="images/square/people/richard-myers.jpeg">
+            </picture>
+        </span>
+                                    </div>
+                                    <div class="column col-8">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec rutrum elit.
+                                        Proin mollis nisl
+                                        sodales condimentum ornare. Suspendisse aliquam consectetur justo ut consequat.
+                                        Aenean eu mauris
+                                        dapibus, iaculis nulla ut, rhoncus tellus. Nulla in ornare nulla, vitae viverra
+                                        sapien. In hac
+                                        habitasse platea dictumst. Vestibulum fringilla eros tellus, cursus bibendum
+                                        quam maximus vitae.
+                                        Ut odio orci, tempus volutpat tristique sed, facilisis id metus. Curabitur
+                                        eleifend, quam et
+                                        volutpat congue, metus ligula venenatis orci, non cursus ligula lacus sed
+                                        mauris. Nunc quis
+                                        ipsum odio. Curabitur et turpis eget enim ullamcorper convallis. Aenean
+                                        convallis commodo mi, id
+                                        accumsan ex accumsan eu. Praesent molestie mauris a eleifend semper.
+                                    </div>
+<!--                                </div>-->
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
 
 
