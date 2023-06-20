@@ -1,5 +1,5 @@
 from textwrap import dedent
-from hpyc_transformers import TopPanelTransformer, ContentPanelTransformer, IdGenerator
+from hpyc_transformers import TopPanelTransformer, ContentPanelTransformer, BioPanelTransformer, IdGenerator
 from html_transformer import Transformer
 import re
 
@@ -127,3 +127,36 @@ def test_content_panel_transform():
 #     transformer = Transformer(ContentPageTransformer())
 #     transformed = transformer.transform(raw)
 #     assert normalise_white_space(transformed) == normalise_white_space(expected)
+
+
+def test_bio_panel_transform():
+    raw = dedent("""
+        <hpyc-bio-panel>
+            <name>Jolly Roger</name>
+            <role>Pirate</role>
+            <picture>pirate.jpeg</picture>
+            <bio>Club pirate</bio>
+        </hpyc-bio-panel>""")
+
+    expected = dedent("""
+        <div class="column col-4">
+            <span class="hpyc-image">
+                <picture>
+                    <source media="(max-width: 640px)" srcset="pirate-small.jpeg"/>
+                    <source media="(min-width: 641px)" srcset="pirate.jpeg"/>
+                    <img class="img-responsive" src="pirate.jpeg"/>
+                </picture>
+                <h3>Jolly Roger</h3>
+                <h4>Pirate</h4>
+                <p>
+                    <div class="button-container"><div class="center">
+                        <button class="center hpyc-bio" id="jollyroger" onclick="showPopup("popup-jollyroger)">See&nbsp;Bio&nbsp;...</button>
+                    </div></div>
+                </p>
+            </span>
+        </div>
+      """).strip()
+
+    transformer = Transformer(BioPanelTransformer())
+    transformed = transformer.transform(raw)
+    assert normalise_white_space(transformed) == normalise_white_space(expected)

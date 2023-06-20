@@ -1,5 +1,5 @@
 from os import walk
-from hpyc_transformers import ContentPageTransformer
+from hpyc_transformers import ContentPageTransformer, BioPanelTransformer
 from html_transformer import Transformer, TransformingParser
 from pathlib import Path
 from utils import make_dirs
@@ -11,11 +11,11 @@ import datetime
 import traceback
 
 
-
 class Pipeline:
     """ The pipeline that runs all tne the necessary HTML transforms and image manipulation"""
 
-    def __init__(self, input_dir: str, output_dir: str, transformers: [Transformer] = [ContentPageTransformer()]):
+    def __init__(self, input_dir: str, output_dir: str,
+                 transformers: [Transformer] = [ContentPageTransformer(), BioPanelTransformer()]):
         self.input_dir = input_dir
         self.output_dir = output_dir
         self.transformers = transformers

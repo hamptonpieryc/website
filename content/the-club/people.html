@@ -46,6 +46,7 @@
   transform: translate(-50%, -50%);
 }
 
+
 </style>
 
 <div class="container">
@@ -100,16 +101,24 @@
             </div>
             <div class="columns">
 
-                <div class="column col-4 ">
-        <span class="hpyc-image">
-             <picture>
-                <source media="(max-width: 640px)" srcset="images/square/sailing/topper-small.jpeg"/>
-                <source media="(min-width: 641px)" srcset="images/square/sailing/topper.jpeg"/>
-                <img class="img-responsive" src="images/square/sailing/topper.jpeg">
-            </picture>
-        </span>
-                    <h3>Jolly Roger</h3>
-                </div>
+                <!--                <div class="column col-4 ">-->
+                <!--        <span class="hpyc-image">-->
+                <!--             <picture>-->
+                <!--                <source media="(max-width: 640px)" srcset="images/square/sailing/topper-small.jpeg"/>-->
+                <!--                <source media="(min-width: 641px)" srcset="images/square/sailing/topper.jpeg"/>-->
+                <!--                <img class="img-responsive" src="images/square/sailing/topper.jpeg">-->
+                <!--            </picture>-->
+                <!--        </span>-->
+                <!--                    <h3>Jolly Roger</h3>-->
+                <!--                </div>-->
+
+                <hpyc-bio-panel>
+                    <name>Jolly Roger</name>
+                    <role>Pirate</role>
+                    <picture>images/square/sailing/topper.jpeg</picture>
+                    <bio>Club pirate</bio>
+                </hpyc-bio-panel>
+
 
 
                 <div class="column col-4">
@@ -121,10 +130,10 @@
                     <h3>Richard Myers</h3>
                     <h4>Rear Commodore</h4>
                     <p>
-                    <div class="button-container">
-                        <div class="center">
-                            <button class="center hpyc-bio" id="mxcowt" onclick="showPopup('popup-vicecomm')">See&nbsp;Bio&nbsp;...</button>
-                        </div>
+                    <div class="button-container ">
+                                               <div class="center">
+                        <button class="center hpyc-bio" id="mxcowt" onclick="showPopup('popup-vicecomm')">See&nbsp;Bio&nbsp;...</button>
+                                              </div>
                     </div>
                     </p>
                 </div>
