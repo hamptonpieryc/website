@@ -1,22 +1,33 @@
 <style>
     .hpyc-image img {
-       filter: grayscale(.7);
+       filter: grayscale(1.0);
         border-radius: 50%;
+        border: 1px solid #AAA;
     }
 
     h3 {
-       font-size: 20pt;
+       font-size: 24pt;
        text-align: center;
+       _border: 1px solid yellow;
+       margin-top: -10px;
+       margin-bottom: 5px;
+    }
+
+    .hpyc-image  {
+      _border: 2px solid pink;
+      margin: 20px 30px 10px;
     }
 
     h4 {
        font-size: 16pt;
        text-align: center;
        color : #777;
+       margin-top: 0px;
+       margin-bottom: 0px;
+       _border: 2px solid orange;
     }
 
     .hpyc-bio {
-        border: 1px solid #888;
         border-radius: 2px;
         background-color: #266ed9;;
         color: white;
@@ -24,28 +35,59 @@
         padding-bottom: 0px;
         padding-left: 3px;
         padding-right: 3px;
-        margin: 0px;
-    }
-    .hpyc-bio:before {
-        //content: "See&nbsp;Bio&nbsp;...";
+        margin-top: -30px;
+        _border: 2px solid red;
     }
 
 
-.button-container {
-  height: 20px;
-  position: relative;
-  _border: 3px solid green;
+    /* centre the "bio" button */
+    .button-container {
+        height: 20px;
+        position: relative;
+        _border: 3px solid green;
+        margin-top: -10px;
+    }
+
+   .center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+
+/* medium in spectre css */
+@media only screen and ( max-width: 840px ) and (min-width : 601px) {
+ .hpyc-image  {
+      _border: 2px solid green;
+      margin: 20px 20px 10px;
+    }
+    h3 {
+       font-size: 20pt;
+
+    }
+     h4 {
+       font-size: 14pt;
+
+    }
 }
 
-.center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
+/* small in spectre css */
+@media only screen and ( max-width: 600px )  {
+ .hpyc-image  {
+      _border: 2px solid pink;
+      margin: 0px;
+    }
+    h3 {
+       font-size: 18pt;
 
+    }
+     h4 {
+       font-size: 12pt;
+
+    }
+}
 
 
 </style>
@@ -117,7 +159,7 @@
                 <hpyc-bio-panel>
                     <name>Dave Hopkins</name>
                     <role>Bar Manager</role>
-                    <picture>images/square/people/placeholder.pgn</picture>
+                    <picture>images/square/people/placeholder.png</picture>
                     <bio>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec rutrum elit.
                         Proin mollis nisl sodales condimentum ornare. Suspendisse aliquam consectetur justo ut
                         consequat. Aenean eu mauris dapibus, iaculis nulla ut, rhoncus tellus. Nulla in ornare nulla,
