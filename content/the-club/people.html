@@ -8,13 +8,11 @@
     h3 {
        font-size: 20pt;
        text-align: center;
-       _border: 1px solid yellow;
        margin-top: -10px;
        margin-bottom: 5px;
     }
 
     .hpyc-image  {
-      _border: 2px solid pink;
       margin: 20px 35px 10px;
     }
 
@@ -24,7 +22,6 @@
        color : #777;
        margin-top: 0px;
        margin-bottom: 0px;
-       _border: 2px solid orange;
     }
 
     .hpyc-bio {
@@ -36,7 +33,6 @@
         padding-left: 3px;
         padding-right: 3px;
         margin-top: -30px;
-        _border: 2px solid red;
     }
 
 
@@ -44,7 +40,6 @@
     .button-container {
         height: 20px;
         position: relative;
-        _border: 3px solid green;
         margin-top: -10px;
     }
 
@@ -57,44 +52,34 @@
         transform: translate(-50%, -50%);
     }
 
-/* medium in spectre css */
-@media only screen and ( max-width: 840px ) and (min-width : 601px) {
- .hpyc-image  {
-      _border: 2px solid green;
-      margin: 20px 20px 10px;
+    /* medium in spectre css */
+    @media only screen and ( max-width: 840px ) and (min-width : 601px) {
+        .hpyc-image  {
+            margin: 20px 20px 10px;
+        }
+        h3 {
+            font-size: 18pt;
+        }
+        h4 {
+            font-size: 14pt;
+        }
     }
-    h3 {
-       font-size: 18pt;
 
+    /* small in spectre css */
+    @media only screen and ( max-width: 600px )  {
+        .hpyc-image  {
+            margin: 10px 20px 10px;
+        }
+        h3 {
+            font-size: 16pt;
+        }
+        h4 {
+            font-size: 12pt;
+        }
     }
-     h4 {
-       font-size: 14pt;
-
-    }
-}
-
-/* small in spectre css */
-@media only screen and ( max-width: 600px )  {
- .hpyc-image  {
-      _border: 2px solid pink;
-      margin: 10px 20px 10px;
-    }
-    h3 {
-       font-size: 16pt;
-
-    }
-     h4 {
-       font-size: 12pt;
-
-    }
-}
-
-
-
 </style>
 
 <div class="container">
-
 
     <div id="page-content">
         <div class="hpyc-page">
@@ -258,7 +243,7 @@
                 </hpyc-bio-panel>
                 <hpyc-bio-panel>
                     <name>Richard Myers</name>
-                    <role>Vice Commodore</role>
+                    <role>Vice Commodore and Fast Fleet Captain</role>
                     <picture>images/square/people/richard-myers.jpeg</picture>
                     <bio>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec rutrum elit.
                         Proin mollis nisl sodales condimentum ornare. Suspendisse aliquam consectetur justo ut
@@ -268,7 +253,7 @@
                 </hpyc-bio-panel>
                 <hpyc-bio-panel>
                     <name>Robert Stainbank</name>
-                    <role>Honorary Treasurer </role>
+                    <role>Honorary Treasurer</role>
                     <picture>images/square/people/robert-stainbank.jpeg</picture>
                     <bio>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec rutrum elit.
                         Proin mollis nisl sodales condimentum ornare. Suspendisse aliquam consectetur justo ut
@@ -283,7 +268,7 @@
 
                 <hpyc-bio-panel>
                     <name>Steve Margetts</name>
-                    <role>Committee Member</role>
+                    <role>CMG Committee</role>
                     <picture>images/square/people/steve-margetts.jpeg</picture>
                     <bio>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec rutrum elit.
                         Proin mollis nisl sodales condimentum ornare. Suspendisse aliquam consectetur justo ut
@@ -303,7 +288,6 @@
                 </hpyc-bio-panel>
                 <div class="columns col-2">&nbsp;</div>
             </div>
-
 
         </div>
     </div>
