@@ -105,7 +105,6 @@ div.hpyc-page {
     padding-right:10px;
 
     margin-bottom: 0.5rem;
-    _border: 2px solid pink;
 }
 
 .hpyc-content-panel h2 {
@@ -113,8 +112,6 @@ div.hpyc-page {
 }
 
 .hpyc-table-panel table {
-  _margin-left: 1rem;
-  _margin-right: 1rem;
   padding-right: : 5rem;
 }
 
@@ -139,13 +136,10 @@ div.hpyc-page {
 
 .hpyc-section h2 {
   margin-top: 0.3rem;
-  _margin-left: 1rem;
-  _margin-right: 1rem;
 }
 
 .hpyc-section .hpyc-image  {
     padding-top:10px;
-    _border: 2px solid green;
 }
 
 
@@ -155,7 +149,7 @@ span.hpyc-image  {
     margin-bottom:20px;
     padding-bottom : 10px;
     display: inline-block;
-    _border: 2px solid pink;
+
 }
 
 .hpyc-section .hpyc-image img {
@@ -167,8 +161,6 @@ span.hpyc-image  {
     padding-bottom: 5px;
     margin : 0px;
     background-color: var(--menu-background);
-    _margin:10px;
-    _border: 1px solid yellow;
     /* hacking a line gap to make multiline look ok */
     line-height: 1.9;
 }
@@ -199,14 +191,6 @@ span.hpyc-image  {
 }
 
 /* more and less buttons */
-.xxhpyc-more {
-    border: none;
-
-    background-color: white;
-    color: var(--hpyc-text);
-    padding: 2px;
-    text-decoration: dotted underline;
-}
 
 .hpyc-action-button {
     border: 1px solid #888;
@@ -233,14 +217,6 @@ span.hpyc-image  {
 }
 .hpyc-more:before {
     content: "more >";
-}
-
-.xxhpyc-less {
-    border: none;
-    background-color: white;
-    color: var(--hpyc-text);
-    padding: 2px;
-    text-decoration: dotted underline;
 }
 
 .hpyc-less {
