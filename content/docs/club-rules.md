@@ -104,7 +104,7 @@ an interval of at least two days between their becoming a member and their admis
 non-election and shall furnish an elected candidate with a copy of the Rules and Bye-laws of the
 Club and make request for such payments as are necessary.
 
-**4.12** Any member wishing to withdraw from the Club shall give writen notice of his or her desire to
+**4.12** Any member wishing to withdraw from the Club shall give writen notice of their desire to
 do so addressed to the Honorary Secretary. If no such notice is received after 7th January in any
 year, the member shall be liable to pay the subscription for the current year. Upon re-application by
 a past member the General Management Committee may, at its discretion, excuse payment of an
@@ -142,31 +142,31 @@ more than three years consecutive from the date of frst election.
 
 **5.2** The duties of Executive Officers shall be:
 
-**5.2.1** Commodore: The Commodore shall have general charge of the Club. He or she will take the
+**5.2.1** Commodore: The Commodore shall have general charge of the Club. They will take the
 Chair in precedence over any other Officer at all General Meetings of members and at all General
-Management Committee Meetings. It will also be his or her duty to represent the Club when
+Management Committee Meetings. It will also be their duty to represent the Club when
 required to do so except where this duty is specific to any other Officer.
 
 **5.2.2** Vice Commodore: The Vice Commodore shall assume the duties of the Commodore in his or
-her absence. He or she will be responsible to the General Management Committee for maters
+her absence. They will be responsible to the General Management Committee for maters
 relating to all buildings owned or leased by the Club and for the maintenance of permanent
-equipment therein including the kitchen and Club furniture. He or she will also be responsible for
+equipment therein including the kitchen and Club furniture. They will also be responsible for
 the orderliness of the Club's premises.
 
 **5.2.3** Rear Commodore: The Rear Commodore shall assume the duties of the Commodore in the
-absence of the Commodore and Vice Commodore. He or she will be directly responsible for the
+absence of the Commodore and Vice Commodore. They will be directly responsible for the
 maintenance of a rota of Race Officers and Safety Boat crews.
 
 **5.2.4** Honorary Secretary: The Honorary Secretary shall keep Minute Books accurately recording all
 proceedings of the Club other than sailing maters or maters of the Subcommittees and the same
-shall be produced at every meeting of the Committee. He or she will also ensure that other
-Committees keep adequate minutes. He or she shall also advise the Commodore and General
+shall be produced at every meeting of the Committee. They will also ensure that other
+Committees keep adequate minutes. They shall also advise the Commodore and General
 Management Committee relating to the observance of the Club Rules and may report any breach
-thereof direct to the members if the Commodore and Committee refuse to do so. He or she shall attend to all correspondence of the Club (except that
+thereof direct to the members if the Commodore and Committee refuse to do so. They shall attend to all correspondence of the Club (except that
 dealt with by other Secretaries), keep custody of all Club documents, maintain contact with the
 Club’s legal adviser to ensure that the Club’s affairs are managed in accordance with current law,
 maintain such certificates or registrations, and complete any such non-financial returns as may be
-required by law. He or she shall attend to maters relating to the Club's
+required by law. They shall attend to maters relating to the Club's
 Trustees as required by the Trustees.
 
 **5.2.5** Honorary Treasurer: The Honorary Treasurer shall be responsible for all financial business of
@@ -177,18 +177,18 @@ each year and cause such Balance Sheet (and accounts as necessary) to be audited
 annually and shall thereafter cause the same to be exhibited in the Club’s premises at least
 fourteen days before the date of the Financial General Meeting; and administer such insurance
 policy or policies as may be needed fully to protect the interests of the Club, its Executive Officers
-and its members. He or she shall ensure that where monies are made available to the Committee or
-Sub-Committees, they are correctly accounted for.
+and its members. They shall ensure that where monies are made available to the Committee or
+Sub-Committees, the monies are correctly accounted for.
 
 **5.2.6** Honorary Sailing Secretary: The Honorary Sailing Secretary shall attend to all maters and
 correspondence relating to sailing, races and fixtures and keep all records relating thereto and to
-Sailing Committee Meetings. He or she will have overall responsibility for the setting of courses,
+Sailing Committee Meetings. They will have overall responsibility for the setting of courses,
 convening protest meetings, deciding on the fitness for racing if necessary, and for ensuring that
 the Race Tower equipment is in working order.
 
 **5.2.7** Honorary Bosun: The Honorary Bosun will be directly responsible for the maintenance of the
 Bosun's stores, safety boats, engines and equipment and the launching thereof as required by the
-Officers of the Club or officiating Race Officer. He or she will also be responsible for the boat
+Officers of the Club or officiating Race Officer. They will also be responsible for the boat
 moorings and marks and the upkeep of the Club ramps and winches.
 
 ## 6. GENERAL MANAGEMENT COMMITTEE:
@@ -216,7 +216,7 @@ Committee, have a right to attend or vote at meetings of the General Management 
 General Management Committee may, however, invite a member of a sub-committee to attend the
 General Management Committee meetings for the purpose of reportng only, if it seems ft.
 6.5 A member of the General Management Committee, of a sub-committee or any Officer of the
-Club, in transacting business for the Club, shall disclose to third parties that he/she is so acting.
+Club, in transacting business for the Club, shall disclose to third parties that they are so acting.
 
 ## 7. ELECTION OF EXECUTIVE OFFICERS AND GENERAL MANAGEMENT COMMITTEE:
 
@@ -230,7 +230,7 @@ Committee members, duly proposed and seconded shall be sent to the Honorary Secr
 date for nominations shall not be earlier than 14 clear days after the Notice calling for nominations.
 
 **7.3** No person may be nominated or elected to the General Management Committee or as an
-Executive Officer unless his or her subscription for the year is fully paid and he is entitled to vote as
+Executive Officer unless their subscription for the year is fully paid, and they are entitled to vote as
 a single, partner or family member. This qualification must continue to be held so long as such an
 officer or Committee member remains in office, subject, however, to right of an Honorary Life
 Member to stand for election and vote at meetings per Rule 4.1.
@@ -275,7 +275,7 @@ The Treasurer so elected will take office from 1st January next to the 31st Dece
 **8.3** Special General Meetings shall be convened at any time by the Honorary Secretary whenever
 required by the General Management Committee or upon receipt of a requisition signed by not less
 than 12 members of the Club. In all such cases the Honorary Secretary must require the purpose of
-the meeting to be notified to him and he must advise members of such purpose in the Notice
+the meeting to be notified, and must advise members of such purpose in the Notice
 convening the meeting.
 
 **8.4** All General meetings of members must be convened by sending a Notice in writing to members
@@ -291,10 +291,10 @@ the member.
 
 **8.7** The quorum for any General meeting shall be fifteen.
 
-**8.8** The Commodore or, in his/her absence, other Flag Officer shall take the Chair at all General
+**8.8** The Commodore or, in their absence, other Flag Officer shall take the Chair at all General
 meetings. In the absence of a Flag Officer, the members present shall elect a Chairman. The
 Chairman shall in all cases, in the event of any equality of votes on a division, have a casting vote in
-addition to his or her vote as a member.
+addition to their vote as a member.
 
 ## 9. SELECTION OF AUDITOR:
 The members shall elect in Financial General Meeting an independent person to act as auditor until
@@ -402,7 +402,7 @@ Meeting.
 
 **16.1** Members may bring visitors to the Club. A member bringing a visitor shall, on entering the
 Club, insert the visitor's name in the Visitors' Book and sign the entry. The member shall be
-responsible for the conduct of his or her guest whilst on the Club premises.
+responsible for the conduct of their guest whilst on the Club premises.
 
 **16.2** This privilege does not extend to boat parking without the consent of Club Executive Officers.
 
@@ -415,26 +415,25 @@ purpose of the event.
 **16.5** If, in the opinion of the General Management Committee, a member is abusing this rule by
 inviting a visitor or visitors too frequently to the Club, the General Management Committee, may at
 their discretion remove the members’ right to invite visitors if the member continues to abuse the
-privilege after the General Management Committee’s concern has been brought to his/her
-attention.
+privilege after the General Management Committee’s concern has been brought to their attention.
 
 ## 17. TRUSTEES:
 **17.1** There shall be at least three Trustees of the club who shall be appointed from time to time as
 necessary by the General Management Committee of the Club from among Single, Family, Partner
-or Honorary Members who are willing to be so appointed. A Trustee shall hold office during his/her
-lifetime or until he/she shall resign, by notice in writing given to the Committee, or until a
-resolution removing him/her from office shall be passed at a meeting of the Committee by a
+or Honorary Members who are willing to be so appointed. A Trustee shall hold office during their
+lifetime or until they shall resign, by notice in writing given to the Committee, or until a
+resolution removing them from office shall be passed at a meeting of the Committee by a
 majority comprising two-thirds of the members present and entitled to vote.
 
-**17.2** All the property of the Club, including land and investiments, shall be held by the Trustees for
+**17.2** All the property of the Club, including land and investments, shall be held by the Trustees for
 the time being, in their own names so far as it is necessary and practicable, on trust for the use and
 benefit of the Club. In the event of the death, resignation, or removal from office of a Trustee, the
-Committee shall nominate a new Trustee in his/her place, and shall as soon as possible thereafter
+Committee shall nominate a new Trustee in their place, and shall as soon as possible thereafter
 take all lawful and practicable steps to procure the vesting of all club property into the names of
 the Trustees as constituted after such nomination. For the purpose of giving effect to any such
 nomination, the Honorary Secretary for the time being is hereby nominated as the person to
-appoint new Trustees of the Club within the meaning of Section 36 of the Trustee Act 1925 and
-he/she shall by Deed duly appoint the person or persons so nominated by the Committee.
+appoint new Trustees of the Club within the meaning of Section 36 of the Trustee Act 1925, and
+they shall by Deed duly appoint the person or persons so nominated by the Committee.
 
 **17.3** The Trustees shall in all respects act, in regard to any property of the Club held by them, in
 accordance with the directions of the Committee and shall have power to sell, lease, mortgage or
@@ -488,8 +487,8 @@ a) that the conditions of the lease of the Club premises are not infringed;
 b) that the law is not contravened;
 c) that the Clubhouse is kept in a good state of repair and cleanliness.
 
-**2.** Where a member opens the premises, he/she is responsible for its safety and should close the
-premises after he/she has used it unless he/she has passed the responsibility to another member.
+**2.** Where a member opens the premises, they are responsible for its safety and should close the
+premises after use unless they have passed the responsibility to another member.
 
 **3.** The last member using the Club MUST ensure that all windows are secured, all outside doors
 locked, all alarms are set and all lights of.
@@ -569,5 +568,5 @@ Proper evidence is available to show that all reasonable steps have been taken t
 or former member and that, when and if the boat and/or trailer is sold, if the Club is unable to
 account to the member or former member for the balance of the proceeds of sale pursuant to Rule
 (b) above then the balance of the proceeds of sale shall be placed upon bank deposit account and
-retained against the eventuality of a claim by the owner (whether he be the said member or former
+retained against the eventuality of a claim by the owner (whether they be the said member or former
 member or otherwise) for a period of six years.
