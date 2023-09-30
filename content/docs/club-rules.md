@@ -82,7 +82,7 @@ using the following tariff
 
 _note this discount applies only to membership fees, other fees such as boat parking are at the full rate_
 
-**4.10**  Social members are allowed full access to the Club during periods when the Club is open for
+**4.10** Social members are allowed full access to the Club during periods when the Club is open for
 sailing and/or social activities. They are allowed access to the changing rooms and common areas
 on the ground floor at any tme, are entitled to a Club key and are informed of the door code. Social
 members are expected to support the Club’s activities.
@@ -168,8 +168,7 @@ maintenance of a rota of Race Officers and Safety Boat crews.
 **5.2.4** Honorary Secretary(Secretary): The Secretary shall keep Minute Books accurately recording all
 proceedings of the Club other than sailing maters or maters of the Subcommittees and the same
 shall be produced at every meeting of the Committee. They will also ensure that other
-Committees keep adequate minutes. They shall also advise the Commodore and General
-Management Committee relating to the observance of the Club Rules and may report any breach
+Committees keep adequate minutes. They shall also advise the Commodore and GMC relating to the observance of the Club Rules and may report any breach
 thereof direct to the members if the Commodore and Committee refuse to do so. They shall attend to all correspondence of the Club (except that
 dealt with by other Secretaries), keep custody of all Club documents, maintain contact with the
 Club’s legal adviser to ensure that the Club’s affairs are managed in accordance with current law,
@@ -219,8 +218,7 @@ trailers.
 **6.4** The GMC may appoint sub-committees (in addition to those
 mentioned specifically in the rules) to arrange or carry out specific functions. Such sub-committees
 shall consist of full voting members and up to 25% 'Other' members. In no case will any subcommittee
-member so appointed, who is not already a member of the General Management
-Committee, have a right to attend or vote at meetings of the GMC. The
+member so appointed, who is not already a member of the GMC, have a right to attend or vote at meetings of the GMC. The
 GMC may, however, invite a member of a sub-committee to attend the
 GMC meetings for the purpose of reportng only, if it seems ft.
 6.5 A member of the GMC, of a sub-committee or any Officer of the
@@ -257,8 +255,7 @@ members will not be entitled to a vote.
 the votes and certify the number of votes cast for each candidate.
 
 **7.7** In the event of no nominations being received for any office or Committee member,
-nominations may be handed in writing to the Secretary and scrutineers at the Annual General
-Meeting and if in order accepted.
+nominations may be handed in writing to the Secretary and scrutineers at the AGM and if in order accepted.
 
 **7.8** Executive Officers and GMC members shall automatically be
 considered to have resigned from office if they absent themselves without good cause from four
@@ -300,7 +297,7 @@ the member.
 **8.7** The quorum for any General meeting shall be fifteen.
 
 **8.8** The Commodore or, in their absence, other Flag Officer shall take the Chair at all General
-meetings. In the absence of a Flag Officer, the members present shall elect a Chairman. The
+Meetings. In the absence of a Flag Officer, the members present shall elect a Chairman. The
 Chairman shall in all cases, in the event of any equality of votes on a division, have a casting vote in
 addition to their vote as a member.
 
@@ -345,8 +342,7 @@ Premises Certificate) and details of which shall be posted on the Club Notice Bo
 **12.1** All Members of the Club are expected to abide by the spirit and detail of the Club Rules and
 Bye-laws, Sailing Instructions and where appropriate, instructions given by Club Executive Officers.
 Where rules or instructions are disregarded or disobeyed, or where the conduct of any member is
-considered to be injurious to the character or interests of the Club, the General Management
-Committee will have the power to invoke sanctions against that member. Possible sanctions
+considered to be injurious to the character or interests of the Club, the GMC will have the power to invoke sanctions against that member. Possible sanctions
 include:
 
 - Disqualification from receiving prizes.
@@ -508,8 +504,7 @@ may be destroyed at the discretion of a Club Officer.
 **6.** No inflammable materials (e.g. petrol, oil or gas) or outboard motors may be stored other than
 those owned by the Club or on loan to the Club.
 
-**7.** The Clubhouse will be closed at 11.00pm subject to permission being granted by the General
-Management Committee on special occasions.
+**7.** The Clubhouse will be closed at 11.00pm subject to permission being granted by the GMC on special occasions.
 
 **8.** Members may not use the Club premises for repairing or painting boats without the permission
 of an Officer.
