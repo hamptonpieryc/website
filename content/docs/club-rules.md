@@ -59,7 +59,8 @@ is available in Family, Partner and Single classes, with eligibility as per 4.4.
 **4.5** Temporary memberships, for short periods of time, shall be arranged at the discretion of the
 GMC.
 
-**4.6** The rates of Subscription payable by each class of membership as recommended by the GMC shall be approved for next year at any general or Special General Meeting
+**4.6** The rates of Subscription payable by each class of membership as recommended by the GMC shall be approved for 
+next year at any general or Special General Meeting
 of the Club. Any proposed changes shall be approved by a majority of those present and entitled to
 vote and shall become effective on the frst day of January in the following year. The current rate of
 entrance and subscription fee shall be prominently displayed in the Club premises.
@@ -275,7 +276,7 @@ Sheet and Income and Expenditure Account shall be sent to every member with the 
 convening the meeting.
 
 **8.2** There shall be a General Meeting of members held not later than 31st October called the Annual
-General Meeting for the election of Officers and Members of the Committee for the ensuing year
+General Meeting(AGM) for the election of Officers and Members of the Committee for the ensuing year
 until the next AGM and such other maters as determined by the Committee.
 The Treasurer so elected will take office from 1st January next to the 31st December following.
 
