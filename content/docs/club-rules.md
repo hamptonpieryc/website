@@ -1,3 +1,6 @@
+HAMPTON PIER YACHT CLUB
+=======================
+
 CLUB RULES
 ==========
 
@@ -53,7 +56,7 @@ not entitled to vote.
 **4.4.6** Social non-sailing members. Non-sailing members are not entitled to vote. This membership
 is available in Family, Partner and Single classes, with eligibility as per 4.4.1, 4.4.2 and 4.4.3.
 
-**4.5** Temporary memberships, for short periods of tme, shall be arranged at the discretion of the
+**4.5** Temporary memberships, for short periods of time, shall be arranged at the discretion of the
 General Management Committee.
 
 **4.6** The rates of Subscription payable by each class of membership as recommended by the General
@@ -124,7 +127,7 @@ than fourteen days apart, the said person may be accorded membership and use of 
 as a visitor in accordance with Rule 16.
 
 **4.16** All members, including social members, are permitted to use the Club’s facilities for any club
-approved non-powered craft at their own risk at any tme. This includes paddle boards, kayaks and
+approved non-powered craft at their own risk at any time. This includes paddle boards, kayaks and
 canoes. Users of non-powered craft agree to give priority to sailors during scheduled sailing
 activities. The Club can only provide storage for dinghies. The Club reserves the right to forbid
 certain types of non-powered craft.
@@ -169,7 +172,7 @@ Trustees as required by the Trustees.
 **5.2.5** Honorary Treasurer: The Honorary Treasurer shall be responsible for all financial business of
 the Club and shall keep or cause to be kept books of account as are necessary to give a true and fair
 view of the state of finances of the Club; cause all returns as are required by law in relaton to such
-accounts to be rendered at the due tme; prepare an Annual Balance Sheet as at 31 December in
+accounts to be rendered at the due time; prepare an Annual Balance Sheet as at 31 December in
 each year and cause such Balance Sheet (and accounts as necessary) to be audited at least once
 annually and shall thereafter cause the same to be exhibited in the Club’s premises at least
 fourteen days before the date of the Financial General Meeting; and administer such insurance
@@ -215,12 +218,12 @@ General Management Committee meetings for the purpose of reportng only, if it se
 6.5 A member of the General Management Committee, of a sub-committee or any Officer of the
 Club, in transacting business for the Club, shall disclose to third parties that he/she is so acting.
 
-## 7.ELECTION OF EXECUTIVE OFFICERS AND GENERAL MANAGEMENT COMMITTEE:
+## 7. ELECTION OF EXECUTIVE OFFICERS AND GENERAL MANAGEMENT COMMITTEE:
 
 **7.1** Not less than 28 clear days before the Annual General Meeting the Honorary Secretary shall call
 for nominations for all officers set out in Rule 5 and fve Committee members per Rule 6. The notice
 calling for nominations shall include a specimen nomination form stating the address to which the
-nominations shall be sent and the date and tme nominations will close.
+nominations shall be sent and the date and time nominations will close.
 
 **7.2** In accordance with the above, the names of members willing to serve as Executive Officers or
 Committee members, duly proposed and seconded shall be sent to the Honorary Secretary. The last
@@ -269,7 +272,7 @@ General Meeting for the election of Officers and Members of the Committee for th
 until the next Annual General Meeting and such other maters as determined by the Committee.
 The Treasurer so elected will take office from 1st January next to the 31st December following.
 
-**8.3** Special General Meetings shall be convened at any tme by the Honorary Secretary whenever
+**8.3** Special General Meetings shall be convened at any time by the Honorary Secretary whenever
 required by the General Management Committee or upon receipt of a requisition signed by not less
 than 12 members of the Club. In all such cases the Honorary Secretary must require the purpose of
 the meeting to be notified to him and he must advise members of such purpose in the Notice
@@ -332,7 +335,7 @@ of the premises by Club members.
 from time to time by the General Management Committee (subject to the terms of the Club
 Premises Certificate) and details of which shall be posted on the Club Notice Board.
 
-## 12 CLUB DISCIPLINE:
+## 12. CLUB DISCIPLINE:
 
 **12.1** All Members of the Club are expected to abide by the spirit and detail of the Club Rules and
 Bye-laws, Sailing Instructions and where appropriate, instructions given by Club Executive Officers.
@@ -423,7 +426,7 @@ lifetime or until he/she shall resign, by notice in writing given to the Committ
 resolution removing him/her from office shall be passed at a meeting of the Committee by a
 majority comprising two-thirds of the members present and entitled to vote.
 
-**17.2** All the property of the Club, including land and investments, shall be held by the Trustees for
+**17.2** All the property of the Club, including land and investiments, shall be held by the Trustees for
 the time being, in their own names so far as it is necessary and practicable, on trust for the use and
 benefit of the Club. In the event of the death, resignation, or removal from office of a Trustee, the
 Committee shall nominate a new Trustee in his/her place, and shall as soon as possible thereafter
@@ -509,7 +512,7 @@ Management Committee on special occasions.
 **8.** Members may not use the Club premises for repairing or painting boats without the permission
 of an Officer.
 
-**9. ** Boat Parking, Abandoned Boats and/or Trailers
+**9.** Boat Parking, Abandoned Boats and/or Trailers
 
 **9.1.** Members of the Club who own sailing dinghies may, upon on payment of the parking fee, place
 them in the space allocated in the Club dinghy parks and on no other part of the Club premises. The
