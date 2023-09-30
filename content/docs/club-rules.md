@@ -24,10 +24,10 @@ The burgee of the Club shall consist of a white Canterbury Cross on a red backgr
 **4.1** Historically up to eleven “life honorary” memberships were available. This
 category is no longer open to new appointments. Such appointments carry no
 executive authority but do not bar the holders thereof seeking election as Officers or
-General Management Committee Members in the normal way. The appointees shall
+General Management Committee(GMC) Members in the normal way. The appointees shall
 be each entitled to vote at a General Meeting.
 
-**4.2** The General Management Committee may also grant annual honorary membership to Flag
+**4.2** The GMC may also grant annual honorary membership to Flag
 Officers of adjoining local sailing clubs.
 
 **4.3** Neither entry fee nor annual subscription is payable by either of the types of membership
@@ -57,10 +57,9 @@ not entitled to vote.
 is available in Family, Partner and Single classes, with eligibility as per 4.4.1, 4.4.2 and 4.4.3.
 
 **4.5** Temporary memberships, for short periods of time, shall be arranged at the discretion of the
-General Management Committee.
+GMC.
 
-**4.6** The rates of Subscription payable by each class of membership as recommended by the General
-Management Committee shall be approved for next year at any general or Special General Meeting
+**4.6** The rates of Subscription payable by each class of membership as recommended by the GMC shall be approved for next year at any general or Special General Meeting
 of the Club. Any proposed changes shall be approved by a majority of those present and entitled to
 vote and shall become effective on the frst day of January in the following year. The current rate of
 entrance and subscription fee shall be prominently displayed in the Club premises.
@@ -74,12 +73,20 @@ applying for membership in accordance with rule 4.11 and being so elected.
 
 **4.9** Where a person joins the Club after 30 June, the subscription for that year shall be discounted
 using the following tariff
-4.10 Social members are allowed full access to the Club during periods when the Club is open for
+
+- 1st to 31st July **50% discount**
+- 1st to 31st August **60% discount**
+- 1st to 3oth September **70% discount**
+- 1st October onwards **80% discount**
+
+_note this discount applies only to membership fees, other fees such as boat parking are at the full rate_
+
+**4.10**  Social members are allowed full access to the Club during periods when the Club is open for
 sailing and/or social activities. They are allowed access to the changing rooms and common areas
 on the ground floor at any tme, are entitled to a Club key and are informed of the door code. Social
 members are expected to support the Club’s activities.
 
-**4.11** Candidates for membership are required to forward to the Honorary Secretary the specified
+**4.11** Candidates for membership are required to forward to the Secretary the specified
 form of application duly completed, together with one year's subscription and entrance fee. New
 members shall be elected by ballot in Committee if necessary.
 
@@ -91,7 +98,7 @@ application regardless of sex, age, disability, ethnicity, nationality, sexual o
 other beliefs. Membership may however be limited according to available facilities on a nondiscriminatory
 basis.
 
-**4.11.3** The General Management Committee may refuse membership or, subject to Rule 12,
+**4.11.3** The GMC may refuse membership or, subject to Rule 12,
 remove it, only for good cause such as conduct or character likely to bring the Club or sport into
 disrepute. Appeal against refusal of membership may be made to the members.
 
@@ -100,14 +107,14 @@ member in accordance with this rule. Any persons who are able under these rules 
 members without prior application may not be admitted to the privileges of membership without
 an interval of at least two days between their becoming a member and their admission.
 
-**4.11.5** The Honorary Secretary shall inform each candidate in writing of the candidates’ election or
+**4.11.5** The Honorary Secretary (Secretary) shall inform each candidate in writing of the candidates’ election or
 non-election and shall furnish an elected candidate with a copy of the Rules and Bye-laws of the
 Club and make request for such payments as are necessary.
 
 **4.12** Any member wishing to withdraw from the Club shall give writen notice of their desire to
-do so addressed to the Honorary Secretary. If no such notice is received after 7th January in any
+do so addressed to the Secretary. If no such notice is received after 7th January in any
 year, the member shall be liable to pay the subscription for the current year. Upon re-application by
-a past member the General Management Committee may, at its discretion, excuse payment of an
+a past member the GMC may, at its discretion, excuse payment of an
 entrance fee.
 
 **4.13** Any person ceasing to be a member of the Club shall forfeit all claim upon it and no part of the
@@ -135,10 +142,10 @@ certain types of non-powered craft.
 ## 5. EXECUTIVE OFFICERS:
 
 **5.1** The Executive Officers of the Club shall consist of a Commodore, Vice Commodore and Rear
-Commodore (the Flag Officers), Honorary Treasurer, Honorary Secretary, Honorary Sailing Secretary
-and Honorary Bosun. The Executive Officers shall, ex officio, be members of all Committees. The
-Office of Commodore, Vice Commodore and Rear Commodore shall not be held by any person for
-more than three years consecutive from the date of frst election.
+Commodore (the Flag Officers), Honorary Treasurer(Treasurer), Honorary Secretary(Secretary), 
+Honorary Sailing Secretary(Sailing Secretary) and Honorary Bosun(Bosun). The Executive Officers shall, ex officio, 
+be members of all Committees. The Office of Commodore, Vice Commodore and Rear Commodore shall not be held by any 
+person for more than three years consecutive from the date of frst election.
 
 **5.2** The duties of Executive Officers shall be:
 
@@ -148,7 +155,7 @@ Management Committee Meetings. It will also be their duty to represent the Club 
 required to do so except where this duty is specific to any other Officer.
 
 **5.2.2** Vice Commodore: The Vice Commodore shall assume the duties of the Commodore in his or
-her absence. They will be responsible to the General Management Committee for maters
+her absence. They will be responsible to the GMC for maters
 relating to all buildings owned or leased by the Club and for the maintenance of permanent
 equipment therein including the kitchen and Club furniture. They will also be responsible for
 the orderliness of the Club's premises.
@@ -157,7 +164,7 @@ the orderliness of the Club's premises.
 absence of the Commodore and Vice Commodore. They will be directly responsible for the
 maintenance of a rota of Race Officers and Safety Boat crews.
 
-**5.2.4** Honorary Secretary: The Honorary Secretary shall keep Minute Books accurately recording all
+**5.2.4** Honorary Secretary(Secretary): The Secretary shall keep Minute Books accurately recording all
 proceedings of the Club other than sailing maters or maters of the Subcommittees and the same
 shall be produced at every meeting of the Committee. They will also ensure that other
 Committees keep adequate minutes. They shall also advise the Commodore and General
@@ -169,75 +176,75 @@ maintain such certificates or registrations, and complete any such non-financial
 required by law. They shall attend to maters relating to the Club's
 Trustees as required by the Trustees.
 
-**5.2.5** Honorary Treasurer: The Honorary Treasurer shall be responsible for all financial business of
+**5.2.5** Honorary Treasurer(Treasurer): The Treasurer shall be responsible for all financial business of
 the Club and shall keep or cause to be kept books of account as are necessary to give a true and fair
 view of the state of finances of the Club; cause all returns as are required by law in relaton to such
 accounts to be rendered at the due time; prepare an Annual Balance Sheet as at 31 December in
 each year and cause such Balance Sheet (and accounts as necessary) to be audited at least once
 annually and shall thereafter cause the same to be exhibited in the Club’s premises at least
-fourteen days before the date of the Financial General Meeting; and administer such insurance
+fourteen days before the date of the Financial General Meeting(FGM); and administer such insurance
 policy or policies as may be needed fully to protect the interests of the Club, its Executive Officers
 and its members. They shall ensure that where monies are made available to the Committee or
 Sub-Committees, the monies are correctly accounted for.
 
-**5.2.6** Honorary Sailing Secretary: The Honorary Sailing Secretary shall attend to all maters and
+**5.2.6** Honorary Sailing Secretary(Sailing Secretary): The Sailing Secretary shall attend to all maters and
 correspondence relating to sailing, races and fixtures and keep all records relating thereto and to
 Sailing Committee Meetings. They will have overall responsibility for the setting of courses,
 convening protest meetings, deciding on the fitness for racing if necessary, and for ensuring that
 the Race Tower equipment is in working order.
 
-**5.2.7** Honorary Bosun: The Honorary Bosun will be directly responsible for the maintenance of the
+**5.2.7** Honorary Bosun(Bosun): The Bosun will be directly responsible for the maintenance of the
 Bosun's stores, safety boats, engines and equipment and the launching thereof as required by the
 Officers of the Club or officiating Race Officer. They will also be responsible for the boat
 moorings and marks and the upkeep of the Club ramps and winches.
 
-## 6. GENERAL MANAGEMENT COMMITTEE:
+## 6. GENERAL MANAGEMENT COMMITTEE(GMC):
 
-**6.1** The management of the Club shall be vested in a General Management Committee composed
+**6.1** The management of the Club shall be vested in a General Management Committee(GMC) composed
 of the Executive Officers and fve other members of the Club elected to serve thereon by the Club in
 General Meeting. Five members present shall form a quorum.
 
-**6.2** The General Management Committee will be responsible for the day to day administration of
+**6.2** The GMC will be responsible for the day to day administration of
 the Club and shall manage the affairs of the Club according to the Rules and shall cause the funds of
 the Club to be applied solely to the objects of the Club or for a benevolent or charitable purpose
 nominated by General Meeting. In particular the Committee shall ensure that the property and
 funds of the Club will not be used for the direct or indirect private benefit of members other than
 as reasonably allowed by the Rules and that all surplus income or profits are reinvested in the Club.
 
-**6.3** The General Management Committee will be responsible for allocating boat parking space and
+**6.3** The GMC will be responsible for allocating boat parking space and
 the orderliness of the boat parking facilities including the removal of any abandoned boats and/or
 trailers.
 
-**6.4** The General Management Committee may appoint sub-committees (in addition to those
+**6.4** The GMC may appoint sub-committees (in addition to those
 mentioned specifically in the rules) to arrange or carry out specific functions. Such sub-committees
 shall consist of full voting members and up to 25% 'Other' members. In no case will any subcommittee
 member so appointed, who is not already a member of the General Management
-Committee, have a right to attend or vote at meetings of the General Management Committee. The
-General Management Committee may, however, invite a member of a sub-committee to attend the
-General Management Committee meetings for the purpose of reportng only, if it seems ft.
-6.5 A member of the General Management Committee, of a sub-committee or any Officer of the
+Committee, have a right to attend or vote at meetings of the GMC. The
+GMC may, however, invite a member of a sub-committee to attend the
+GMC meetings for the purpose of reportng only, if it seems ft.
+6.5 A member of the GMC, of a sub-committee or any Officer of the
 Club, in transacting business for the Club, shall disclose to third parties that they are so acting.
 
-## 7. ELECTION OF EXECUTIVE OFFICERS AND GENERAL MANAGEMENT COMMITTEE:
+## 7. ELECTION OF EXECUTIVE OFFICERS AND GENERAL MANAGEMENT COMMITTEE(GMC):
 
-**7.1** Not less than 28 clear days before the Annual General Meeting the Honorary Secretary shall call
+**7.1** Not less than 28 clear days before the Annual General Meeting(AGM) the Secretary shall call
 for nominations for all officers set out in Rule 5 and fve Committee members per Rule 6. The notice
 calling for nominations shall include a specimen nomination form stating the address to which the
 nominations shall be sent and the date and time nominations will close.
 
 **7.2** In accordance with the above, the names of members willing to serve as Executive Officers or
-Committee members, duly proposed and seconded shall be sent to the Honorary Secretary. The last
+Committee members, duly proposed and seconded shall be sent to the Secretary. The last
 date for nominations shall not be earlier than 14 clear days after the Notice calling for nominations.
 
-**7.3** No person may be nominated or elected to the General Management Committee or as an
+**7.3** No person may be nominated or elected to the GMC or as an
 Executive Officer unless their subscription for the year is fully paid, and they are entitled to vote as
 a single, partner or family member. This qualification must continue to be held so long as such an
 officer or Committee member remains in office, subject, however, to right of an Honorary Life
 Member to stand for election and vote at meetings per Rule 4.1.
 
-**7.4** The Honorary Secretary and at least one other member of the Committee shall inspect the
+**7.4** The Secretary and at least one other member of the Committee shall inspect the
 nominations received and after certifying that they are in order, affix a list on the Club Notice Board
-at least seven clear days before the date fixed for the Annual General Meeting.
+at least seven clear days before the date fixed for the AGM.
 
 **7.5** The election of Executive Officers and Committee members shall be by ballot. Both adult
 partners are entitled to a vote each in the case of family or partners memberships and single
@@ -245,36 +252,36 @@ members are entitled to one vote. Only members present may cast a vote. Cadet me
 members and Social non sailing members (except Honorary Life Members) and temporary
 members will not be entitled to a vote.
 
-**7.6** Four scrutineers appointed at the Annual General Meeting shall collect the ballot papers, count
+**7.6** Four scrutineers appointed at the AGM shall collect the ballot papers, count
 the votes and certify the number of votes cast for each candidate.
 
 **7.7** In the event of no nominations being received for any office or Committee member,
 nominations may be handed in writing to the Secretary and scrutineers at the Annual General
 Meeting and if in order accepted.
 
-**7.8** Executive Officers and General Management Committee members shall automatically be
+**7.8** Executive Officers and GMC members shall automatically be
 considered to have resigned from office if they absent themselves without good cause from four
-consecutive meetings of the General Management Committee.
+consecutive meetings of the GMC.
 
 **7.9** In the event of vacancies occurring during the year for any elected office or Committee
-member, the General Management Committee may co-opt to fll such vacancies.
+member, the GMC may co-opt to fll such vacancies.
 
 ## 8. GENERAL MEETINGS:
 
 **8.1** There shall be a General Meeting of members held not later than 31st May called the Financial
-General Meeting for the approval of the Balance Sheet and Income and Expenditure Account to
+General Meeting(FGM) for the approval of the Balance Sheet and Income and Expenditure Account to
 31st December preceding and other maters determined by the Committee. A copy of the Balance
 Sheet and Income and Expenditure Account shall be sent to every member with the notice
 convening the meeting.
 
 **8.2** There shall be a General Meeting of members held not later than 31st October called the Annual
 General Meeting for the election of Officers and Members of the Committee for the ensuing year
-until the next Annual General Meeting and such other maters as determined by the Committee.
+until the next AGM and such other maters as determined by the Committee.
 The Treasurer so elected will take office from 1st January next to the 31st December following.
 
-**8.3** Special General Meetings shall be convened at any time by the Honorary Secretary whenever
-required by the General Management Committee or upon receipt of a requisition signed by not less
-than 12 members of the Club. In all such cases the Honorary Secretary must require the purpose of
+**8.3** Special General Meetings shall be convened at any time by the Secretary whenever
+required by the GMC or upon receipt of a requisition signed by not less
+than 12 members of the Club. In all such cases the Secretary must require the purpose of
 the meeting to be notified, and must advise members of such purpose in the Notice
 convening the meeting.
 
@@ -297,16 +304,14 @@ Chairman shall in all cases, in the event of any equality of votes on a division
 addition to their vote as a member.
 
 ## 9. SELECTION OF AUDITOR:
-The members shall elect in Financial General Meeting an independent person to act as auditor until
-the next Financial General meeting. The Auditor so elected shall audit the accounts and the Annual
+The members shall elect in FGM an independent person to act as auditor until
+the next FGM. The Auditor so elected shall audit the accounts and the Annual
 Balance Sheet of the Club when called upon to do so and shall give such certificate of assurance as
-to the accuracy of the said accounts as shall be required by the law or by the General Management
-Committee. If either unable or unwilling to act the Auditor shall inform the General Management
-Committee who shall appoint a substitute to hold office until the termination of the next Financial
-General Meeting.
+to the accuracy of the said accounts as shall be required by the law or by the GMC. If either unable or unwilling to act 
+the Auditor shall inform the GMC who shall appoint a substitute to hold office until the termination of the next FGM.
 
 ## 10. SAILING COMMITTEE:
-The General Management Committee shall, after its election each year, select not less than fve
+The GMC shall, after its election each year, select not less than fve
 members of the Club, two of whom may be non-voting members, who with the Executive Officers
 shall form a Sailing Committee. Five members present shall form a quorum. This committee shall
 have the responsibility for the setting and management of yacht races and shall formulate the rules
@@ -314,8 +319,7 @@ connected therewith.
 
 ## 11. SALE OF INTOXICATING LIQUOR:
 **11.1** There shall be a sub-committee known as the Bar Committee, comprising not less than three
-members and all members of the Bar Committee must be members of the General Management
-Committee.
+members and all members of the Bar Committee must be members of the GMC.
 
 **11.2** The purchase for the Club and the supply to the Club of intoxicating liquor shall be exclusively
 controlled by the Bar Committee. No person shall take a commission, percentage or other such
@@ -323,7 +327,7 @@ payment in connection with the purchase of excisable goods for the Club. Any pro
 the sale of such goods shall (after deduction of the costs of providing such goods for the benefit of
 the Club) be applied to the provision of additional amenities or the purchase of property to be held
 in trust for the benefit of the Club. Proper accounts of all purchases and receipts shall be kept and
-presented at the Financial General Meeting in each year and such information as the Honorary
+presented at the FGM in each year and such information as the 
 Secretary or auditor may require shall be furnished to enable any statutory return or statement and
 the payment of excise or other duty or tax to be made.
 
@@ -332,7 +336,7 @@ persons over the age of 18 who are entitled to the use of the Club premises and 
 of the premises by Club members.
 
 **11.4** The permitted hours for the supply of intoxicating liquor in the Club shall be such as are fixed
-from time to time by the General Management Committee (subject to the terms of the Club
+from time to time by the GMC (subject to the terms of the Club
 Premises Certificate) and details of which shall be posted on the Club Notice Board.
 
 ## 12. CLUB DISCIPLINE:
@@ -349,19 +353,18 @@ include:
 - Barring from the Club for a limited period.
 - Expulsion.
 
-**12.2** Expulsion from the Club requires a unanimous decision by the General Management
-Committee; other sanctions shall be carried by a simple majority of the General Management
-Committee.
+**12.2** Expulsion from the Club requires a unanimous decision by the GMC; other sanctions shall be carried by a 
+simple majority of the GMC.
 
 **12.3** The power of expulsion is in addition to expulsion for non-payment of subscriptions.
 
-**12.4**. Before the General Management Committee imposes any sanctions the Secretary will invite
+**12.4**. Before the GMC imposes any sanctions the Secretary will invite
 the member to provide a writen explanation of the member’s conduct and shall give the member
-full opportunity of making explanation to the General Management Committee, or of resigning.
+full opportunity of making explanation to the GMC, or of resigning.
 Appeal against expulsion or other sanction may be made to the members in General Meeting.
 
 ## 13. MEMBERS’ INTERESTS:
-In all questions referred to the General Management Committee or other Committee, in which
+In all questions referred to the GMC or other Committee, in which
 members of the Committee may be personally interested, such members shall not vote, nor shall
 they take part in the discussion except by desire of the Committee.
 
@@ -379,7 +382,7 @@ caused by the said members, guests or visitors whether or not such damage or inj
 been attributed to or was occasioned by the neglect, default or negligence of any of them, the
 Officers, Committee or servants of the Club._"
 
-**14.2** Members shall communicate to the Honorary Secretary any change of their addresses or in the
+**14.2** Members shall communicate to the Secretary any change of their addresses or in the
 names or particulars of yachts. Any notice posted to them under the last given address shall be
 considered to have been duly delivered.
 
@@ -390,13 +393,12 @@ Acts.
 ## 15. BYE-LAWS:
 
 **15.1** Bye-Laws necessary for the management and good order of the Club, not inconsistent to the
-Rules may, from time to time, be made by the Committee. Any infringement of the Bye-laws shall
+Rules may, from time to time, be made by the GMC. Any infringement of the Bye-laws shall
 be equivalent to an infringement of the Rules.
 
-**15.2** New Bye-laws made by the Committee shall be read at the next General Meeting of the Club
+**15.2** New Bye-laws made by the GMC shall be read at the next General Meeting of the Club
 and formally approved. No Bye-laws rejected by the Club in General Meeting shall be re-introduced
-by the General Management Committee without subsequent reference to the Club in General
-Meeting.
+by the GMC without subsequent reference to the Club in General Meeting.
 
 ## 16. VISITORS:
 
@@ -412,14 +414,14 @@ to leave the Club, if in their opinion this is in the best interests of the Club
 **16.4** Should visitors be allowed to enter races as helmsmen, the result will be ignored for the
 purpose of the event.
 
-**16.5** If, in the opinion of the General Management Committee, a member is abusing this rule by
-inviting a visitor or visitors too frequently to the Club, the General Management Committee, may at
+**16.5** If, in the opinion of the GMC, a member is abusing this rule by
+inviting a visitor or visitors too frequently to the Club, the GMC, may at
 their discretion remove the members’ right to invite visitors if the member continues to abuse the
-privilege after the General Management Committee’s concern has been brought to their attention.
+privilege after the GMC’s concern has been brought to their attention.
 
 ## 17. TRUSTEES:
 **17.1** There shall be at least three Trustees of the club who shall be appointed from time to time as
-necessary by the General Management Committee of the Club from among Single, Family, Partner
+necessary by the GMC of the Club from among Single, Family, Partner
 or Honorary Members who are willing to be so appointed. A Trustee shall hold office during their
 lifetime or until they shall resign, by notice in writing given to the Committee, or until a
 resolution removing them from office shall be passed at a meeting of the Committee by a
@@ -428,21 +430,21 @@ majority comprising two-thirds of the members present and entitled to vote.
 **17.2** All the property of the Club, including land and investments, shall be held by the Trustees for
 the time being, in their own names so far as it is necessary and practicable, on trust for the use and
 benefit of the Club. In the event of the death, resignation, or removal from office of a Trustee, the
-Committee shall nominate a new Trustee in their place, and shall as soon as possible thereafter
+GMC shall nominate a new Trustee in their place, and shall as soon as possible thereafter
 take all lawful and practicable steps to procure the vesting of all club property into the names of
 the Trustees as constituted after such nomination. For the purpose of giving effect to any such
-nomination, the Honorary Secretary for the time being is hereby nominated as the person to
+nomination, the Secretary for the time being is hereby nominated as the person to
 appoint new Trustees of the Club within the meaning of Section 36 of the Trustee Act 1925, and
 they shall by Deed duly appoint the person or persons so nominated by the Committee.
 
 **17.3** The Trustees shall in all respects act, in regard to any property of the Club held by them, in
-accordance with the directions of the Committee and shall have power to sell, lease, mortgage or
+accordance with the directions of the GMC and shall have power to sell, lease, mortgage or
 pledge any club property so held for the purpose of raising or borrowing money for the benefit of
-the Club in compliance with the Committee's directions (which shall be duly recorded in the
-Minutes of the proceedings of the Committee) but no purchaser, lessee or mortgage shall be
+the Club in compliance with the GMC's directions (which shall be duly recorded in the
+Minutes of the proceedings of the GMC) but no purchaser, lessee or mortgage shall be
 concerned to enquire whether any such direction has been given.
 
-**17.4** The Trustees shall be effectually indemnified by the General Management Committee out of
+**17.4** The Trustees shall be effectually indemnified by the GMC out of
 the assets of the club from and against any liability, costs, expenses and payments whatsoever
 which may be properly incurred or made by them in the exercise of their duties or relaton to any
 property of the club vested in them, or in relaton to any legal proceedings, or which otherwise
