@@ -1,8 +1,9 @@
 HAMPTON PIER YACHT CLUB
 =======================
 
-CLUB RULES
-==========
+CLUB RULES AND BYLAWS
+=====================
+
 
 ## 1. NAME:
 The Club shall be called 'The Hampton Pier Yacht Club'.
@@ -56,14 +57,16 @@ not entitled to vote.
 **4.4.6** Social non-sailing members. Non-sailing members are not entitled to vote. This membership
 is available in Family, Partner and Single classes, with eligibility as per 4.4.1, 4.4.2 and 4.4.3.
 
+**4.4.7** Any member with voting rights is known as "Voting member".
+
 **4.5** Temporary memberships, for short periods of time, shall be arranged at the discretion of the
-GMC.
+GMC. A temporary member is not entitled to vote.
 
 **4.6** The rates of Subscription payable by each class of membership as recommended by the GMC shall be approved for 
-next year at any general or Special General Meeting
+next year at any General or Special General Meeting
 of the Club. Any proposed changes shall be approved by a majority of those present and entitled to
 vote and shall become effective on the frst day of January in the following year. The current rate of
-entrance and subscription fee shall be prominently displayed in the Club premises.
+entrance and subscription fee shall be prominently displayed on the Club website.
 
 **4.7** Membership subscriptions will be kept at levels that will not pose a significant obstacle to
 people participating.
@@ -87,33 +90,30 @@ sailing and/or social activities. They are allowed access to the changing rooms 
 on the ground floor at any tme, are entitled to a Club key and are informed of the door code. Social
 members are expected to support the Club’s activities.
 
-**4.11** Candidates for membership are required to forward to the Secretary the specified
-form of application duly completed, together with one year's subscription and entrance fee. New
-members shall be elected by ballot in Committee if necessary.
+**4.11** Candidates for membership are required to forward to the Membership Secretary a completed membership form 
+and pay the necessary fees by any of the means stated on the form. A candidate becomes a member 
+once the application is accepted and confirmed by the Membership Secretary. The Membership Secretary 
+may decide to refer the application to the GMC, in which case the decision is by a simple majority.
 
-**4.11.1** No candidate shall be deemed to be elected unless supported by a simple majority of the
-Committee.
-
-**4.11.2** Membership of the Club shall be open to anyone interested in the sport of yachting on
+**4.11.1** Membership of the Club shall be open to anyone interested in the sport of yachting on
 application regardless of sex, age, disability, ethnicity, nationality, sexual orientation, religion or
 other beliefs. Membership may however be limited according to available facilities on a nondiscriminatory
 basis.
 
-**4.11.3** The GMC may refuse membership or, subject to Rule 12,
+**4.11.2** The GMC may refuse membership or, subject to Rule 12,
 remove it, only for good cause such as conduct or character likely to bring the Club or sport into
 disrepute. Appeal against refusal of membership may be made to the members.
 
-**4.11.4** No candidate for membership may enjoy the privilege of membership until after electon as a
+**4.11.3** No candidate for membership may enjoy the privilege of membership until after election as a
 member in accordance with this rule. Any persons who are able under these rules to become
 members without prior application may not be admitted to the privileges of membership without
 an interval of at least two days between their becoming a member and their admission.
 
-**4.11.5** The Honorary Secretary (Secretary) shall inform each candidate in writing of the candidates’ election or
-non-election and shall furnish an elected candidate with a copy of the Rules and Bye-laws of the
-Club and make request for such payments as are necessary.
+**4.11.4** The Membership Secretary shall provide new members with up to date information on the 
+management and running of the Club. This information may be delivered via email.
 
-**4.12** Any member wishing to withdraw from the Club shall give writen notice of their desire to
-do so addressed to the Secretary. If no such notice is received after 7th January in any
+**4.12** Any member wishing to withdraw from the Club shall give notice of their desire to
+do to the Membership Secretary. If no such notice is received after 7th January in any
 year, the member shall be liable to pay the subscription for the current year. Upon re-application by
 a past member the GMC may, at its discretion, excuse payment of an
 entrance fee.
@@ -127,9 +127,9 @@ compete for Club Trophies, or represent themselves as members of the Club. Compe
 open meetings, Class Championships and Regattas will be accorded the privilege of membership for
 the duration of the event. A member of any Club recognised by the Royal Yachting Association (a
 list thereof is contained in the Year Book for the said Association) may be accorded the privilege of
-membership and authorised to use the premises of the club by any two members of the General
-Management Committee. Such authorisation shall specify between which dates, not being more
-than fourteen days apart, the said person may be accorded membership and use of the premises.
+membership and authorised to use the premises of the club by any two members of the GMC. Such authorisation shall 
+specify between which dates, not being more than fourteen days apart, the said person may be accorded membership 
+and use of the premises.
 
 **4.15** No other persons other than member defined in Rule 4, shall be allowed to use the Club unless
 as a visitor in accordance with Rule 16.
@@ -139,6 +139,9 @@ approved non-powered craft at their own risk at any time. This includes paddle b
 canoes. Users of non-powered craft agree to give priority to sailors during scheduled sailing
 activities. The Club can only provide storage for dinghies. The Club reserves the right to forbid
 certain types of non-powered craft.
+
+**4.17** All members shall provide a valid email address and consent to email communication except when alternative 
+means are required by law or specified in the Club Rules and Byelaws.
 
 ## 5. EXECUTIVE OFFICERS:
 
@@ -167,9 +170,9 @@ maintenance of a rota of Race Officers and Safety Boat crews.
 
 **5.2.4** Honorary Secretary(Secretary): The Secretary shall keep Minute Books accurately recording all
 proceedings of the Club other than sailing maters or maters of the Subcommittees and the same
-shall be produced at every meeting of the Committee. They will also ensure that other
+shall be produced at every meeting of the GMC. They will also ensure that other
 Committees keep adequate minutes. They shall also advise the Commodore and GMC relating to the observance of the Club Rules and may report any breach
-thereof direct to the members if the Commodore and Committee refuse to do so. They shall attend to all correspondence of the Club (except that
+thereof direct to the members if the Commodore and GMC refuse to do so. They shall attend to all correspondence of the Club (except that
 dealt with by other Secretaries), keep custody of all Club documents, maintain contact with the
 Club’s legal adviser to ensure that the Club’s affairs are managed in accordance with current law,
 maintain such certificates or registrations, and complete any such non-financial returns as may be
@@ -184,8 +187,8 @@ each year and cause such Balance Sheet (and accounts as necessary) to be audited
 annually and shall thereafter cause the same to be exhibited in the Club’s premises at least
 fourteen days before the date of the Financial General Meeting(FGM); and administer such insurance
 policy or policies as may be needed fully to protect the interests of the Club, its Executive Officers
-and its members. They shall ensure that where monies are made available to the Committee or
-Sub-Committees, the monies are correctly accounted for.
+and its members. They shall ensure that where monies are made available to the GMC or
+Subcommittees, the monies are correctly accounted for.
 
 **5.2.6** Honorary Sailing Secretary(Sailing Secretary): The Sailing Secretary shall attend to all maters and
 correspondence relating to sailing, races and fixtures and keep all records relating thereto and to
@@ -198,16 +201,18 @@ Bosun's stores, safety boats, engines and equipment and the launching thereof as
 Officers of the Club or officiating Race Officer. They will also be responsible for the boat
 moorings and marks and the upkeep of the Club ramps and winches.
 
+**5.3** Any person on the GMC may, with the consent of the GMC, temporarily take on any 
+Executive Officer position if the holder of that position is unavailable.
+
 ## 6. GENERAL MANAGEMENT COMMITTEE(GMC):
 
 **6.1** The management of the Club shall be vested in a General Management Committee(GMC) composed
-of the Executive Officers and fve other members of the Club elected to serve thereon by the Club in
-General Meeting. Five members present shall form a quorum.
+of the Executive Officers and five voting members of the Club. Five members present shall form a quorum.
 
 **6.2** The GMC will be responsible for the day to day administration of
-the Club and shall manage the affairs of the Club according to the Rules and shall cause the funds of
+the Club and shall manage the affairs of the Club according to the Rules and Byelaws, and shall cause the funds of
 the Club to be applied solely to the objects of the Club or for a benevolent or charitable purpose
-nominated by General Meeting. In particular the Committee shall ensure that the property and
+nominated by General Meeting. In particular the GMC shall ensure that the property and
 funds of the Club will not be used for the direct or indirect private benefit of members other than
 as reasonably allowed by the Rules and that all surplus income or profits are reinvested in the Club.
 
@@ -215,67 +220,67 @@ as reasonably allowed by the Rules and that all surplus income or profits are re
 the orderliness of the boat parking facilities including the removal of any abandoned boats and/or
 trailers.
 
-**6.4** The GMC may appoint sub-committees (in addition to those
-mentioned specifically in the rules) to arrange or carry out specific functions. Such sub-committees
-shall consist of full voting members and up to 25% 'Other' members. In no case will any subcommittee
+**6.4** The GMC may appoint subcommittees (in addition to those
+mentioned specifically in the rules) to arrange or carry out specific functions. Such subcommittees
+shall consist of voting members and up to 25% non-voting members. In no case will any subcommittee
 member so appointed, who is not already a member of the GMC, have a right to attend or vote at meetings of the GMC. The
-GMC may, however, invite a member of a sub-committee to attend the
+GMC may, however, invite a member of a subcommittee to attend the
 GMC meetings for the purpose of reportng only, if it seems ft.
-6.5 A member of the GMC, of a sub-committee or any Officer of the
+
+**6.5** A member of the GMC, of a subcommittee or any Officer of the
 Club, in transacting business for the Club, shall disclose to third parties that they are so acting.
 
 ## 7. ELECTION OF EXECUTIVE OFFICERS AND GENERAL MANAGEMENT COMMITTEE(GMC):
 
-**7.1** Not less than 28 clear days before the Annual General Meeting(AGM) the Secretary shall call
-for nominations for all officers set out in Rule 5 and fve Committee members per Rule 6. The notice
-calling for nominations shall include a specimen nomination form stating the address to which the
-nominations shall be sent and the date and time nominations will close.
+**7.1** Not less than 28 days before the Annual General Meeting(AGM) the Secretary shall call
+for nominations for all 12 GMC positions. The notice shall include a nomination form and instructions 
+on submitting completed forms to the Secretary. Any nomination must be seconded by a voting member. 
 
-**7.2** In accordance with the above, the names of members willing to serve as Executive Officers or
-Committee members, duly proposed and seconded shall be sent to the Secretary. The last
-date for nominations shall not be earlier than 14 clear days after the Notice calling for nominations.
+**7.2** Voting members may submit nominations up to 7 days before the AGM. 
 
-**7.3** No person may be nominated or elected to the GMC or as an
-Executive Officer unless their subscription for the year is fully paid, and they are entitled to vote as
-a single, partner or family member. This qualification must continue to be held so long as such an
-officer or Committee member remains in office, subject, however, to right of an Honorary Life
-Member to stand for election and vote at meetings per Rule 4.1.
+**7.3** No person may be nominated or elected to the GMC unless their subscription for the year is fully paid, subject, 
+however, to the right of an Honorary Life Member to stand for election and vote at meetings.
 
-**7.4** The Secretary and at least one other member of the Committee shall inspect the
-nominations received and after certifying that they are in order, affix a list on the Club Notice Board
-at least seven clear days before the date fixed for the AGM.
+**7.4** In the event of no nomination being received for an Executive Officer or membership 
+position, a nomination may be handed to the Secretary at the AGM and if in order accepted.
 
-**7.5** The election of Executive Officers and Committee members shall be by ballot. Both adult
-partners are entitled to a vote each in the case of family or partners memberships and single
-members are entitled to one vote. Only members present may cast a vote. Cadet members, Junior
-members and Social non sailing members (except Honorary Life Members) and temporary
-members will not be entitled to a vote.
+**7.5** The Secretary and at least one other member of the GMC shall inspect the
+nominations received and after certifying that they are in order prepare a list to be 
+presented at the AGM.
 
-**7.6** Four scrutineers appointed at the AGM shall collect the ballot papers, count
+**7.6** Election Process
+
+**7.6.1** The Secretary will present a full list of nominations.
+
+**7.6.2** Ballots will be held if:
+- There are multiple nominations for an Executive Officer position
+- More than 5 nominations for the membership positions
+
+**7.6.3** Four scrutineers appointed at the AGM shall collect the ballot papers, count
 the votes and certify the number of votes cast for each candidate.
 
-**7.7** In the event of no nominations being received for any office or Committee member,
-nominations may be handed in writing to the Secretary and scrutineers at the AGM and if in order accepted.
+**7.6.4** If no ballot is required for a position then the candidate nominated is automatically 
+elected unless an objection is raised.
 
-**7.8** Executive Officers and GMC members shall automatically be
+**7.7** Executive Officers and GMC members shall automatically be
 considered to have resigned from office if they absent themselves without good cause from four
-consecutive meetings of the GMC.
+consecutive meetings of the GMC or if their subscription for the current year is not fully paid.
 
-**7.9** In the event of vacancies occurring during the year for any elected office or Committee
+**7.8** In the event of vacancies occurring during the year for any elected office or GMC
 member, the GMC may co-opt to fll such vacancies.
 
 ## 8. GENERAL MEETINGS:
 
 **8.1** There shall be a General Meeting of members held not later than 31st May called the Financial
 General Meeting(FGM) for the approval of the Balance Sheet and Income and Expenditure Account to
-31st December preceding and other maters determined by the Committee. A copy of the Balance
-Sheet and Income and Expenditure Account shall be sent to every member with the notice
+31st December preceding and other maters determined by the GMC. A copy of the Balance
+Sheet and Income and Expenditure Account shall be sent to every member along with the notice
 convening the meeting.
 
 **8.2** There shall be a General Meeting of members held not later than 31st October called the Annual
-General Meeting(AGM) for the election of Officers and Members of the Committee for the ensuing year
-until the next AGM and such other maters as determined by the Committee.
-The Treasurer so elected will take office from 1st January next to the 31st December following.
+General Meeting(AGM) for the election of Officers and Members of the GMC for the ensuing year
+until the next AGM and such other maters as determined by the GMC. The Treasurer so elected 
+will take office from 1st January in the following year.
 
 **8.3** Special General Meetings shall be convened at any time by the Secretary whenever
 required by the GMC or upon receipt of a requisition signed by not less
@@ -283,8 +288,8 @@ than 12 members of the Club. In all such cases the Secretary must require the pu
 the meeting to be notified, and must advise members of such purpose in the Notice
 convening the meeting.
 
-**8.4** All General meetings of members must be convened by sending a Notice in writing to members
-at their last known address fourteen clear days before the date specified for holding the meeting.
+**8.4** All General meetings of members must be convened by sending a Notice in members
+at their last known email address fourteen clear days before the date specified for holding the meeting.
 
 **8.5** At any General Meeting, voting shall be by show of hands and the declaration by the Chairman
 that a proposition has been carried or lost or carried or not carried by a particular majority shall be
@@ -316,7 +321,7 @@ have the responsibility for the setting and management of yacht races and shall 
 connected therewith.
 
 ## 11. SALE OF INTOXICATING LIQUOR:
-**11.1** There shall be a sub-committee known as the Bar Committee, comprising not less than three
+**11.1** There shall be a subcommittee known as the Bar Committee, comprising not less than three
 members and all members of the Bar Committee must be members of the GMC.
 
 **11.2** The purchase for the Club and the supply to the Club of intoxicating liquor shall be exclusively
@@ -340,7 +345,7 @@ Premises Certificate) and details of which shall be posted on the Club Notice Bo
 ## 12. CLUB DISCIPLINE:
 
 **12.1** All Members of the Club are expected to abide by the spirit and detail of the Club Rules and
-Bye-laws, Sailing Instructions and where appropriate, instructions given by Club Executive Officers.
+Byelaws, Sailing Instructions and where appropriate, instructions given by Club Executive Officers.
 Where rules or instructions are disregarded or disobeyed, or where the conduct of any member is
 considered to be injurious to the character or interests of the Club, the GMC will have the power to invoke sanctions against that member. Possible sanctions
 include:
@@ -379,22 +384,22 @@ caused by the said members, guests or visitors whether or not such damage or inj
 been attributed to or was occasioned by the neglect, default or negligence of any of them, the
 Officers, Committee or servants of the Club._"
 
-**14.2** Members shall communicate to the Secretary any change of their addresses or in the
-names or particulars of yachts. Any notice posted to them under the last given address shall be
-considered to have been duly delivered.
+**14.2** Members shall communicate to the Membership Secretary any change of their contact details or in the
+names or particulars of yachts. Any notice sent to the last given email or postal address
+is considered to have been duly delivered.
 
 **14.3** Membership of the Club and acceptance of these rules by the member will be deemed to
 constitute consent to the holding of relevant personal data for the purposes of the Data Protection
 Acts.
 
-## 15. BYE-LAWS:
+## 15. BYELAWS:
 
-**15.1** Bye-Laws necessary for the management and good order of the Club, not inconsistent to the
-Rules may, from time to time, be made by the GMC. Any infringement of the Bye-laws shall
+**15.1** Byelaws necessary for the management and good order of the Club, not inconsistent to the
+Rules may, from time to time, be made by the GMC. Any infringement of the Byelaws shall
 be equivalent to an infringement of the Rules.
 
-**15.2** New Bye-laws made by the GMC shall be read at the next General Meeting of the Club
-and formally approved. No Bye-laws rejected by the Club in General Meeting shall be re-introduced
+**15.2** New Byelaws made by the GMC shall be read at the next General Meeting of the Club
+and formally approved. No Byelaws rejected by the Club in General Meeting shall be re-introduced
 by the GMC without subsequent reference to the Club in General Meeting.
 
 ## 16. VISITORS:
@@ -420,8 +425,8 @@ privilege after the GMC’s concern has been brought to their attention.
 **17.1** There shall be at least three Trustees of the club who shall be appointed from time to time as
 necessary by the GMC of the Club from among Single, Family, Partner
 or Honorary Members who are willing to be so appointed. A Trustee shall hold office during their
-lifetime or until they shall resign, by notice in writing given to the Committee, or until a
-resolution removing them from office shall be passed at a meeting of the Committee by a
+lifetime or until they shall resign, by notice in writing given to the GMC, or until a
+resolution removing them from office shall be passed at a meeting of the CMG by a
 majority comprising two-thirds of the members present and entitled to vote.
 
 **17.2** All the property of the Club, including land and investments, shall be held by the Trustees for
@@ -432,7 +437,7 @@ take all lawful and practicable steps to procure the vesting of all club propert
 the Trustees as constituted after such nomination. For the purpose of giving effect to any such
 nomination, the Secretary for the time being is hereby nominated as the person to
 appoint new Trustees of the Club within the meaning of Section 36 of the Trustee Act 1925, and
-they shall by Deed duly appoint the person or persons so nominated by the Committee.
+they shall by Deed duly appoint the person or persons so nominated by the GMC.
 
 **17.3** The Trustees shall in all respects act, in regard to any property of the Club held by them, in
 accordance with the directions of the GMC and shall have power to sell, lease, mortgage or
@@ -478,10 +483,10 @@ These rules shall not be added to, altered or rescinded without the sanction of 
 the voting members present and voting at a General Meeting called for the purpose. The notice
 calling such a meeting shall state the proposed alteration or addition.
 
-BYE-LAWS
+BYELAWS
 ========
 
-**1.** The purpose of these bye-laws is to ensure:
+**1.** The purpose of these Byelaws is to ensure:
 a) that the conditions of the lease of the Club premises are not infringed;
 b) that the law is not contravened;
 c) that the Clubhouse is kept in a good state of repair and cleanliness.
@@ -529,7 +534,7 @@ manner that they do not cause inconvenience to the public or other members.
 best interests of the Club and to comply with the terms of its Lease from the Canterbury City
 Council.
 
-**9.4** The Committee shall be entitled to treat any of the following as an abandoned or
+**9.4** The GMC shall be entitled to treat any of the following as an abandoned or
 unauthorised boat and/or trailer:
 - (a) a boat and/or trailer located in the dinghy park and not displaying a current dinghy park stcker;
 - (b) a boat and/or trailer located otherwise than in its properly allocated space;
@@ -545,16 +550,16 @@ in arrears and/or a boat and/or trailer the property of a member or former membe
 the Club premises one month or more after the club has given the member or former member
 notice to remove the vessel then the member or former member shall remove the boat and/or
 trailer from the Club immediately. If the member or former member fails to remove the boat
-and/or trailer then the Committee may:
+and/or trailer then the GMC may:
 
 - (a) Move the boat and/or trailer to any part of the Club premises without being liable for any loss or
 damage to the vessel howsoever caused.
 - (b) Give three months’ notice in writing by registered post to the member or former member at his
 last known address as shown in the Club Register and thereafter sell the boat and/or trailer and
-deduct any monies due to the Club from the net proceeds of sale before accountng for the balance
+deduct any monies due to the Club from the net proceeds of sale before accounting for the balance
 (if any) to the member or former member.
 - (c) Alternatively, if the boat and/or trailer is unsaleable, after giving notice in writing as aforesaid,
-dispose of the boat and/or trailer in any manner the Committee may think ft and deem the cost of
+dispose of the boat and/or trailer in any manner the GMC may think ft and deem the cost of
 doing and any arrears as aforesaid to be a debt owing to the Club by the member or former
 member.
 - (d) The Club reserves the right to charge storage for the boat and/or trailer until such time as the
