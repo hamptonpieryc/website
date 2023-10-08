@@ -8,8 +8,8 @@ CLUB RULES AND BYLAWS
 ## 1. NAME:
 The Club shall be called 'The Hampton Pier Yacht Club'.
 
-## 2.OBJECTS:
-**2.1** The principal object of the Club shall be to provide facilities for and promote community
+## 2. OBJECTIVES:
+**2.1** The principal objective of the Club shall be to provide facilities for and promote community
 participation in the sport of Amateur Yacht Racing and Cruising and the promotion of social
 activities among the members.
 
@@ -57,7 +57,7 @@ not entitled to vote.
 **4.4.6** Social non-sailing members. Non-sailing members are not entitled to vote. This membership
 is available in Family, Partner and Single classes, with eligibility as per 4.4.1, 4.4.2 and 4.4.3.
 
-**4.4.7** Any member with voting rights is known as "Voting member".
+**4.4.7** Any member with voting rights is known as a "Voting member".
 
 **4.5** Temporary memberships, for short periods of time, shall be arranged at the discretion of the
 GMC. A temporary member is not entitled to vote.
@@ -75,8 +75,8 @@ people participating.
 has not paid by 31st March will be deemed to have resigned and will only be readmitted after
 applying for membership in accordance with rule 4.11 and being so elected.
 
-**4.9** Where a person joins the Club after 30 June, the subscription for that year shall be discounted
-using the following tariff
+**4.9** If a person joins the Club after 30 June, the subscription shall be discounted
+using the following tariff:
 
 - 1st to 31st July **50% discount**
 - 1st to 31st August **60% discount**
@@ -95,31 +95,30 @@ and pay the necessary fees by any of the means stated on the form. A candidate b
 once the application is accepted and confirmed by the Membership Secretary. The Membership Secretary 
 may decide to refer the application to the GMC, in which case the decision is by a simple majority.
 
-**4.11.1** Membership of the Club shall be open to anyone interested in the sport of yachting on
-application regardless of sex, age, disability, ethnicity, nationality, sexual orientation, religion or
+**4.11.1** Membership of the Club shall be open to anyone interested in the objectives of the Club
+regardless of sex, age, disability, ethnicity, nationality, sexual orientation, religion or
 other beliefs. Membership may however be limited according to available facilities on a nondiscriminatory
 basis.
 
 **4.11.2** The GMC may refuse membership or, subject to Rule 12,
-remove it, only for good cause such as conduct or character likely to bring the Club or sport into
+remove it, only for good cause such as conduct or character likely to bring the Club into
 disrepute. Appeal against refusal of membership may be made to the members.
 
-**4.11.3** No candidate for membership may enjoy the privilege of membership until after election as a
-member in accordance with this rule. Any persons who are able under these rules to become
-members without prior application may not be admitted to the privileges of membership without
-an interval of at least two days between their becoming a member and their admission.
+**4.11.3** The Membership Secretary shall provide new members with necessary information on the 
+management and running of the Club. This may be delivered via email.
 
-**4.11.4** The Membership Secretary shall provide new members with up to date information on the 
-management and running of the Club. This information may be delivered via email.
+**4.12** Membership ceases when:
 
-**4.12** Any member wishing to withdraw from the Club shall give notice of their desire to
-do to the Membership Secretary. If no such notice is received after 7th January in any
-year, the member shall be liable to pay the subscription for the current year. Upon re-application by
-a past member the GMC may, at its discretion, excuse payment of an
-entrance fee.
+**4.12.1** A member gives written notice to the Membership Secretary. 
 
-**4.13** Any person ceasing to be a member of the Club shall forfeit all claim upon it and no part of the
-subscription shall be refunded.
+**4.12.2** If, after at least one written reminder, a member has failed to pay fees due to the Club. In this case the reminder 
+notice must specify the date on which membership will terminate. 
+
+**4.12.3** Expulsion under Rule 12.
+
+**4.13** In all cases there is no refund of fees already paid, the member is responsible for returning Club 
+property and to remove their own property from Club premises. Any person ceasing to be a member of the Club 
+shall forfeit all claim upon it.
 
 **4.14** The privilege of membership extends to all persons referred to in Rule 4. Only such members
 are entitled to use the Club premises and facilities, participate in Club races or other events,
@@ -141,7 +140,8 @@ activities. The Club can only provide storage for dinghies. The Club reserves th
 certain types of non-powered craft.
 
 **4.17** All members shall provide a valid email address and consent to email communication except when alternative 
-means are required by law or specified in the Club Rules and Byelaws.
+means are required by law or specified in the Club Rules and Byelaws. Unless explicitly stated, the term 
+"written" is assumed to mean email.
 
 ## 5. EXECUTIVE OFFICERS:
 
