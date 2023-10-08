@@ -1,9 +1,8 @@
-HAMPTON PIER YACHT CLUB
-=======================
+![HPYC Logo](https://www.hpyc.org.uk/flag2.png) HAMPTON PIER YACHT CLUB
+============
 
 CLUB RULES AND BYLAWS
 =====================
-
 
 ## 1. NAME:
 The Club shall be called 'The Hampton Pier Yacht Club'.
@@ -44,7 +43,7 @@ General Meeting.
 their guardianship of under eight years of age. Both adult partners are entitled to vote at a General
 Meeting.
 
-**4.4.3** Single members, paying the full membership fee, who at the age of election shall have
+**4.4.3** Single members, paying the full membership fee, who at the age of joining  have
 attained the age of eighteen years. The member is entitled to vote at a General Meeting.
 
 **4.4.4** Cadet members are persons under the age of sixteen years who are not covered by family
@@ -71,11 +70,10 @@ entrance and subscription fee shall be prominently displayed on the Club website
 **4.7** Membership subscriptions will be kept at levels that will not pose a significant obstacle to
 people participating.
 
-**4.8** Members' subscriptions will become due on frst day of January each year. Any member who
-has not paid by 31st March will be deemed to have resigned and will only be readmitted after
-applying for membership in accordance with rule 4.11 and being so elected.
+**4.8** Members' annual fees will become due on frst day of January each year and 
+should be paid in full by 28th February.
 
-**4.9** If a person joins the Club after 30 June, the subscription shall be discounted
+**4.9** If a person joins the Club after 30th June, the subscription shall be discounted
 using the following tariff:
 
 - 1st to 31st July **50% discount**
@@ -111,14 +109,15 @@ management and running of the Club. This may be delivered via email.
 
 **4.12.1** A member gives written notice to the Membership Secretary. 
 
-**4.12.2** If, after at least one written reminder, a member has failed to pay fees due to the Club. In this case the reminder 
-notice must specify the date on which membership will terminate. 
+**4.12.2** After 31st March if annual membership for the year are not fully paid,
+unless late payment has been agreed with the GMC. There is no obligation on the Club
+to confirm the cessation in writing.
 
 **4.12.3** Expulsion under Rule 12.
 
-**4.13** In all cases there is no refund of fees already paid, the member is responsible for returning Club 
-property and to remove their own property from Club premises. Any person ceasing to be a member of the Club 
-shall forfeit all claim upon it.
+**4.13** In all cases, when membership ceases, there is no refund of fees already paid, the member is responsible for 
+returning Club property and to remove their own property from Club premises. Any person ceasing to be a member of the 
+Club shall forfeit all claim upon it.
 
 **4.14** The privilege of membership extends to all persons referred to in Rule 4. Only such members
 are entitled to use the Club premises and facilities, participate in Club races or other events,
@@ -154,12 +153,12 @@ person for more than three years consecutive from the date of frst election.
 **5.2** The duties of Executive Officers shall be:
 
 **5.2.1** Commodore: The Commodore shall have general charge of the Club. They will take the
-Chair in precedence over any other Officer at all General Meetings of members and at all General
-Management Committee Meetings. It will also be their duty to represent the Club when
-required to do so except where this duty is specific to any other Officer.
+Chair in precedence over any other Officer at all General Meetings of members and at all GMC
+meetings. It will also be their duty to represent the Club when required to do so except where this duty is specific 
+to any other Officer.
 
-**5.2.2** Vice Commodore: The Vice Commodore shall assume the duties of the Commodore in his or
-her absence. They will be responsible to the GMC for maters
+**5.2.2** Vice Commodore: The Vice Commodore shall assume the duties of the Commodore in their
+absence. They will be responsible to the GMC for maters
 relating to all buildings owned or leased by the Club and for the maintenance of permanent
 equipment therein including the kitchen and Club furniture. They will also be responsible for
 the orderliness of the Club's premises.
@@ -192,7 +191,7 @@ Subcommittees, the monies are correctly accounted for.
 
 **5.2.6** Honorary Sailing Secretary(Sailing Secretary): The Sailing Secretary shall attend to all maters and
 correspondence relating to sailing, races and fixtures and keep all records relating thereto and to
-Sailing Committee Meetings. They will have overall responsibility for the setting of courses,
+Sailing Committee meetings. They will have overall responsibility for the setting of courses,
 convening protest meetings, deciding on the fitness for racing if necessary, and for ensuring that
 the Race Tower equipment is in working order.
 
@@ -225,7 +224,7 @@ mentioned specifically in the rules) to arrange or carry out specific functions.
 shall consist of voting members and up to 25% non-voting members. In no case will any subcommittee
 member so appointed, who is not already a member of the GMC, have a right to attend or vote at meetings of the GMC. The
 GMC may, however, invite a member of a subcommittee to attend the
-GMC meetings for the purpose of reportng only, if it seems ft.
+GMC meetings for the purpose of reportng only, if it seems fit.
 
 **6.5** A member of the GMC, of a subcommittee or any Officer of the
 Club, in transacting business for the Club, shall disclose to third parties that they are so acting.
@@ -248,13 +247,13 @@ position, a nomination may be handed to the Secretary at the AGM and if in order
 nominations received and after certifying that they are in order prepare a list to be 
 presented at the AGM.
 
-**7.6** Election Process
+**7.6** Election Process:
 
-**7.6.1** The Secretary will present a full list of nominations.
+**7.6.1** At the AGM, the Secretary will present a full list of nominations.
 
 **7.6.2** Ballots will be held if:
-- There are multiple nominations for an Executive Officer position
-- More than 5 nominations for the membership positions
+- There are multiple nominations for an Executive Officer position.
+- More than 5 nominations for the membership positions.
 
 **7.6.3** Four scrutineers appointed at the AGM shall collect the ballot papers, count
 the votes and certify the number of votes cast for each candidate.
@@ -299,7 +298,7 @@ present.
 **8.6** No votes will be accepted or recorded at any General Meeting unless registered in person by
 the member.
 
-**8.7** The quorum for any General meeting shall be fifteen.
+**8.7** The quorum for any General Meeting shall be fifteen.
 
 **8.8** The Commodore or, in their absence, other Flag Officer shall take the Chair at all General
 Meetings. In the absence of a Flag Officer, the members present shall elect a Chairman. The
@@ -311,7 +310,7 @@ The members shall elect in FGM an independent person to act as auditor until
 the next FGM. The Auditor so elected shall audit the accounts and the Annual
 Balance Sheet of the Club when called upon to do so and shall give such certificate of assurance as
 to the accuracy of the said accounts as shall be required by the law or by the GMC. If either unable or unwilling to act 
-the Auditor shall inform the GMC who shall appoint a substitute to hold office until the termination of the next FGM.
+the Auditor shall inform the GMC who shall appoint a substitute to hold office until the next FGM.
 
 ## 10. SAILING COMMITTEE:
 The GMC shall, after its election each year, select not less than fve
@@ -423,10 +422,10 @@ privilege after the GMC’s concern has been brought to their attention.
 
 ## 17. TRUSTEES:
 **17.1** There shall be at least three Trustees of the club who shall be appointed from time to time as
-necessary by the GMC of the Club from among Single, Family, Partner
-or Honorary Members who are willing to be so appointed. A Trustee shall hold office during their
+necessary by the GMC of the Club from the voting members who are willing to be so appointed. 
+A Trustee shall hold office during their
 lifetime or until they shall resign, by notice in writing given to the GMC, or until a
-resolution removing them from office shall be passed at a meeting of the CMG by a
+resolution removing them from office shall be passed at a meeting of the GMC by a
 majority comprising two-thirds of the members present and entitled to vote.
 
 **17.2** All the property of the Club, including land and investments, shall be held by the Trustees for
@@ -454,6 +453,9 @@ relate directly or indirectly to the performance of the functions of a Trustee o
 
 **17.5** The liability of the Trustees for the performance of any contractual or other obligation
 undertaken by them on behalf of the Club shall be limited to the assets of the Club.
+
+**17.6** A Trustee accepts that they should remain a voting member of the Club and agrees to resign 
+from office if they cease to do so. 
 
 ## 18. DISSOLUTION:
 If, upon the dissolution of the Club, there remains after the satisfaction of all its debts and liabilities
