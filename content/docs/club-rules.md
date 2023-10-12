@@ -43,7 +43,7 @@ General Meeting.
 their guardianship of under eight years of age. Both adult partners are entitled to vote at a General
 Meeting.
 
-**4.4.3** Single members, paying the full membership fee, who at the age of joining  have
+**4.4.3** Single members, paying the full membership fee, who at the time of joining  have
 attained the age of eighteen years. The member is entitled to vote at a General Meeting.
 
 **4.4.4** Cadet members are persons under the age of sixteen years who are not covered by family
@@ -70,15 +70,15 @@ entrance and subscription fee shall be prominently displayed on the Club website
 **4.7** Membership subscriptions will be kept at levels that will not pose a significant obstacle to
 people participating.
 
-**4.8** Members' annual fees will become due on frst day of January each year and 
-should be paid in full by 28th February.
+**4.8** Members' annual fees will become due on first day of January each year and 
+should be paid in full by the last day in February.
 
 **4.9** If a person joins the Club after 30th June, the subscription shall be discounted
 using the following tariff:
 
 - 1st to 31st July **50% discount**
 - 1st to 31st August **60% discount**
-- 1st to 3oth September **70% discount**
+- 1st to 30th September **70% discount**
 - 1st October onwards **80% discount**
 
 _note this discount applies only to membership fees, other fees such as boat parking are at the full rate_
@@ -94,7 +94,7 @@ once the application is accepted and confirmed by the Membership Secretary. The 
 may decide to refer the application to the GMC, in which case the decision is by a simple majority.
 
 **4.11.1** Membership of the Club shall be open to anyone interested in the objectives of the Club
-regardless of sex, age, disability, ethnicity, nationality, sexual orientation, religion or
+regardless of gender, age, disability, ethnicity, nationality, sexual orientation, religion or
 other beliefs. Membership may however be limited according to available facilities on a nondiscriminatory
 basis.
 
@@ -109,7 +109,7 @@ management and running of the Club. This may be delivered via email.
 
 **4.12.1** A member gives written notice to the Membership Secretary. 
 
-**4.12.2** After 31st March if annual membership for the year are not fully paid,
+**4.12.2** After 31st March if annual fees for the year are not fully paid,
 unless late payment has been agreed with the GMC. There is no obligation on the Club
 to confirm the cessation in writing.
 
@@ -125,7 +125,7 @@ compete for Club Trophies, or represent themselves as members of the Club. Compe
 open meetings, Class Championships and Regattas will be accorded the privilege of membership for
 the duration of the event. A member of any Club recognised by the Royal Yachting Association (a
 list thereof is contained in the Year Book for the said Association) may be accorded the privilege of
-membership and authorised to use the premises of the club by any two members of the GMC. Such authorisation shall 
+membership and authorised to use the premises of the Club by any two members of the GMC. Such authorisation shall 
 specify between which dates, not being more than fourteen days apart, the said person may be accorded membership 
 and use of the premises.
 
@@ -145,8 +145,8 @@ means are required by law or specified in the Club Rules and Byelaws. Unless exp
 ## 5. EXECUTIVE OFFICERS:
 
 **5.1** The Executive Officers of the Club shall consist of a Commodore, Vice Commodore and Rear
-Commodore (the Flag Officers), Honorary Treasurer(Treasurer), Honorary Secretary(Secretary), 
-Honorary Sailing Secretary(Sailing Secretary) and Honorary Bosun(Bosun). The Executive Officers shall, ex officio, 
+Commodore (the Flag Officers), Honorary Treasurer (Treasurer), Honorary Secretary (Secretary), 
+Honorary Sailing Secretary (Sailing Secretary) and Honorary Bosun (Bosun). The Executive Officers shall, ex officio, 
 be members of all Committees. The Office of Commodore, Vice Commodore and Rear Commodore shall not be held by any 
 person for more than three years consecutive from the date of frst election.
 
@@ -167,7 +167,7 @@ the orderliness of the Club's premises.
 absence of the Commodore and Vice Commodore. They will be directly responsible for the
 maintenance of a rota of Race Officers and Safety Boat crews.
 
-**5.2.4** Honorary Secretary(Secretary): The Secretary shall keep Minute Books accurately recording all
+**5.2.4** Honorary Secretary (Secretary): The Secretary shall keep Minute Books accurately recording all
 proceedings of the Club other than sailing maters or maters of the Subcommittees and the same
 shall be produced at every meeting of the GMC. They will also ensure that other
 Committees keep adequate minutes. They shall also advise the Commodore and GMC relating to the observance of the Club Rules and may report any breach
@@ -178,7 +178,7 @@ maintain such certificates or registrations, and complete any such non-financial
 required by law. They shall attend to maters relating to the Club's
 Trustees as required by the Trustees.
 
-**5.2.5** Honorary Treasurer(Treasurer): The Treasurer shall be responsible for all financial business of
+**5.2.5** Honorary Treasurer (Treasurer): The Treasurer shall be responsible for all financial business of
 the Club and shall keep or cause to be kept books of account as are necessary to give a true and fair
 view of the state of finances of the Club; cause all returns as are required by law in relaton to such
 accounts to be rendered at the due time; prepare an Annual Balance Sheet as at 31 December in
@@ -189,13 +189,13 @@ policy or policies as may be needed fully to protect the interests of the Club, 
 and its members. They shall ensure that where monies are made available to the GMC or
 Subcommittees, the monies are correctly accounted for.
 
-**5.2.6** Honorary Sailing Secretary(Sailing Secretary): The Sailing Secretary shall attend to all maters and
+**5.2.6** Honorary Sailing Secretary (Sailing Secretary): The Sailing Secretary shall attend to all maters and
 correspondence relating to sailing, races and fixtures and keep all records relating thereto and to
 Sailing Committee meetings. They will have overall responsibility for the setting of courses,
 convening protest meetings, deciding on the fitness for racing if necessary, and for ensuring that
 the Race Tower equipment is in working order.
 
-**5.2.7** Honorary Bosun(Bosun): The Bosun will be directly responsible for the maintenance of the
+**5.2.7** Honorary Bosun (Bosun): The Bosun will be directly responsible for the maintenance of the
 Bosun's stores, safety boats, engines and equipment and the launching thereof as required by the
 Officers of the Club or officiating Race Officer. They will also be responsible for the boat
 moorings and marks and the upkeep of the Club ramps and winches.
@@ -205,7 +205,7 @@ Executive Officer position if the holder of that position is unavailable.
 
 ## 6. GENERAL MANAGEMENT COMMITTEE(GMC):
 
-**6.1** The management of the Club shall be vested in a General Management Committee(GMC) composed
+**6.1** The management of the Club shall be vested in a General Management Committee (GMC) composed
 of the Executive Officers and five voting members of the Club. Five members present shall form a quorum.
 
 **6.2** The GMC will be responsible for the day to day administration of
@@ -270,14 +270,14 @@ member, the GMC may co-opt to fll such vacancies.
 
 ## 8. GENERAL MEETINGS:
 
-**8.1** There shall be a General Meeting of members held not later than 31st May called the Financial
-General Meeting(FGM) for the approval of the Balance Sheet and Income and Expenditure Account to
+**8.1** There shall be a General Meeting of members held not later than 31st May called the Annual Financial
+General Meeting (AFM) for the approval of the Balance Sheet and Income and Expenditure Account to
 31st December preceding and other maters determined by the GMC. A copy of the Balance
 Sheet and Income and Expenditure Account shall be sent to every member along with the notice
 convening the meeting.
 
 **8.2** There shall be a General Meeting of members held not later than 31st October called the Annual
-General Meeting(AGM) for the election of Officers and Members of the GMC for the ensuing year
+General Meeting (AGM) for the election of Officers and Members of the GMC for the ensuing year
 until the next AGM and such other maters as determined by the GMC. The Treasurer so elected 
 will take office from 1st January in the following year.
 
@@ -306,11 +306,11 @@ Chairman shall in all cases, in the event of any equality of votes on a division
 addition to their vote as a member.
 
 ## 9. SELECTION OF AUDITOR:
-The members shall elect in FGM an independent person to act as auditor until
-the next FGM. The Auditor so elected shall audit the accounts and the Annual
+The members shall elect in AFM an independent person to act as auditor until
+the next AFM. The Auditor so elected shall audit the accounts and the Annual
 Balance Sheet of the Club when called upon to do so and shall give such certificate of assurance as
 to the accuracy of the said accounts as shall be required by the law or by the GMC. If either unable or unwilling to act 
-the Auditor shall inform the GMC who shall appoint a substitute to hold office until the next FGM.
+the Auditor shall inform the GMC who shall appoint a substitute to hold office until the next AFM.
 
 ## 10. SAILING COMMITTEE:
 The GMC shall, after its election each year, select not less than fve
@@ -329,7 +329,7 @@ payment in connection with the purchase of excisable goods for the Club. Any pro
 the sale of such goods shall (after deduction of the costs of providing such goods for the benefit of
 the Club) be applied to the provision of additional amenities or the purchase of property to be held
 in trust for the benefit of the Club. Proper accounts of all purchases and receipts shall be kept and
-presented at the FGM in each year and such information as the 
+presented at the AFM in each year and such information as the 
 Secretary or auditor may require shall be furnished to enable any statutory return or statement and
 the payment of excise or other duty or tax to be made.
 
@@ -384,7 +384,7 @@ been attributed to or was occasioned by the neglect, default or negligence of an
 Officers, Committee or servants of the Club._"
 
 **14.2** Members shall communicate to the Membership Secretary any change of their contact details or in the
-names or particulars of yachts. Any notice sent to the last given email or postal address
+names or particulars of yachts. Any communication from the Club sent to the last given email or postal address
 is considered to have been duly delivered.
 
 **14.3** Membership of the Club and acceptance of these rules by the member will be deemed to
@@ -467,7 +467,7 @@ Members of the Club by Resolution passed, by a majority of two thirds of those p
 entitled to vote, at a General Meeting at or before the time of dissolution and if and so far as, efect
 cannot be given to such provision then to some charitable object.
 
-## 19. PROVISION OF TRAINING: _**_
+## 19. PROVISION OF TRAINING:
 
 **19.1** The club may be registered as a Recognised Training Centre (RTC) as defined by the RYA.
 
@@ -477,8 +477,6 @@ members. The training provided may be both Powerboat and or Sail based.
 **19.3** Fees charged for training courses will cover only the costs associated with the course, such as
 books, log books, fuel. No fees may be paid to club members acting as instructors or assistants for
 any course.
-
-_** See footnote 1_
 
 ## 20. ALTERATION TO THESE RULES:
 These rules shall not be added to, altered or rescinded without the sanction of at least two-thirds of
@@ -556,12 +554,12 @@ and/or trailer then the GMC may:
 
 - (a) Move the boat and/or trailer to any part of the Club premises without being liable for any loss or
 damage to the vessel howsoever caused.
-- (b) Give three months’ notice in writing by registered post to the member or former member at his
+- (b) Give three months’ notice in writing by registered post to the member or former member at their
 last known address as shown in the Club Register and thereafter sell the boat and/or trailer and
 deduct any monies due to the Club from the net proceeds of sale before accounting for the balance
 (if any) to the member or former member.
 - (c) Alternatively, if the boat and/or trailer is unsaleable, after giving notice in writing as aforesaid,
-dispose of the boat and/or trailer in any manner the GMC may think ft and deem the cost of
+dispose of the boat and/or trailer in any manner the GMC may think fit and deem the cost of
 doing and any arrears as aforesaid to be a debt owing to the Club by the member or former
 member.
 - (d) The Club reserves the right to charge storage for the boat and/or trailer until such time as the
@@ -572,6 +570,5 @@ PROVIDED ALWAYS THAT:
 Proper evidence is available to show that all reasonable steps have been taken to trace a member
 or former member and that, when and if the boat and/or trailer is sold, if the Club is unable to
 account to the member or former member for the balance of the proceeds of sale pursuant to Rule
-(b) above then the balance of the proceeds of sale shall be placed upon bank deposit account and
-retained against the eventuality of a claim by the owner (whether they be the said member or former
-member or otherwise) for a period of six years.
+(b) above then the balance of the proceeds of sale may, at the GMC's discretion, be placed upon bank deposit account and
+retained against a claim by the owner for a period of up to six years.
