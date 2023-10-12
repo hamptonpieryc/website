@@ -210,7 +210,7 @@ Executive Officer position if the holder of that position is unavailable.
 ## 6. GENERAL MANAGEMENT COMMITTEE(GMC):
 
 **6.1** The management of the Club shall be vested in a General Management Committee (GMC) composed
-of the Executive Officers and five voting members of the Club. Five members present shall form a quorum.
+of the Executive Officers and four voting members of the Club. Five members present shall form a quorum.
 
 **6.2** The GMC will be responsible for the day to day administration of
 the Club and shall manage the affairs of the Club according to the Rules and Byelaws, and shall cause the funds of
