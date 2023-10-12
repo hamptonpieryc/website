@@ -146,9 +146,9 @@ means are required by law or specified in the Club Rules and Byelaws. Unless exp
 
 **5.1** The Executive Officers of the Club shall consist of a Commodore, Vice Commodore and Rear
 Commodore (the Flag Officers), Honorary Treasurer (Treasurer), Honorary Secretary (Secretary), 
-Honorary Sailing Secretary (Sailing Secretary) and Honorary Bosun (Bosun). The Executive Officers shall, ex officio, 
-be members of all Committees. The Office of Commodore, Vice Commodore and Rear Commodore shall not be held by any 
-person for more than three years consecutive from the date of frst election.
+Honorary Sailing Secretary (Sailing Secretary) Honorary Bosun (Bosun) and Membership Secretary. 
+The Executive Officers shall, ex officio, be members of all Committees. The Office of Commodore, Vice Commodore and 
+Rear Commodore shall not be held by any person for more than three years consecutive from the date of frst election.
 
 **5.2** The duties of Executive Officers shall be:
 
@@ -184,7 +184,7 @@ view of the state of finances of the Club; cause all returns as are required by 
 accounts to be rendered at the due time; prepare an Annual Balance Sheet as at 31 December in
 each year and cause such Balance Sheet (and accounts as necessary) to be audited at least once
 annually and shall thereafter cause the same to be exhibited in the Club’s premises at least
-fourteen days before the date of the Financial General Meeting(FGM); and administer such insurance
+fourteen days before the date of the Annual Financial General Meeting (AFM); and administer such insurance
 policy or policies as may be needed fully to protect the interests of the Club, its Executive Officers
 and its members. They shall ensure that where monies are made available to the GMC or
 Subcommittees, the monies are correctly accounted for.
@@ -199,6 +199,10 @@ the Race Tower equipment is in working order.
 Bosun's stores, safety boats, engines and equipment and the launching thereof as required by the
 Officers of the Club or officiating Race Officer. They will also be responsible for the boat
 moorings and marks and the upkeep of the Club ramps and winches.
+
+**5.2.8** Membership Secretary: The Membership Secretary shall be responsible for the maintenance
+of all membership records, ensuring that all fees have been paid and providing any reports required on the Club's 
+membership.
 
 **5.3** Any person on the GMC may, with the consent of the GMC, temporarily take on any 
 Executive Officer position if the holder of that position is unavailable.
@@ -398,7 +402,7 @@ Rules may, from time to time, be made by the GMC. Any infringement of the Byelaw
 be equivalent to an infringement of the Rules.
 
 **15.2** New Byelaws made by the GMC shall be read at the next General Meeting of the Club
-and formally approved. No Byelaws rejected by the Club in General Meeting shall be re-introduced
+and formally approved by two-thirds majority. No Byelaws rejected by the Club in General Meeting shall be re-introduced
 by the GMC without subsequent reference to the Club in General Meeting.
 
 ## 16. VISITORS:
