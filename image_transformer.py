@@ -68,6 +68,13 @@ class ImagePipeline:
                     output_file = self.output_dir + "/images/" + tail + "/" + path.stem + path.suffix
                     print("Copying image: " + file + " to " + output_file)
                     shutil.copy2(file, output_file)  # complete target filename given
+            elif path.suffix == ".webp":
+                parent = str(path.parent)
+                tail = parent[len("content/images/"):]
+                make_dirs(self.output_dir + "/images/" + tail)
+                output_file = self.output_dir + "/images/" + tail + "/" + path.stem + path.suffix
+                print("Copying image: " + file + " to " + output_file)
+                shutil.copy2(file, output_file)  # complete target file
 
     def crop_to_square(self, file, path, size, suffix):
         parent = str(path.parent)
