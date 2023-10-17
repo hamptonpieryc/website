@@ -81,3 +81,7 @@ Python3 is also required but comes preinstalled on OSX
 https://www.geeksforgeeks.org/how-to-install-pil-on-macos/
 python3 -m pip install --upgrade Pillow
 https://note.nkmk.me/en/python-pillow-square-circle-thumbnail/
+
+
+
+https://pagespeed.web.dev/
