@@ -24,7 +24,7 @@ The burgee of the Club shall consist of a white Canterbury Cross on a red backgr
 **4.1** Historically up to eleven “life honorary” memberships were available. This
 category is no longer open to new appointments. Such appointments carry no
 executive authority but do not bar the holders thereof seeking election as Officers or
-General Management Committee(GMC) Members in the normal way. The appointees shall
+General Management Committee (GMC) Members in the normal way. The appointees shall
 be each entitled to vote at a General Meeting.
 
 **4.2** The GMC may also grant annual honorary membership to Flag
@@ -158,7 +158,7 @@ meetings. It will also be their duty to represent the Club when required to do s
 to any other Officer.
 
 **5.2.2** Vice Commodore: The Vice Commodore shall assume the duties of the Commodore in their
-absence. They will be responsible to the GMC for maters
+absence. They will be responsible to the GMC for matters
 relating to all buildings owned or leased by the Club and for the maintenance of permanent
 equipment therein including the kitchen and Club furniture. They will also be responsible for
 the orderliness of the Club's premises.
@@ -168,14 +168,14 @@ absence of the Commodore and Vice Commodore. They will be directly responsible f
 maintenance of a rota of Race Officers and Safety Boat crews.
 
 **5.2.4** Honorary Secretary (Secretary): The Secretary shall keep Minute Books accurately recording all
-proceedings of the Club other than sailing maters or maters of the Subcommittees and the same
+proceedings of the Club other than sailing matters or matters of the Subcommittees and the same
 shall be produced at every meeting of the GMC. They will also ensure that other
 Committees keep adequate minutes. They shall also advise the Commodore and GMC relating to the observance of the Club Rules and may report any breach
 thereof direct to the members if the Commodore and GMC refuse to do so. They shall attend to all correspondence of the Club (except that
 dealt with by other Secretaries), keep custody of all Club documents, maintain contact with the
 Club’s legal adviser to ensure that the Club’s affairs are managed in accordance with current law,
 maintain such certificates or registrations, and complete any such non-financial returns as may be
-required by law. They shall attend to maters relating to the Club's
+required by law. They shall attend to matters relating to the Club's
 Trustees as required by the Trustees.
 
 **5.2.5** Honorary Treasurer (Treasurer): The Treasurer shall be responsible for all financial business of
@@ -185,7 +185,7 @@ accounts to be rendered at the due time; prepare an Annual Balance Sheet as at 3
 each year and cause such Balance Sheet (and accounts as necessary) to be audited at least once
 annually and shall thereafter cause the same to be exhibited in the Club’s premises at least
 fourteen days before the date of the Annual Financial General Meeting (AFM); and administer such insurance
-policy or policies as may be needed fully to protect the interests of the Club, its Executive Officers
+policy or policies as may be needed fully to protect the interests of the Club, its Trustees, its Executive Officers
 and its members. They shall ensure that where monies are made available to the GMC or
 Subcommittees, the monies are correctly accounted for.
 
@@ -270,7 +270,7 @@ considered to have resigned from office if they absent themselves without good c
 consecutive meetings of the GMC or if their subscription for the current year is not fully paid.
 
 **7.8** In the event of vacancies occurring during the year for any elected office or GMC
-member, the GMC may co-opt to fll such vacancies.
+member, the GMC may co-opt to fill such vacancies.
 
 ## 8. GENERAL MEETINGS:
 
@@ -291,7 +291,7 @@ than 12 members of the Club. In all such cases the Secretary must require the pu
 the meeting to be notified, and must advise members of such purpose in the Notice
 convening the meeting.
 
-**8.4** All General meetings of members must be convened by sending a Notice in members
+**8.4** All General meetings of members must be convened by sending a Notice to members
 at their last known email address fourteen clear days before the date specified for holding the meeting.
 
 **8.5** At any General Meeting, voting shall be by show of hands and the declaration by the Chairman
@@ -339,7 +339,7 @@ the payment of excise or other duty or tax to be made.
 
 **11.3** Intoxicating Liquor may be supplied to or for the consumption on the premises by those
 persons over the age of 18 who are entitled to the use of the Club premises and for consumption
-of the premises by Club members.
+off the premises by Club members.
 
 **11.4** The permitted hours for the supply of intoxicating liquor in the Club shall be such as are fixed
 from time to time by the GMC (subject to the terms of the Club
@@ -364,7 +364,7 @@ simple majority of the GMC.
 **12.3** The power of expulsion is in addition to expulsion for non-payment of subscriptions.
 
 **12.4**. Before the GMC imposes any sanctions the Secretary will invite
-the member to provide a writen explanation of the member’s conduct and shall give the member
+the member to provide a written explanation of the member’s conduct and shall give the member
 full opportunity of making explanation to the GMC, or of resigning.
 Appeal against expulsion or other sanction may be made to the members in General Meeting.
 
@@ -464,11 +464,11 @@ from office if they cease to do so.
 ## 18. DISSOLUTION:
 If, upon the dissolution of the Club, there remains after the satisfaction of all its debts and liabilities
 any property whatsoever, the same shall not be paid to or distributed among the Members of the
-Club, but shall be given or transferred to some other institution or institutions having objects
-similar to the objects of the Club and which shall prohibit the distribution of its or their income and
+Club, but shall be given or transferred to some other institution or institutions having objectives
+similar to those of the Club and which shall prohibit the distribution of its or their income and
 property among its or their members, such institution or institutions to be determined by the
 Members of the Club by Resolution passed, by a majority of two thirds of those present and
-entitled to vote, at a General Meeting at or before the time of dissolution and if and so far as, efect
+entitled to vote, at a General Meeting at or before the time of dissolution and if and so far as, effect
 cannot be given to such provision then to some charitable object.
 
 ## 19. PROVISION OF TRAINING:
@@ -499,7 +499,7 @@ c) that the Clubhouse is kept in a good state of repair and cleanliness.
 premises after use unless they have passed the responsibility to another member.
 
 **3.** The last member using the Club MUST ensure that all windows are secured, all outside doors
-locked, all alarms are set and all lights of.
+locked, all alarms are set and all lights off.
 
 **4.** Dogs or other animals will not be allowed in ANY PART of the premises, except for assistance
 dogs.
@@ -530,7 +530,7 @@ complete the boat parking section of New or Renewal membership form and pay the 
 regardless of whether they were allocated a space in the previous season.
 
 **9.2.1** Upon payment of fee and allocation of berth(s) within the dinghy park, members will be
-issued with a boat parking sticker for the season which must be displayed on transom of their
+issued with a boat parking sticker for the season which must be displayed on the transom of their
 dinghy wherever practical. Members are reminded that boats should only be parked in such a
 manner that they do not cause inconvenience to the public or other members.
 
@@ -540,7 +540,7 @@ Council.
 
 **9.4** The GMC shall be entitled to treat any of the following as an abandoned or
 unauthorised boat and/or trailer:
-- (a) a boat and/or trailer located in the dinghy park and not displaying a current dinghy park stcker;
+- (a) a boat and/or trailer located in the dinghy park and not displaying a current dinghy park sticker;
 - (b) a boat and/or trailer located otherwise than in its properly allocated space;
 - (c) a boat and/or trailer which is the property of a member or former member which remains on
 club premises after any fees payable to the club by any member or former member (whether by
@@ -563,7 +563,7 @@ last known address as shown in the Club Register and thereafter sell the boat an
 deduct any monies due to the Club from the net proceeds of sale before accounting for the balance
 (if any) to the member or former member.
 - (c) Alternatively, if the boat and/or trailer is unsaleable, after giving notice in writing as aforesaid,
-dispose of the boat and/or trailer in any manner the GMC may think fit and deem the cost of
+dispose of the boat and/or trailer in any manner the GMC may think fit and deem the costs of
 doing and any arrears as aforesaid to be a debt owing to the Club by the member or former
 member.
 - (d) The Club reserves the right to charge storage for the boat and/or trailer until such time as the
