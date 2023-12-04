@@ -4,6 +4,9 @@
 CLUB RULES AND BYLAWS
 =====================
 
+### October 2023
+This version was approved at the Annual General Meeting on 28th October 2023
+
 ## 1. NAME:
 The Club shall be called 'The Hampton Pier Yacht Club'.
 
@@ -148,7 +151,7 @@ means are required by law or specified in the Club Rules and Byelaws. Unless exp
 Commodore (the Flag Officers), Honorary Treasurer (Treasurer), Honorary Secretary (Secretary), 
 Honorary Sailing Secretary (Sailing Secretary) Honorary Bosun (Bosun) and Membership Secretary. 
 The Executive Officers shall, ex officio, be members of all Committees. The Office of Commodore, Vice Commodore and 
-Rear Commodore shall not be held by any person for more than three years consecutive from the date of frst election.
+Rear Commodore shall not be held by any person for more than three years consecutive from the date of first election.
 
 **5.2** The duties of Executive Officers shall be:
 
@@ -189,7 +192,7 @@ policy or policies as may be needed fully to protect the interests of the Club, 
 and its members. They shall ensure that where monies are made available to the GMC or
 Subcommittees, the monies are correctly accounted for.
 
-**5.2.6** Honorary Sailing Secretary (Sailing Secretary): The Sailing Secretary shall attend to all maters and
+**5.2.6** Honorary Sailing Secretary (Sailing Secretary): The Sailing Secretary shall attend to all matters and
 correspondence relating to sailing, races and fixtures and keep all records relating thereto and to
 Sailing Committee meetings. They will have overall responsibility for the setting of courses,
 convening protest meetings, deciding on the fitness for racing if necessary, and for ensuring that
@@ -276,13 +279,13 @@ member, the GMC may co-opt to fill such vacancies.
 
 **8.1** There shall be a General Meeting of members held not later than 31st May called the Annual Financial
 General Meeting (AFM) for the approval of the Balance Sheet and Income and Expenditure Account to
-31st December preceding and other maters determined by the GMC. A copy of the Balance
+31st December preceding and other matters determined by the GMC. A copy of the Balance
 Sheet and Income and Expenditure Account shall be sent to every member along with the notice
 convening the meeting.
 
 **8.2** There shall be a General Meeting of members held not later than 31st October called the Annual
 General Meeting (AGM) for the election of Officers and Members of the GMC for the ensuing year
-until the next AGM and such other maters as determined by the GMC. The Treasurer so elected 
+until the next AGM and such other matters as determined by the GMC. The Treasurer so elected 
 will take office from 1st January in the following year.
 
 **8.3** Special General Meetings shall be convened at any time by the Secretary whenever
@@ -388,7 +391,7 @@ been attributed to or was occasioned by the neglect, default or negligence of an
 Officers, Committee or servants of the Club._"
 
 **14.2** Members shall communicate to the Membership Secretary any change of their contact details or in the
-names or particulars of yachts. Any communication from the Club sent to the last given email or postal address
+names or particulars of dinghies. Any communication from the Club sent to the last given email or postal address
 is considered to have been duly delivered.
 
 **14.3** Membership of the Club and acceptance of these rules by the member will be deemed to
@@ -505,7 +508,7 @@ locked, all alarms are set and all lights off.
 dogs.
 
 **5.** Members may not leave clothing in the Club. Members’ property, including any equipment that
-has been lef in the Sail Locker or in any part of the Club premises for a period of six months
+has been left in the Sail Locker or in any part of the Club premises for a period of six months
 without payment of any fees that are due may be disposed of by the Club; such property will be
 listed on the Club notice board for a period of not less than three months prior to disposal. Clothing
 may be destroyed at the discretion of a Club Officer.
@@ -525,11 +528,11 @@ them in the space allocated in the Club dinghy parks and on no other part of the
 Club, however, does not accept responsibility for damage, theft or any other mishap, which may
 occur as a result of such parking.
 
-**9.2** Spaces in the dinghy park are allocated on an annual basis. All members requiring berths should
+**9.2** Spaces in the dinghy park are allocated on an annual basis. All members requiring spaces should
 complete the boat parking section of New or Renewal membership form and pay the relevant fees
 regardless of whether they were allocated a space in the previous season.
 
-**9.2.1** Upon payment of fee and allocation of berth(s) within the dinghy park, members will be
+**9.2.1** Upon payment of fee and allocation of space(s) within the dinghy park, members will be
 issued with a boat parking sticker for the season which must be displayed on the transom of their
 dinghy wherever practical. Members are reminded that boats should only be parked in such a
 manner that they do not cause inconvenience to the public or other members.
