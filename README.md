@@ -83,5 +83,8 @@ python3 -m pip install --upgrade Pillow
 https://note.nkmk.me/en/python-pillow-square-circle-thumbnail/
 
 
-
 https://pagespeed.web.dev/
+
+creating QR codes 
+
+https://realpython.com/python-generate-qr-code/
