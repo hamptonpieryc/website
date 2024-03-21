@@ -48,7 +48,7 @@ class SiteMapBuilder:
                 sitemap = sitemap + "    <lastmod>" + page["last_modified"].strftime("%Y-%m-%d") + "</lastmod>\n"
                 sitemap = sitemap + "  </url>\n"
 
-        sitemap = sitemap + "< url >\n"
+        sitemap = sitemap + "<url>\n"
         sitemap = sitemap + '    <loc>https://www.hpyc.org.uk/openday</loc>\n'
         sitemap = sitemap + "    <priority>1.0</priority>\n"
         sitemap = sitemap + "    <changefreq>monthly</changefreq>\n"
