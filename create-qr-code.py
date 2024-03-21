@@ -6,7 +6,7 @@
 
 import segno
 
-payload = "https://www.hpyc.org.uk/the-club/openday"
+payload = "https://www.hpyc.org.uk/openday"
 output = "openday"
 
 qrcode = segno.make_qr(payload)
