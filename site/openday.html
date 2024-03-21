@@ -189,11 +189,11 @@
        @media only screen {
          .twitter-share-button, .fb-share-button
           {
-                transform: scale(2.0);
-                -ms-transform: scale(2.0);
-                -webkit-transform: scale(2.0);
-                -o-transform: scale(2.0);
-                -moz-transform: scale(2.0);
+                transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                -webkit-transform: scale(1.5);
+                -o-transform: scale(1.5);
+                -moz-transform: scale(1.5);
                 transform-origin: top left;
                 -ms-transform-origin: top left;
                 -webkit-transform-origin: top left;
@@ -213,6 +213,7 @@
 
 
 
+
     </style>
 </head>
 <body>
@@ -227,7 +228,12 @@
     </div>
 
     <div class="image-container">
-        <img src="https://hpyc.org.uk/images/pic4.png" width="100%">
+
+        <picture>
+            <source media="(max-width: 640px)" srcset="https://hpyc.org.uk/images/pic4-mobile.png"></source>
+            <source media="(min-width: 6414px)" srcset="https://hpyc.org.uk/images/pic4.png"></source>
+            <img src="https://hpyc.org.uk/images/pic4.png" width="100%" alt="Hampton Club">
+        </picture>
         <div class="date-banner">
             <div>11th and 12th of May 2024</div>
             <div style="font-size:30px">10AM to 4PM, or join any time</div>
@@ -274,16 +280,20 @@
             </button>
         </a>
 
-        <div style="margin-top:-43px; padding-left: 200px;">
-            <div class="fb-share-button"
-                 data-href="https://www.hpyc.org.uk/the-club/openday"
-                 data-layout="button_count">
+        <div style="float:right; padding-left:10px">
+            <div style="margin-top:5px; margin-left: -250px;">
+                <div class="fb-share-button"
+                     data-href="https://www.hpyc.org.uk/the-club/openday"
+                     data-layout="button_count">
+                </div>
             </div>
-        </div>
 
-        <div style="margin-top:-20px; padding-left: 380px;">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <div style="margin-top:-20px; margin-left: -100px;">
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                   data-show-count="false">Tweet</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+            </div>
         </div>
 
     </div>
