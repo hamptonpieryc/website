@@ -12,8 +12,7 @@
 
 
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HPYC Open Day 2024</title>
     <style>
         /* Set A4 size */
@@ -22,16 +21,10 @@
             padding: 0;
             box-sizing: border-box;
         }
-
         @page {
             size: A4;
             margin: 0;
         }
-
-        body {
-          font-family: 'Roboto', sans-serif;
-        }
-
         /* Set content to fill the entire A4 page */
         html,
         body {
@@ -42,6 +35,17 @@
             display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        @media only print {
+            #action-banner {
+               display: none;
+            }
+        }
+        /* end of A4 page setup */
+
+        body {
+          font-family: 'Roboto', sans-serif;
         }
 
         h1 {
@@ -56,6 +60,20 @@
         #top-banner {
            padding: 10px 30px;
            font-size: 24px;
+        }
+        #top-banner a:visited, #top-banner a {
+            color: #000;
+            text-decoration: none;
+        }
+        #top-banner a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        #action-banner {
+            padding: 10px 30px;
+            height: 65px;
+            background-color: #ddd;
         }
 
         /* Style content with shaded background */
@@ -104,15 +122,13 @@
           position: absolute;
           top: 130px;
           right: 20px;
-          _background-color: rgba(69,144,186,0.7);
           background-color: rgba(0,0,0,0.5);
-          _color: #fff;
-
           border-radius: 10px;
         }
 
         .info-panel .container {
            padding-left:30px;
+           padding-right:10px;
            padding-top: 10px;
            padding-bottom: 10px;
         }
@@ -161,33 +177,42 @@
         }
 
         path {
-  fill: transparent;
-}
+            fill: transparent;
+        }
 
-_text {
-   fill: #ff3333;;
-}
-
-
-
-
-
+         .fb-share-button
+            {
+                _margin-top: -30px;
+                transform: scale(2.0);
+                -ms-transform: scale(2.0);
+                -webkit-transform: scale(2.0);
+                -o-transform: scale(2.0);
+                -moz-transform: scale(2.0);
+                transform-origin: top left;
+                -ms-transform-origin: top left;
+                -webkit-transform-origin: top left;
+                -moz-transform-origin: top left;
+                -webkit-transform-origin: top left;
+            }
 
 
 
     </style>
 </head>
 <body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"
+        nonce="9m6bSxsu"></script>
 <div class="content">
 
     <h1>Hampton Pier Yacht Club</h1>
     <div id="top-banner">
-        <span>www.hpyc.org.uk</span> <span style="float:right;">Spa Esplanade, Herne Bay CT6 8EP</span>
+        <a href="https://hpyc.org.uk">hpyc.org.uk</a> <span style="float:right;">Spa Esplanade, Herne Bay CT6 8EP</span>
     </div>
 
 
     <div class="image-container">
-        <img src="../images/pic4.png" width="100%" >
+        <img src="https://hpyc.org.uk/images/pic4.png" width="100%">
         <div class="date-banner">
             <div>11th and 12th of May 2024</div>
             <div style="font-size:30px">10AM to 4PM, or join any time</div>
@@ -224,10 +249,24 @@ _text {
                 </text>
             </svg>
         </div>
-
     </div>
-    <img src="../images/discover-sailing-banner.jpeg" width="100%">
-    <img src="../images/qr/openday.png" width="150px" style="margin-top: -200px;">
+
+
+    <div id="action-banner">
+        <a href="https://hpyc.org.uk/the-club/openday">
+            <button style="font-size: 20px; color: #ddd;
+              background-color: #266ed9; padding:10px; border-radius: 10px;">Find out more...
+            </button>
+        </a>
+
+        <div style="margin-top:-40px; padding-left: 200px;">
+            <div class="fb-share-button" data-href="https://www.hpyc.org.uk/the-club/openday" data-layout="" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.hpyc.org.uk%2Fthe-club%2Fopenday&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        </div>
+    </div>
+
+     <img src="https://hpyc.org.uk/images/discover-sailing-banner.jpeg" width="100%">
+    <img src="https://hpyc.org.uk/images/qr/openday.png" width="150px" style="margin-top: -200px;">
+
 
 
 </div>
