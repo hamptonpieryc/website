@@ -181,8 +181,10 @@
             fill: transparent;
         }
 
+       @media only screen and ( min-width: 601px ) {
+
          .fb-share-button
-           {
+          {
                 _margin-top: -30px;
                 transform: scale(2.0);
                 -ms-transform: scale(2.0);
@@ -194,25 +196,10 @@
                 -webkit-transform-origin: top left;
                 -moz-transform-origin: top left;
                 -webkit-transform-origin: top left;
-           }
+          }
+       }
 
-           @media only screen and ( max-width: 600px ) {
-              .fb-share-button
-              {
-                border: 3px solid pink;
-                _margin-top: -30px;
-                transform: scale(4.0);
-                -ms-transform: scale(4.0);
-                -webkit-transform: scale(4.0);
-                -o-transform: scale(4.0);
-                -moz-transform: scale(4.0);
-                transform-origin: top left;
-                -ms-transform-origin: top left;
-                -webkit-transform-origin: top left;
-                -moz-transform-origin: top left;
-                -webkit-transform-origin: top left;
-                }
-           }
+
 
 
     </style>
