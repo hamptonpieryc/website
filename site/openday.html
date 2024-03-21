@@ -74,6 +74,7 @@
             padding: 10px 30px;
             height: 65px;
             background-color: #ddd;
+            _display: none;
         }
 
         /* Style content with shaded background */
@@ -84,7 +85,7 @@
             /* Adjust the height as needed*/
             box-sizing: border-box;
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #ddd;
             /* Light gray shade */
         }
 
@@ -181,7 +182,7 @@
         }
 
          .fb-share-button
-            {
+           {
                 _margin-top: -30px;
                 transform: scale(2.0);
                 -ms-transform: scale(2.0);
@@ -193,7 +194,24 @@
                 -webkit-transform-origin: top left;
                 -moz-transform-origin: top left;
                 -webkit-transform-origin: top left;
-            }
+           }
+
+           @media only screen and ( max-width: 600px ) {
+              {
+                border: 3px solid pink;
+                _margin-top: -30px;
+                transform: scale(4.0);
+                -ms-transform: scale(4.0);
+                -webkit-transform: scale(4.0);
+                -o-transform: scale(4.0);
+                -moz-transform: scale(4.0);
+                transform-origin: top left;
+                -ms-transform-origin: top left;
+                -webkit-transform-origin: top left;
+                -moz-transform-origin: top left;
+                -webkit-transform-origin: top left;
+           }
+           }
 
 
 
