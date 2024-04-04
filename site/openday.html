@@ -31,18 +31,30 @@
             margin: 0;
         }
         /* Set content to fill the entire A4 page */
-        html,
-        body {
-            width: 210mm;
-            height: 297mm;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        @media only screen {
+            html,
+            body {
+                _width: 210mm;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
         }
 
         @media only print {
+            html,
+            body {
+                width: 210mm;
+                height: 297mm;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             #action-banner {
                display: none;
             }
