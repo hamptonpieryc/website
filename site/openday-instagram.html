@@ -1,0 +1,338 @@
+<html lang="en">
+
+<head>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths -->
+    <!-- https://css-tricks.com/snippets/svg/curved-text-along-path/ -->
+    <!-- https://www.geeksforgeeks.org/how-to-make-an-html-page-in-a4-paper-size/ -->
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <meta property="og:url" content="https://www.hpyc.org.uk/openday"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Hampton Pier Yatch Club"/>
+    <meta property="og:description" content="Open Days for 2024"/>
+    <meta property="og:image" content="https://www.hpyc.org.uk/images/pic4.png"/>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HPYC Open Day 2024</title>
+    <style>
+        /* Set A4 size */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        /* Set content to fill the entire A4 page */
+        @media only screen {
+            html,
+            body {
+                width: 210mm;
+                height: 297mm;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        @media only print {
+            html,
+            body {
+                width: 210mm;
+                height: 297mm;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #action-banner {
+               display: none;
+            }
+        }
+        /* end of A4 page setup */
+
+        body {
+          font-family: 'Roboto', sans-serif;
+        }
+
+        h1 {
+          padding-top: 15px;
+          padding-bottom: 15px;
+          font-size: 60px;
+          background-color: #ff3333;
+          color: #ffffff;
+          text-align:center;
+        }
+
+        #top-banner {
+           padding: 10px 30px;
+           font-size: 24px;
+        }
+        #top-banner a:visited, #top-banner a {
+            color: #000;
+            text-decoration: none;
+        }
+        #top-banner a:hover {
+            text-decoration: underline;
+            color: blue;
+        }
+
+        #action-banner {
+            padding: 10px 30px;
+            height: 65px;
+            background-color: #ddd;
+            _display: none;
+        }
+
+        /* Style content with shaded background */
+        .content {
+            width: 100%;
+            /* Adjust the width as needed */
+            height: 100%;
+            /* Adjust the height as needed*/
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-color: #ddd;
+            /* Light gray shade */
+        }
+
+        .image-container {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+
+        .date-banner {
+           padding-top: 10px;
+           padding-bottom: 10px;
+           position: absolute;
+           bottom: 0px;
+           left: 0px;
+           font-size: 40px;
+           color: #ddd;
+           width:100%;
+           background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .open-day-banner {
+          position: absolute;
+          top: 20px;
+          left: 150px;
+          width: 500px;
+          font-size: 60px;
+          color :#ff3333;
+          fill: #ff3333;
+          font-weight: 400;
+          letter-spacing : 1px;
+        }
+
+        .info-panel {
+          position: absolute;
+          top: 130px;
+          right: 20px;
+          background-color: rgba(0,0,0,0.5);
+          border-radius: 10px;
+        }
+
+        .info-panel .container {
+           padding-left:30px;
+           padding-right:10px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+        }
+
+        .info-panel ul {
+           text-align: left;
+           color: #ddd;
+           font-size: 24px;
+           font-weight: 500;
+        }
+
+        /* Bottom left text */
+        .bottom-left {
+          position: absolute;
+          bottom: 8px;
+          left: 16px;
+        }
+
+        /* Top left text */
+        .top-left {
+          position: absolute;
+          top: 8px;
+          left: 16px;
+        }
+
+        /* Top right text */
+        .top-right {
+          position: absolute;
+          top: 8px;
+          right: 16px;
+        }
+
+        /* Bottom right text */
+        .bottom-right {
+          position: absolute;
+          bottom: 8px;
+          right: 16px;
+        }
+
+        /* Centered text */
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        path {
+            fill: transparent;
+        }
+
+       @media only screen {
+         .twitter-share-button, .fb-share-button
+          {
+                transform: scale(1.5);
+                -ms-transform: scale(1.5);
+                -webkit-transform: scale(1.5);
+                -o-transform: scale(1.5);
+                -moz-transform: scale(1.5);
+                transform-origin: top left;
+                -ms-transform-origin: top left;
+                -webkit-transform-origin: top left;
+                -moz-transform-origin: top left;
+                -webkit-transform-origin: top left;
+          }
+       }
+
+
+
+       @media only print {
+       .content {
+            width:95%;
+            height:95%;
+        }
+       }
+
+
+
+
+
+    </style>
+    <meta property="og:url" content="https://www.hpyc.org.uk/openday"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="Hampton Pier Yacht Club"/>
+    <meta property="og:description" content="Open Days on 11th and 12th May 2024"/>
+    <meta property="og:image" content="https://www.hpyc.org.uk/images/hpyc-open-day2024.png"/>
+
+</head>
+<script src="https://getinsights.io/js/insights.js"></script>
+<script src="js/insights.js"></script>
+
+<body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"
+        nonce="9m6bSxsu"></script>
+<div class="content">
+
+    <h1>Hampton Pier Yacht Club</h1>
+    <div id="top-banner">
+        <a href="https://hpyc.org.uk">hpyc.org.uk</a> <span style="float:right;">Spa Esplanade, Herne Bay CT6 8EP</span>
+    </div>
+
+    <div class="image-container">
+
+        <picture>
+            <source media="(max-width: 640px)" srcset="https://hpyc.org.uk/images/pic4-mobile.png"></source>
+            <source media="(min-width: 6414px)" srcset="https://hpyc.org.uk/images/pic4.png"></source>
+            <img src="https://hpyc.org.uk/images/pic4.png" width="100%" alt="Hampton Club">
+        </picture>
+        <div class="date-banner">
+            <div>11th and 12th of May 2024</div>
+            <div style="font-size:30px">10AM to 4PM, or join any time</div>
+        </div>
+        <div class="info-panel">
+            <div class="container">
+                <ul>
+                    <li>
+                        Sail, SUP, Kayak, Swim
+                    </li>
+                    <li>
+                        Family Friendly
+                    </li>
+                    <li>
+                        No Experience Required
+                    </li>
+                    <li>
+                        Low Membership Fees
+                    </li>
+                    <li>
+                        Great Facilities
+                    </li>
+                    <li>
+                        Save 25%*
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="open-day-banner">
+            <svg viewBox="0 0 330 100">
+                <path id="curve" d="M 30 50 Q 160 70 310 40"/>
+                <text width="500">
+                    <textPath alignment-baseline="top" xlink:href="#curve">
+                        Open Day
+                    </textPath>
+                </text>
+            </svg>
+        </div>
+    </div>
+
+
+    <div id="action-banner">
+        <a href="https://hpyc.org.uk/the-club/openday">
+            <button style="font-size: 20px; color: #ddd;
+              background-color: #266ed9; padding:10px; border-radius: 10px;">Click here to find out more...
+            </button>
+        </a>
+
+        <div style="float:right; padding-left:10px">
+            <div style="margin-top:5px; margin-left: -250px;">
+                <div class="fb-share-button"
+                     data-href="https://www.hpyc.org.uk/openday"
+                     data-layout="button_count">
+                </div>
+            </div>
+
+            <div style="margin-top:-20px; margin-left: -100px;">
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+                   data-show-count="false"></a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+            </div>
+        </div>
+
+    </div>
+
+    <img src="https://hpyc.org.uk/images/discover-sailing-banner.jpeg" width="100%">
+    <img src="https://hpyc.org.uk/images/qr/openday.png" width="150px"
+         style="margin-left: 10px; margin-top: -180px; border: 2px solid black;">
+
+    <div style="_position: absolute; bottom: 0; margin-top: -20px">
+        &nbsp;&nbsp;* Discount applies to membership fees only. Other fees, e.g. boat parking, at full price
+    </div>
+
+
+</div>
+
+</body>
+</html>
