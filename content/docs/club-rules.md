@@ -408,7 +408,7 @@ be equivalent to an infringement of the Rules.
 and formally approved by two-thirds majority. No Byelaws rejected by the Club in General Meeting shall be re-introduced
 by the GMC without subsequent reference to the Club in General Meeting.
 
-## 16. VISITORS:
+## 16. VISITORS AND DOGS:
 
 **16.1** Members may bring visitors to the Club. A member bringing a visitor shall, on entering the
 Club, insert the visitor's name in the Visitors' Book and sign the entry. The member shall be
@@ -426,6 +426,13 @@ purpose of the event.
 inviting a visitor or visitors too frequently to the Club, the GMC, may at
 their discretion remove the members’ right to invite visitors if the member continues to abuse the
 privilege after the GMC’s concern has been brought to their attention.
+
+**16.6** Members are permitted to bring dogs into the Club House. Members
+must ensure their dogs are on a short lead and under control whilst on Club
+premises. Dogs must be kept well away from any area where food is being
+prepared or sold and must be kept under the table when food is being eaten. 
+Dogs might not be permitted at certain social events. The Club reserves the right to temporarily or permanently
+refuse entry of a specified dog.
 
 ## 17. TRUSTEES:
 **17.1** There shall be at least three Trustees of the club who shall be appointed from time to time as
@@ -504,8 +511,8 @@ premises after use unless they have passed the responsibility to another member.
 **3.** The last member using the Club MUST ensure that all windows are secured, all outside doors
 locked, all alarms are set and all lights off.
 
-**4.** Dogs or other animals will not be allowed in ANY PART of the premises, except for assistance
-dogs.
+**4.** Other than those permitted under 16.6, animals will not be allowed in ANY
+PART of the premises.
 
 **5.** Members may not leave clothing in the Club. Members’ property, including any equipment that
 has been left in the Sail Locker or in any part of the Club premises for a period of six months
