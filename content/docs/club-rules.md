@@ -5,7 +5,7 @@ CLUB RULES AND BYLAWS
 =====================
 
 ### April 2024
-This version was approved at the Annual Financial General Meeting (AFM) on 28th April 2024
+This version was approved at the Annual Financial General Meeting (AFM) on 27th April 2024
 
 ## 1. NAME:
 The Club shall be called 'The Hampton Pier Yacht Club'.
