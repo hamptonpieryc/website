@@ -27,6 +27,9 @@ class Pipeline:
             layout = ''.join(f.readlines())
         print("layout.html is " + str(len(layout)) + " characters")
 
+        skipped_files = {'openday.html','404.html'}
+        failed = False
+
         files = []
         for (dirpath, dirnames, filenames) in walk(self.input_dir + '/content'):
             for f in filenames:
@@ -36,11 +39,11 @@ class Pipeline:
         for i in files:
             try:
                 with open(i, "r") as f:
-                    if i.endswith(".html") and not i.endswith("404.html"):
-                        print("Processing content in: " + i)
+                    # standardise filename
+                    page_name, page_path = self.stanrdardise_names(i)
 
-                        # standardise filename
-                        page_name, page_path = self.stanrdardise_names(i)
+                    if i.endswith(".html") and not (page_name in skipped_files):
+                        print("Processing content in: " + i)
 
                         # record this file in the sitemap builder
                         create_time = os.path.getctime(i)
@@ -69,23 +72,26 @@ class Pipeline:
                                 with open(output_file, "w") as saved:
                                     saved.write(processed)
 
-                    elif i.startswith("./content/docs/") or i.endswith("404.html"):
-                        page_name, page_path = self.stanrdardise_names(i)
+                    elif i.startswith("./content/docs/") or (page_name in skipped_files):
                         make_dirs(self.output_dir + page_path)
                         output_file = self.output_dir + page_path + page_name
-                        print(output_file)
+                        print("Copying file to: " + output_file)
                         shutil.copy2(i, output_file)  # complete target filename given
 
             except Exception as ex:
                 print("Oops!.")
                 # print(str(ex))
                 tb = traceback.format_exc()
-
                 self.write_error_page(i, tb)
+                failed = True
 
         sitemap = self.sitemap_builder.build_site_map()
         with open(self.output_dir + "/sitemap.xml", "w") as f:
             f.write(sitemap)
+
+        if failed:
+            print("One or more errors were detected - please see the logs for details")
+            raise OSError("One or more errors were detected - please see the logs for details")
 
     def stanrdardise_names(self, i):
         path = Path(i)
