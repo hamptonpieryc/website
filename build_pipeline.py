@@ -27,7 +27,7 @@ class Pipeline:
             layout = ''.join(f.readlines())
         print("layout.html is " + str(len(layout)) + " characters")
 
-        skipped_files = {'openday.html','404.html'}
+        skipped_files = {'openday.html', 'openday-instagram.html', '404.html'}
         failed = False
 
         files = []
