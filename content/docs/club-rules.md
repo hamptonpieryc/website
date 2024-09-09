@@ -348,7 +348,7 @@ off the premises by Club members.
 from time to time by the GMC (subject to the terms of the Club
 Premises Certificate) and details of which shall be posted on the Club Notice Board.
 
-## 12. CLUB DISCIPLINE:
+## 12. CLUB DISCIPLINE AND COMPLAINTS:
 
 **12.1** All Members of the Club are expected to abide by the spirit and detail of the Club Rules and
 Byelaws, Sailing Instructions and where appropriate, instructions given by Club Executive Officers.
@@ -361,15 +361,22 @@ include:
 - Barring from the Club for a limited period.
 - Expulsion.
 
-**12.2** Expulsion from the Club requires a unanimous decision by the GMC; other sanctions shall be carried by a 
-simple majority of the GMC.
+**12.2** **All relevant documents** are available online at [https://www.hpyc.org.uk/the-club/documents](https://www.hpyc.org.uk/the-club/documents). These may 
+change from time to time. Members will be notified by email of significant changes.
 
-**12.3** The power of expulsion is in addition to expulsion for non-payment of subscriptions.
+**12.3** **Raising a Complaint**. Any complaint must be made by email or in writing to the Commodore. On receipt
+of the complaint, the Commodore will inform the GMC, who will consider the compliant.
 
-**12.4**. Before the GMC imposes any sanctions the Secretary will invite
+**12.4** The GMC may decide to elect a Disciplinary Committee to investigate the complaint, or consider the 
+complaint at a regular GMC meeting. Expulsion from the Club requires a unanimous decision by the eligible GMC members; other sanctions shall be carried by a 
+simple majority of the eligible GMC. Any GMC member with a potential conflict of interest is ineligible to vote.
+
+**12.5** The power of expulsion is in addition to expulsion for non-payment of subscriptions.
+
+**12.6**. Before the GMC imposes any sanctions the GMC will invite
 the member to provide a written explanation of the member’s conduct and shall give the member
-full opportunity of making explanation to the GMC, or of resigning.
-Appeal against expulsion or other sanction may be made to the members in General Meeting.
+full opportunity of making explanation to the GMC in person, or of resigning.
+Appeal against expulsion or other sanction may be made to the members in a General Meeting.
 
 ## 13. MEMBERS’ INTERESTS:
 In all questions referred to the GMC or other Committee, in which
