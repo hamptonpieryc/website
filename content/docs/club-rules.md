@@ -369,7 +369,7 @@ of the complaint, the Commodore will inform the GMC, who will consider the compl
 
 **12.4** The GMC may decide to elect a Disciplinary Committee to investigate the complaint, or consider the 
 complaint at a regular GMC meeting. Expulsion from the Club requires a unanimous decision by the eligible GMC members; other sanctions shall be carried by a 
-simple majority of the eligible GMC. Any GMC member with a potential conflict of interest is ineligible to vote.
+simple majority of the eligible GMC members. Any GMC member with a potential conflict of interest is ineligible to vote.
 
 **12.5** The power of expulsion is in addition to expulsion for non-payment of subscriptions.
 
