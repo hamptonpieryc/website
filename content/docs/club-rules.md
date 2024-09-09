@@ -365,7 +365,7 @@ include:
 change from time to time. Members will be notified by email of significant changes.
 
 **12.3** **Raising a Complaint**. Any complaint must be made by email or in writing to the Commodore. On receipt
-of the complaint, the Commodore will inform the GMC, who will consider the complaint.
+of the complaint, the Commodore will inform the GMC.
 
 **12.4** The GMC may decide to elect a Disciplinary Committee to investigate the complaint, or consider the 
 complaint at a regular GMC meeting. Expulsion from the Club requires a unanimous decision by the eligible GMC members; other sanctions shall be carried by a 
