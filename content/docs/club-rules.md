@@ -371,11 +371,14 @@ of the complaint, the Commodore will inform the GMC.
 complaint at a regular GMC meeting. Expulsion from the Club requires a unanimous decision by the eligible GMC members; other sanctions shall be carried by a 
 simple majority of the eligible GMC members. Any GMC member with a potential conflict of interest is ineligible to vote.
 
-**12.5** The power of expulsion is in addition to expulsion for non-payment of subscriptions.
+**12.5** **Temporary Suspension**. The GMC may decide to suspend or otherwise restrict membership
+while the complaint is investigated.
 
-**12.6**. Before the GMC imposes any sanctions the GMC will invite
+**12.6** The power of expulsion is in addition to expulsion for non-payment of subscriptions.
+
+**12.7**. Before the GMC imposes any sanctions the GMC will invite
 the member to provide a written explanation of the member’s conduct and shall give the member
-full opportunity of making explanation to the GMC in person, or of resigning.
+full opportunity of making an explanation to the GMC in person, or of resigning.
 Appeal against expulsion or other sanction may be made to the members in a General Meeting.
 
 ## 13. MEMBERS’ INTERESTS:
