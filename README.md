@@ -89,5 +89,5 @@ creating QR codes
 
 https://realpython.com/python-generate-qr-code/
 
-building PDF from markdown
+building PDF from markdown 
 use https://www.markdowntopdf.com/ and select 
