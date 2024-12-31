@@ -1,4 +1,4 @@
-![HPYC Logo](https://www.hpyc.org.uk/flag2.png) HAMPTON PIER YACHT CLUB
+`![HPYC Logo](https://www.hpyc.org.uk/flag2.png) HAMPTON PIER YACHT CLUB
 ============
 
 CLUB RULES AND BYLAWS
@@ -596,3 +596,4 @@ or former member and that, when and if the boat and/or trailer is sold, if the C
 account to the member or former member for the balance of the proceeds of sale pursuant to Rule
 (b) above then the balance of the proceeds of sale may, at the GMC's discretion, be placed upon bank deposit account and
 retained against a claim by the owner for a period of up to six years.
+`
