@@ -9,6 +9,7 @@ Normally I use https://www.markdowntopdf.com/
 Or, convert to html using markdown-to-html.py, add
 the line
     <link rel="stylesheet" href="https://www.hpyc.org.uk/css/pdf.css">
+    <title>HPYC Equality and Diversity</title>
 to the top of the html and print from a browser using save as pdf
 
 

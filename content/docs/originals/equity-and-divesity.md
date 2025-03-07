@@ -1,7 +1,7 @@
 ![HPYC Logo](https://www.hpyc.org.uk/flag2.png) HAMPTON PIER YACHT CLUB
 ============
 
-Equity, Diversity and Anti-Discrimination
+Equality, Diversity and Anti-Discrimination
 =======================
 
 ### March 2025
