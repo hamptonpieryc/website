@@ -64,6 +64,6 @@ characteristic and people who do not share it by:
 * Embedding good diversity and inclusion practice into our decision-making processes 
 
 **Hampton Pier Yacht Club** does not tolerate the misuse of our social media platforms 
-in ways that is contrary to our commitments. However,we recognise that in many case there are honest differences 
-of opinion as to what is is appropriate, and we encourage the use of informal processes to resolve issues. 
+in ways that is contrary to our commitments. However, we recognise that in many case there are honest differences 
+of opinion as to what is appropriate, and we encourage the use of informal processes to resolve issues. 
 Serious or repeated misuse will result in disciplinary action.
