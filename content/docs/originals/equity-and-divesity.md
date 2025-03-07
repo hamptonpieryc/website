@@ -13,8 +13,8 @@ policies, practices and procedures and in influencing others to do the same in o
 volunteers, members, participants and any members of the public who are 
 accessing our premises and participating in our activities, on and off water.
 
-**Hampton Pier Yacht Club** is committed to complying in both letter and spirit with all anti-
-discrimination legislation and associated codes of practice in force either now or in the future.
+**Hampton Pier Yacht Club** is committed to complying in both letter and spirit with all 
+anti-discrimination legislation and associated codes of practice in force either now or in the future.
 
 **Hampton Pier Yacht Club** is committed to the safe, fair and non-discriminatory use 
 of social media and will actively remove any content that could be considered harmful or 
