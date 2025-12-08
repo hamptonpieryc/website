@@ -2,14 +2,13 @@
     <style>
         @media print {
           div.navigation, div.footer, #hpyc-hero {
-            display:none
+            display:none;
           }
-        }
 
-         @media screen {
-          div.navigation, div.footer, #hpyc-hero {
-            border:3px solid green;
+          #print-view-header {
+           display:block;
           }
+
         }
     </style>
     <div style="height:15px;">
@@ -18,7 +17,7 @@
     </div>
     </div>
     <div style="clear:both;"></div>
-    <div id="print-view-header" style="padding:20px; background-color:var(--hero-background); color:#fff">
+    <div id="print-view-header" style="padding:20px; background-color:var(--hero-background); color:#fff; text-align: center; display:none;">
         <h1>Hampton Pier Yacht Club</h1>
     </div>
     <hpyc-content>
