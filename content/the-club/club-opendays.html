@@ -20,6 +20,22 @@
       font-weight:500;
    }
 
+   @media only screen {
+     .twitter-share-button, .fb-share-button
+      {
+            transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            -webkit-transform: scale(1.5);
+            -o-transform: scale(1.5);
+            -moz-transform: scale(1.5);
+            transform-origin: top left;
+            -ms-transform-origin: top left;
+            -webkit-transform-origin: top left;
+            -moz-transform-origin: top left;
+            -webkit-transform-origin: top left;
+      }
+   }
+
 
 
 
@@ -88,16 +104,16 @@
             <p>
             <div style="font-size:30px; color:#4c0381;"><span style="font-weight:500">Share this page</span></div>
 
-            <div style="float:right; padding-left:10px">
-                <div style="margin-top:5px; _margin-left: -250px;">
+            <div style="float:left; padding-left:10px">
+                <div style="margin-top:5px;">
                     <div class="fb-share-button"
                          data-href="https://www.hpyc.org.uk/openday"
                          data-layout="button_count">
                     </div>
                 </div>
             </div>
-            <div>
-                <div style="margin-top:-20px; _margin-left: -100px;">
+            <div  style="float:right;">
+                <div style="margin-top:-10px; _margin-left: -100px;">
                     <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
                        data-show-count="false"></a>
                     <script  src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
