@@ -34,4 +34,8 @@ div.hpyc-page {
     font-size : 12pt;
     _border: 1px solid green;
 }
+
+div.blue-box {
+  margin-left:0px;
+}
 }
